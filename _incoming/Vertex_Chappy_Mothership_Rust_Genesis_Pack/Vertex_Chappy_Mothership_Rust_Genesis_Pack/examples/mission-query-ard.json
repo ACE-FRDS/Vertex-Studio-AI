@@ -1,0 +1,8 @@
+{
+  "capability": "QUERY_ARD",
+  "payload": {
+    "asset_id": "project://vertex-studio/mothership",
+    "max_depth": 8
+  },
+  "actor": "owner"
+}

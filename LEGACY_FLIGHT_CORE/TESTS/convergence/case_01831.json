@@ -1,0 +1,17 @@
+{
+  "sources": [
+    "A-01831",
+    "B-01831"
+  ],
+  "strategy": "SELECTIVE",
+  "relations": [
+    "MERGE",
+    "ADOPT",
+    "SUPERSEDE",
+    "SHARE",
+    "ISOLATE"
+  ],
+  "preserve_origins": true,
+  "semantic_diff": true,
+  "rollback_plan": true
+}

@@ -1,0 +1,405 @@
+{
+  "package_id": "pack://vertex/asset-circulation-genesis",
+  "name": "Vertex Asset Circulation Genesis",
+  "version": "0.1.0-genesis",
+  "created_at": "2026-08-21T08:57:20.706597+00:00",
+  "files": 80,
+  "uncompressed_bytes_without_manifest": 134399662,
+  "entries": [
+    {
+      "path": "README_FIRST.md",
+      "bytes": 2013,
+      "sha256": "6cdb287425234df4a2ec14475c2fdde2344fd88b82bb055d122711a6ea203dce"
+    },
+    {
+      "path": "INSTALL_VERTEX_ASSET_CIRCULATION.ps1",
+      "bytes": 1233,
+      "sha256": "76cc1f0d186c09baa00af7ce9f8287239d30182eb017e8345f0561f669a7d6b5"
+    },
+    {
+      "path": "HYPER_AGENT_CHAT/CARD_SCHEMA.json",
+      "bytes": 228,
+      "sha256": "aadff1560ad0a8c2d402fcfa9382b536063c514a3d2d5a1c11f54366453dfff8"
+    },
+    {
+      "path": "HYPER_AGENT_CHAT/README.md",
+      "bytes": 265,
+      "sha256": "6abf1c1cbe869a5e25c48118d74d2b8434f93942e538cacc67314fae8f7cc9b3"
+    },
+    {
+      "path": "ARCHITECTURE/01_FLOW.md",
+      "bytes": 541,
+      "sha256": "b3a8ba157c65fc6740b4dc90a271541d892a773c22b65428d428d8f5fda1a24a"
+    },
+    {
+      "path": "ARCHITECTURE/00_DESIGN_CANON.md",
+      "bytes": 933,
+      "sha256": "d664e17340a38e0c935fea84a6fdaa949e8f041a0b688c7d9ea0dc9529a9fa48"
+    },
+    {
+      "path": "CONNECTORS/VCRAS_BOUNDARY.json",
+      "bytes": 185,
+      "sha256": "bce138359a9da1d8260015e2bb6a0b62f83cef2b6582e43bd3c449d5f36162aa"
+    },
+    {
+      "path": "CONNECTORS/VPSF_BOUNDARY.json",
+      "bytes": 138,
+      "sha256": "ef6ef48a79cc53229a9876f7912f7a13f4c5148341dede344e400f3bb9c43bf4"
+    },
+    {
+      "path": "CONNECTORS/DRONE_BOUNDARY.json",
+      "bytes": 249,
+      "sha256": "99b693c029e5b5ea4f3fc0c3b3dd9bf45d730dbf0ff127c0785c593158f66ab2"
+    },
+    {
+      "path": "CONNECTORS/VCG_BOUNDARY.json",
+      "bytes": 320,
+      "sha256": "a5816e3d5e3cd16431cfdf459cf4ff2bb2a5237aec0f4fdd4e58305bad15c820"
+    },
+    {
+      "path": "CONNECTORS/VXN_BOUNDARY.json",
+      "bytes": 155,
+      "sha256": "b8653ad48e3a7ac253b56687fa07ac4fc99aaebc10b5555678f6a9bf826e7094"
+    },
+    {
+      "path": "REPOSITORY_BRIDGE/repository_state.py",
+      "bytes": 583,
+      "sha256": "9dffc1726f5d729a7a696be14cf2325a86d01ab418ab4d02a9f86b69c97815c2"
+    },
+    {
+      "path": "REPOSITORY_BRIDGE/README.md",
+      "bytes": 271,
+      "sha256": "28e04a7323d6b07054450cfc6550b477434a7888335fafe1907e27f7ee0cee02"
+    },
+    {
+      "path": "MAIN_CONSOLE/MAIN_CONSOLE_LAYOUT.json",
+      "bytes": 442,
+      "sha256": "93a5ce5b229e9da7dc64a356997121eb27077e426b2e3fcbdc3ed4a183302942"
+    },
+    {
+      "path": "MAIN_CONSOLE/README.md",
+      "bytes": 287,
+      "sha256": "e07fe5f170de9c472b51ed07a663e5dbbe971e4ac335f5d8decea24c66bcb9ae"
+    },
+    {
+      "path": "TESTS/test_vur.py",
+      "bytes": 626,
+      "sha256": "5e07d3e07f006bdfe7d6d115d7128ea2009fd1c26d517121296f848241d7c631"
+    },
+    {
+      "path": "TESTS/test_repository_bridge.py",
+      "bytes": 210,
+      "sha256": "7d1f1abe777636bc83c915ca899c068c35077fc94fb6877356a06e1beae1483e"
+    },
+    {
+      "path": "DESIGN_SYSTEM/tokens.json",
+      "bytes": 490,
+      "sha256": "99f1c058083698f9c0dc55c92cefead8e1cc67bf9348b2a3f4b702888226e2f6"
+    },
+    {
+      "path": "DESIGN_SYSTEM/README.md",
+      "bytes": 281,
+      "sha256": "229df593be52b47653d64b32a4d8fb26c0764803a13bee2f7b5d30df0e135118"
+    },
+    {
+      "path": "PROJECT_BEACON/PROJECT_BEACON_SCHEMA.json",
+      "bytes": 322,
+      "sha256": "eab34a94704687d95a3325cc4d86a0daddfe110ed6d115b1a30c1474f34abc2c"
+    },
+    {
+      "path": "PROJECT_BEACON/create_desktop_beacon.ps1",
+      "bytes": 519,
+      "sha256": "350febbe3e2a2d3e4ee0634e97c1a109cb884aab7c504c99084c3cad48c7cbe3"
+    },
+    {
+      "path": "PROJECT_BEACON/README.md",
+      "bytes": 319,
+      "sha256": "a36d2087c975215fe9fd88d378574fc78b8dc84ee698633fc9060c0a596d8f9f"
+    },
+    {
+      "path": "REFERENCE_CORPUS/vcell_stress_corpus.jsonl",
+      "bytes": 63118904,
+      "sha256": "bf722c11303126f9e6380daeda51bc2e6aac3fab88c19474a86e924e37812444"
+    },
+    {
+      "path": "REFERENCE_CORPUS/audit_stress_corpus.jsonl",
+      "bytes": 18378607,
+      "sha256": "90ef23e10897cb95d21b8384c4da30171c35d2709c11a49dd9b16295d090d842"
+    },
+    {
+      "path": "REFERENCE_CORPUS/relation_stress_corpus.jsonl",
+      "bytes": 20928852,
+      "sha256": "dbac5312fc5483f4829a7fe16a33a0b24f4990b30ee89ce1431987b56af5ff79"
+    },
+    {
+      "path": "REFERENCE_CORPUS/vve_overlay_stress_corpus.jsonl",
+      "bytes": 31914166,
+      "sha256": "4bd6126ccc9dc0a4eb3833b11701608da546fa3b568da8e9039b0061f609fc15"
+    },
+    {
+      "path": "REFERENCE_CORPUS/README.md",
+      "bytes": 470,
+      "sha256": "085d287b49f94c4c64283fe4f62aae345676ee47f8354037472e509befcf56db"
+    },
+    {
+      "path": "EMULATOR/SHADOW_VALIDATION_PIPELINE.json",
+      "bytes": 410,
+      "sha256": "c3e448bd215fc1557493c7efa7bbe99ca6ac0d99bed69fdc366ad8a16b84097b"
+    },
+    {
+      "path": "VVE/README.md",
+      "bytes": 282,
+      "sha256": "7613387f436acae8875157ac6224818dc1375bc28dc583361303f5d631a47415"
+    },
+    {
+      "path": "VVE/SOURCE/vve/changesets.py",
+      "bytes": 537,
+      "sha256": "ec767b4d1b67baac28535f6a894d3dbd04743f12efc74c6f4b1eb62df05b2f4b"
+    },
+    {
+      "path": "VVE/SOURCE/vve/domain.py",
+      "bytes": 529,
+      "sha256": "1c67d2a6866729d2adf7da427e6b02d73b98fa796397130e99487e6cc3325270"
+    },
+    {
+      "path": "VVE/SOURCE/vve/overlay.py",
+      "bytes": 589,
+      "sha256": "78fa7a77bfb33e2c011fd06380d2243691491ace4102404d975632db840f2725"
+    },
+    {
+      "path": "VVE/SOURCE/vve/promotion.py",
+      "bytes": 492,
+      "sha256": "b484daf88ae0f906f11106d7ef5a17cd66ac5e685e28bac50a912d20ea67087d"
+    },
+    {
+      "path": "VUR/REGISTRY/VUR_REGISTRY.json",
+      "bytes": 166,
+      "sha256": "83cf0769aa31667b5932404dc46280cc6ae3b8d0b532137613af5af152ecd50a"
+    },
+    {
+      "path": "VUR/CANON/UNIT_MANIFEST_SCHEMA.json",
+      "bytes": 461,
+      "sha256": "bab95ea4b7dfd95a8f66a67c76cd078ece7551b0c402dbb1ce0c47704b44e47a"
+    },
+    {
+      "path": "VUR/CANON/PACK_MANIFEST_SCHEMA.json",
+      "bytes": 416,
+      "sha256": "04b8e89331e8ffea4c1896c53b3d755b5e3663f75f669ed596b37e8c4c21f6ff"
+    },
+    {
+      "path": "VUR/CANON/VCELL_MANIFEST_SCHEMA.json",
+      "bytes": 1179,
+      "sha256": "2d88b0f7ea2013d9696e9bae8e2e86671120f2e296da9e3ae990ad2d09b97f2b"
+    },
+    {
+      "path": "VUR/CANON/VUR_CANON.json",
+      "bytes": 967,
+      "sha256": "f7e243a31fa76a180f5552db4421e0562d1a8085a31a643dc4974840e9cc2cad"
+    },
+    {
+      "path": "VUR/RELATIONS/RELATION_CONTRACT.json",
+      "bytes": 379,
+      "sha256": "84919c67fe98da53dbb7b4e46cb39c051981844a79d822f38d16c01f7c3b7abf"
+    },
+    {
+      "path": "VUR/ZONES/ZONE_POLICY.json",
+      "bytes": 829,
+      "sha256": "45a566f05e9c3b25aff8186ab8d0efdc8f2de1046fb918f67e14d1106685601d"
+    },
+    {
+      "path": "VUR/LINEAGE/LINEAGE_LEDGER.json",
+      "bytes": 238,
+      "sha256": "72bb14489873d0230f1e6a28ffa222fc8c7c408cde2faf89310530a1ed8e1ace"
+    },
+    {
+      "path": "VUR/SOURCE/vur/policy.py",
+      "bytes": 502,
+      "sha256": "78c6f77dcbd5b8229a94b2f731178048d1ef27a0b6e876c558d7b40bfdf03a21"
+    },
+    {
+      "path": "VUR/SOURCE/vur/registry.py",
+      "bytes": 791,
+      "sha256": "b81bbcb6405aeae26922724ff3f3d10c98d36b9f88f1eaefd2818885dc8d26d3"
+    },
+    {
+      "path": "VUR/SOURCE/vur/integrity.py",
+      "bytes": 315,
+      "sha256": "92fa6cfabeaf3cac298b40c2ab67edae567ccf8579f22c801b7b87f4039a8150"
+    },
+    {
+      "path": "VUR/SOURCE/vur/storage.py",
+      "bytes": 585,
+      "sha256": "b9ce9727a69603560c189d417f54e162cb14924b6cbd22d55804b6b2b4b5b1cc"
+    },
+    {
+      "path": "VUR/SOURCE/vur/cli.py",
+      "bytes": 956,
+      "sha256": "da2a9b24b1bfe7f0c6f1a6fe99bf75c905ea44d05b08c55d31e94d17630c6701"
+    },
+    {
+      "path": "VUR/SOURCE/vur/ingest.py",
+      "bytes": 990,
+      "sha256": "78bf521640a41d25b7fb9ea0e9e87aaf63c829fae2a5cea15da33267603835a1"
+    },
+    {
+      "path": "VUR/SOURCE/vur/__init__.py",
+      "bytes": 96,
+      "sha256": "5e69dcc6c0a2f148835522f4889c3ac8ed38bd19a1412511ebf8bec714f3e3ff"
+    },
+    {
+      "path": "VUR/SOURCE/vur/vve.py",
+      "bytes": 946,
+      "sha256": "ae3c5df6c2119b9aa9522969f468152e2ed9ae307bbd06c4bd660725cd696057"
+    },
+    {
+      "path": "VUR/SOURCE/vur/domain.py",
+      "bytes": 1446,
+      "sha256": "2dd56e72194b7f6aa3e1f3d44a86cdb669a0784728e5644f7e00d404812fa0a5"
+    },
+    {
+      "path": "VUR/SOURCE/vur/relations.py",
+      "bytes": 548,
+      "sha256": "715cd0e913ba896fea2198a3f128dc81252a7fc913f8936a9a72e3a95d1943cf"
+    },
+    {
+      "path": "VUR/SOURCE/vur/errors.py",
+      "bytes": 178,
+      "sha256": "49708fc6e2800dda9c23ea2ba89e7339016d0ef4ac22a05983453edfc379f35e"
+    },
+    {
+      "path": "VUR/SOURCE/vur/service.py",
+      "bytes": 851,
+      "sha256": "b5ce48946d3aea503cfc2871ffc5b4aab6f6327df34c40c153ac4672323621e7"
+    },
+    {
+      "path": "VUR/SOURCE/vur/lineage.py",
+      "bytes": 558,
+      "sha256": "0da2ac0a66c13dfa24b48e11216116e1a3497deda164b1545f875b80f529f66a"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VBadge/manifest.json",
+      "bytes": 422,
+      "sha256": "528d033b7441afe501cbed756680378f4f39c2a449f7020bb6902b3f7391d620"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VDiffCard/manifest.json",
+      "bytes": 428,
+      "sha256": "779ffcde89f73324ede8fe1b76a41e1ad021939c3983fd1720fd59f0efb2266c"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VProjectBeacon/manifest.json",
+      "bytes": 438,
+      "sha256": "20b58fe998551ba5cd33e9191f9a2fbce3a6d442d6d9b54762d261e793f4a718"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VRelationNode/manifest.json",
+      "bytes": 436,
+      "sha256": "e45c1193a5a2b6c518310395f32be1eea71d003a0f952556c0b19dea60c50153"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VGraphCanvas/manifest.json",
+      "bytes": 434,
+      "sha256": "c8dfc547f43db6452742d86c5bd12820e7648383bc14bde13b29201ed0d0e9ad"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VConsoleShell/manifest.json",
+      "bytes": 436,
+      "sha256": "a4eb23d2ed7e5049515492ef90748f298217a3e36675ea87acb618bfa0206bbc"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VChatPanel/manifest.json",
+      "bytes": 430,
+      "sha256": "69dcbe2080d5dc214481bff0c1f9805253b58da04460139624d8c02dafd06591"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VSideRail/manifest.json",
+      "bytes": 428,
+      "sha256": "c33c3f6b43d1fde6b94988d4041d50cbd0649989dcbff4d5f78f48b6c9a6fed9"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VMetric/manifest.json",
+      "bytes": 424,
+      "sha256": "72371477ca6e8410d81ffc09e5d0cd76f29ea530eb84f58a520c6677c60e0095"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VApprovalCard/manifest.json",
+      "bytes": 436,
+      "sha256": "ad6b6953d264ba32b70ca6eca090ca5e17dbf7254d5f0c10d9b186b2f37437cf"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VTerminalPanel/manifest.json",
+      "bytes": 438,
+      "sha256": "58c82c2ddef18771b9c3b3fcf33b37fb936ba90734476f7517d9b94178ab5d8b"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VPanel/manifest.json",
+      "bytes": 422,
+      "sha256": "ac2b9c4b34e0bad32742af82e136119651c94d3f4a425f680415a845884b1554"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VCommandBar/manifest.json",
+      "bytes": 432,
+      "sha256": "2d8984f8a5be1f1eda4a19b2f64bb5a9c2419409a9bcbe2a5c80c2d0182ebe37"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VZoneGate/manifest.json",
+      "bytes": 428,
+      "sha256": "1c86938a628fe623d772e9ac262eb3fe96bb3b97f56070b1137c67537c39850b"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VMissionCard/manifest.json",
+      "bytes": 434,
+      "sha256": "d9cfacab7e725a30742e938d963bc5b60687036f80c64c9100cec179c9a75944"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VToggle/manifest.json",
+      "bytes": 424,
+      "sha256": "b4a38e48f3d3862c53cadadfdc928971c7694125b0e57a267ac9421f7d8ddee6"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VCharacterFrame/manifest.json",
+      "bytes": 440,
+      "sha256": "418667e57a075ab4ece46768c8c15e3fed6ceaf53e7b367929eea09fe5f7e2f6"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VInspector/manifest.json",
+      "bytes": 430,
+      "sha256": "0b3e01a1fca243ad98ff320475baca13d07b9d5078b5f6e757236bc786742bda"
+    },
+    {
+      "path": "VUR/VAULT/VCELLS/VDroneNode/manifest.json",
+      "bytes": 430,
+      "sha256": "1ecaac5487ab390a17be945a6f29a9f9e5520e076d258909d02d9d2e08d1d5fa"
+    },
+    {
+      "path": "VUR/CONTROL/preview/captain-security.svg",
+      "bytes": 2655,
+      "sha256": "0e804b91bbe93ad0afa2d69a8fa85ec610bf94a3aee12bce15a6989499fb2e7a"
+    },
+    {
+      "path": "VUR/CONTROL/preview/START_PREVIEW.ps1",
+      "bytes": 249,
+      "sha256": "77402bfe97a99c9b1c502d5ee4c5ea19bf7bf09b02e51958e0a2953fd1d1d060"
+    },
+    {
+      "path": "VUR/CONTROL/preview/index.html",
+      "bytes": 6837,
+      "sha256": "3685679fa3f19dc5f659c0041e37f0a377021fc84d494daaf9818754bccc697f"
+    },
+    {
+      "path": "VUR/CONTROL/preview/captain-engineer.svg",
+      "bytes": 2707,
+      "sha256": "438f0a869920d0a247caf8d99de0502af4fcd89a67f5be1e3f1c22142b456cdb"
+    },
+    {
+      "path": "VUR/CONTROL/preview/styles.css",
+      "bytes": 10386,
+      "sha256": "bb01dfa0182806c8b689631672cee05dabe4115c96fb831aa78f73f835200e6a"
+    },
+    {
+      "path": "VUR/CONTROL/preview/app.js",
+      "bytes": 793,
+      "sha256": "550f39dd7af6b78101334f4b26523ef7df7512d5d50ecfaa3d1598e4b6c93266"
+    }
+  ]
+}

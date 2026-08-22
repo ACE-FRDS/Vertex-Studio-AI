@@ -1,0 +1,24 @@
+{
+    "unit_id":  "unit://fme/application-pages",
+    "name":  "application pages",
+    "version":  "0.1.0",
+    "status":  "verified",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/pages/MainPage.vue",
+                          "bytes":  7275,
+                          "sha256":  "adaa864c9d6f7192f149728fd151c47eb89c457c1909b11c2e0c476e72e57913"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

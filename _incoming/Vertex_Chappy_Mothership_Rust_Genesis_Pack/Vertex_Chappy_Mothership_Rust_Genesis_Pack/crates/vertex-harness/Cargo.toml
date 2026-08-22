@@ -1,0 +1,19 @@
+[package]
+name = "vertex-harness"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+vertex-audit = { path = "../vertex-audit" }
+vertex-core = { path = "../vertex-core" }
+vertex-git = { path = "../vertex-git" }
+vertex-policy = { path = "../vertex-policy" }
+vertex-runtime = { path = "../vertex-runtime" }
+vertex-state = { path = "../vertex-state" }
+vertex-vve = { path = "../vertex-vve" }
+vertex-relations = { path = "../vertex-relations" }
+vertex-missions = { path = "../vertex-missions" }

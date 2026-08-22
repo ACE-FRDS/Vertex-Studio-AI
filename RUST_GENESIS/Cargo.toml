@@ -1,0 +1,3 @@
+[workspace]
+resolver="2"
+members=["crates/vxn-core","crates/vxn-semantic","crates/vxn-ir","crates/vxn-verifier","crates/vxn-runtime","crates/vxn-storage","crates/vxn-transport","crates/vxn-trace","crates/hyper-agent-core","crates/mission-compiler","crates/task-atomizer","crates/context-constructor","crates/party-router","crates/confidence-engine","crates/radar-core","crates/frontier-core","crates/aegis-core","crates/portable-core","crates/fleet-bus","crates/supply-core","crates/escort-core","crates/vcc-core","crates/vsp-core","crates/memory-core","crates/repository-core","crates/hub-core","crates/convergence-core","crates/observatory-core","crates/simulator-core"]

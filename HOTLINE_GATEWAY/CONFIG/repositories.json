@@ -1,0 +1,46 @@
+{
+    "schema":  "VERTEX_REPOSITORY_MAP",
+    "version":  "1.0.0",
+    "mothership":  {
+                       "project_id":  "project://vertex-studio/mothership",
+                       "world_root":  "G:\\Vertex Protocol\\Vertex Project"
+                   },
+    "repositories":  [
+                         {
+                             "repository_id":  "repo://vertex/vertex-studio",
+                             "role":  "REAL_REPOSITORY",
+                             "project_id":  "project://vertex-studio/mothership",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex Studio",
+                             "remote":  "https://github.com/ACE-FRDS/Vertex-Studio.git",
+                             "branch":  "main",
+                             "commit":  "fb0ad90"
+                         },
+                         {
+                             "repository_id":  "repo://vertex/fme",
+                             "role":  "RESOURCE_REPOSITORY",
+                             "project_id":  "project://fme",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex FM Engine\\ProgramSource\\Source",
+                             "remote":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                             "branch":  "codex/release-readiness",
+                             "commit":  "3243552"
+                         },
+                         {
+                             "repository_id":  "repo://vertex/legacy-vertex-ai",
+                             "role":  "LEGACY_REPOSITORY",
+                             "project_id":  "project://legacy/vertex-ai",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex AI",
+                             "remote":  "https://github.com/ACE-FRDS/vertex_AI.git",
+                             "branch":  "feature/vertex-ai-0.1.6-routing-rotation",
+                             "commit":  "74b1a61"
+                         },
+                         {
+                             "repository_id":  "repo://vertex/legacy-vertex-ai-worktree",
+                             "role":  "LEGACY_WORKTREE",
+                             "project_id":  "project://legacy/vertex-ai",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex AI.worktrees\\vertex-ai-developer-workspace-implementation",
+                             "remote":  "https://github.com/ACE-FRDS/vertex_AI.git",
+                             "branch":  "agents/vertex-ai-developer-workspace-implementation",
+                             "commit":  "f8fef98"
+                         }
+                     ]
+}

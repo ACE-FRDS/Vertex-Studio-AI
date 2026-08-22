@@ -1,0 +1,21 @@
+{
+  "checkpoint": "CP-02426",
+  "mission": "M-02426",
+  "failure": "transport-reset",
+  "preserve": [
+    "mission-id",
+    "vha-id",
+    "authority",
+    "scope",
+    "evidence",
+    "semantic-revision"
+  ],
+  "actions": [
+    "isolate",
+    "rollback",
+    "record-evidence",
+    "replace-cognition",
+    "resume"
+  ],
+  "expected": "CONTINUITY_PRESERVED"
+}

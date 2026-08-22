@@ -1,0 +1,5 @@
+/target/
+/STATE/
+/WORK/
+*.log
+.env

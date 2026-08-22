@@ -1,0 +1,1 @@
+{"case": 420, "profile": "context_loss", "mission": {"intent": "simulation-case-420", "risk": "LOW"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

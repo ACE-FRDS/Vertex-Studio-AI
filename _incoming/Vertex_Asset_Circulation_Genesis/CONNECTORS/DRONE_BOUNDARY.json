@@ -1,0 +1,13 @@
+{
+  "schema": "DRONE_BOUNDARY",
+  "version": "1.0.0",
+  "prepared_capabilities": [
+    "REGISTER_NODE",
+    "DECLARE_CAPABILITIES",
+    "LIST_COMPATIBLE_UNITS",
+    "DEPLOY_VCELL",
+    "DEPLOY_UNIT",
+    "REVOKE_DEPLOYMENT",
+    "SYNC_STATUS"
+  ]
+}

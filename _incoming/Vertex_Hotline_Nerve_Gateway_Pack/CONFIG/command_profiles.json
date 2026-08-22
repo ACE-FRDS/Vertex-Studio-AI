@@ -1,0 +1,34 @@
+{
+  "profiles": {
+    "vur_status": {
+      "kind": "test",
+      "cwd": "G:\\Vertex Protocol\\Vertex Project",
+      "argv": [
+        "python",
+        "-m",
+        "vur.cli",
+        "--root",
+        "G:\\Vertex Protocol\\Vertex Project\\VUR",
+        "status"
+      ],
+      "env": {
+        "PYTHONPATH": "G:\\Vertex Protocol\\Vertex Project\\VUR\\SOURCE"
+      },
+      "timeout_sec": 60
+    },
+    "python_unittest_gateway": {
+      "kind": "test",
+      "cwd": "G:\\Vertex Protocol\\Vertex Project\\HOTLINE_GATEWAY",
+      "argv": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "timeout_sec": 120
+    }
+  }
+}

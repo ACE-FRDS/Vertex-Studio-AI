@@ -1,0 +1,10 @@
+{
+  "schema": "VCRAS_BOUNDARY",
+  "version": "1.0.0",
+  "purpose": "Owner-only ChatGPT hotline",
+  "write_scope": [
+    "VUR_INBOUND",
+    "VVE"
+  ],
+  "real_repository_write": false
+}

@@ -1,0 +1,24 @@
+{
+    "unit_id":  "unit://fme/knowledge-workspace",
+    "name":  "knowledge workspace",
+    "version":  "0.1.0",
+    "status":  "verified",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/components/knowledge/KnowledgeWorkspace.vue",
+                          "bytes":  22636,
+                          "sha256":  "96ab1bf22b50473573fbac09a1cdab6d0280d34fea3ff8db1baf5778a5c7ae49"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

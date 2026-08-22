@@ -1,0 +1,5 @@
+{
+  "capability": "READ_MOTHERSHIP_STATE",
+  "payload": {},
+  "actor": "owner"
+}

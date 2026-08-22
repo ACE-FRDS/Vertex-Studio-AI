@@ -1,0 +1,9 @@
+{
+  "given": "runtime failure during semantic mutation",
+  "must": [
+    "isolate",
+    "rollback",
+    "record failure evidence",
+    "resume from checkpoint"
+  ]
+}

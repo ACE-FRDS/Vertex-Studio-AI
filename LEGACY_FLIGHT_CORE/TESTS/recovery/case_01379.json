@@ -1,0 +1,21 @@
+{
+  "checkpoint": "CP-01379",
+  "mission": "M-01379",
+  "failure": "test-failure",
+  "preserve": [
+    "mission-id",
+    "vha-id",
+    "authority",
+    "scope",
+    "evidence",
+    "semantic-revision"
+  ],
+  "actions": [
+    "isolate",
+    "rollback",
+    "record-evidence",
+    "replace-cognition",
+    "resume"
+  ],
+  "expected": "CONTINUITY_PRESERVED"
+}

@@ -1,0 +1,1 @@
+{"case": 505, "profile": "workspace_escape", "mission": {"intent": "simulation-case-505", "risk": "NORMAL"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

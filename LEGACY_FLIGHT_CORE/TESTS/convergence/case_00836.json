@@ -1,0 +1,16 @@
+{
+  "sources": [
+    "A-00836",
+    "B-00836"
+  ],
+  "strategy": "A_BASE",
+  "relations": [
+    "MERGE",
+    "ADOPT",
+    "SUPERSEDE",
+    "SHARE"
+  ],
+  "preserve_origins": true,
+  "semantic_diff": true,
+  "rollback_plan": true
+}

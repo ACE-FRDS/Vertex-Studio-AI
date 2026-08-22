@@ -1,0 +1,24 @@
+{
+    "unit_id":  "unit://fme/enterprise-theme",
+    "name":  "enterprise theme",
+    "version":  "0.1.0",
+    "status":  "candidate",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/styles/main.scss",
+                          "bytes":  123405,
+                          "sha256":  "e912733727a0c98b1992d0617b31303394eaec606cdfb24040d98210e7123027"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

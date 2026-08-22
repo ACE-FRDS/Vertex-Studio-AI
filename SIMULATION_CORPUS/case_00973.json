@@ -1,0 +1,1 @@
+{"case": 973, "profile": "lineage_conflict", "mission": {"intent": "simulation-case-973", "risk": "NORMAL"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

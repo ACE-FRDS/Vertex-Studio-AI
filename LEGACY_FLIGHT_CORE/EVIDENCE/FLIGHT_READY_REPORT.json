@@ -1,0 +1,71 @@
+{
+  "flight": "PASS",
+  "provider_path": "PASS",
+  "workspace": "PASS",
+  "build_test": "PASS",
+  "semantic_revision": "PASS",
+  "vcc_vsp": "PASS",
+  "recovery": "PASS",
+  "reboot": "PASS",
+  "repo_fsck": "PASS",
+  "primary": {
+    "ok": true,
+    "mission_id": "c5a89dd7-aaf0-43f7-869f-bc6037d60697",
+    "revision": "e98d2c588f0caeb5543a826da8a59b6a92c9aa24aa78025b60ebc3fa16791c11",
+    "tasks": 1,
+    "provider": {
+      "kind": "MockOpenAI",
+      "base_url": "http://127.0.0.1:45461",
+      "model": "vertex-mock-model"
+    },
+    "diffs": [],
+    "build_results": [
+      {
+        "command": [
+          "python",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "ok": true,
+        "code": 0,
+        "stdout": "\u001b[32m.\u001b[0m\u001b[32m                                                                        [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m1 passed\u001b[0m\u001b[32m in 0.03s\u001b[0m\u001b[0m\n",
+        "stderr": "Spreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 772, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py\", line 37, in get_or_create_client\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py\", line 124, in start_daemon\nTimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.\n"
+      }
+    ]
+  },
+  "repeated": {
+    "loops": 12,
+    "completed": 10,
+    "failures": 2,
+    "recovered": 2
+  },
+  "final_status": {
+    "boot_count": 6,
+    "db": {
+      "missions": 94,
+      "tasks": 94,
+      "vha": 1,
+      "checkpoints": 94,
+      "semantic_revisions": 84,
+      "vcc": 94,
+      "vsp": 94,
+      "events": 671
+    },
+    "repo_bad_objects": [],
+    "providers": [
+      {
+        "kind": "LMStudio",
+        "healthy": false,
+        "models": [],
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      },
+      {
+        "kind": "Ollama",
+        "healthy": false,
+        "models": [],
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "checkpoint": "CP-01572",
+  "mission": "M-01572",
+  "failure": "authority-denied",
+  "preserve": [
+    "mission-id",
+    "vha-id",
+    "authority",
+    "scope",
+    "evidence",
+    "semantic-revision"
+  ],
+  "actions": [
+    "isolate",
+    "rollback",
+    "record-evidence",
+    "replace-cognition",
+    "resume"
+  ],
+  "expected": "CONTINUITY_PRESERVED"
+}

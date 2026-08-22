@@ -1,0 +1,45 @@
+﻿{
+    "vcell_id":  "vcell://fme/enterprise-ui/status-bar",
+    "name":  "StatusBar",
+    "version":  "0.1.0",
+    "kind":  "ui",
+    "zone":  "restricted",
+    "status":  "candidate",
+    "source":  {
+                   "project":  "VRTEX FM ENGINE",
+                   "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                   "branch":  "codex/release-readiness",
+                   "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                   "source_path":  "src/components/layout/StatusBar.vue"
+               },
+    "lineage":  {
+                    "origin_id":  "project://fme/layout/status-bar",
+                    "derived_from":  [
+
+                                     ],
+                    "created_by":  "FME"
+                },
+    "compatibility":  {
+                          "systems":  [
+                                          "vsa",
+                                          "vur",
+                                          "vve"
+                                      ],
+                          "runtimes":  [
+                                           "vue"
+                                       ],
+                          "platforms":  [
+                                            "windows"
+                                        ]
+                      },
+    "relations":  [
+
+                  ],
+    "artifacts":  [
+                      {
+                          "path":  "source/layout/StatusBar.vue",
+                          "bytes":  1113,
+                          "sha256":  "6f971ac96a62d6c8809836deb65b7f04776efa67e291e14d4a0bef2e1856e274"
+                      }
+                  ]
+}

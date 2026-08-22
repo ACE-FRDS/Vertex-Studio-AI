@@ -1,0 +1,45 @@
+{
+    "schema":  "VERTEX_NERVE_CANON",
+    "version":  "1.0.0",
+    "status":  "OPERATIONAL",
+    "motto":  "格納庫から母艦を育てる",
+    "gateway":  {
+                    "version":  "0.2.0",
+                    "url":  "http://127.0.0.1:8765"
+                },
+    "runtime":  {
+                    "start":  "G:\\Vertex Protocol\\Vertex Project\\START_VERTEX_NERVE.ps1",
+                    "stop":  "G:\\Vertex Protocol\\Vertex Project\\STOP_VERTEX_NERVE.ps1",
+                    "watcher_interval_seconds":  300
+                },
+    "doctrine":  {
+                     "vve_is_future_overlay":  true,
+                     "direct_real_repo_write":  false,
+                     "human_gate_required":  true
+                 },
+    "current_state":  {
+                          "mothership_state":  "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\CURRENT\\MOTHERSHIP_STATE.json",
+                          "mothership_delta":  "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\CURRENT\\MOTHERSHIP_DELTA.json"
+                      },
+    "known_state":  {
+                        "vur_vcells":  7,
+                        "vur_units":  1,
+                        "repositories":  4,
+                        "ard_nodes":  11,
+                        "ard_edges":  11,
+                        "vve_changesets":  1
+                    },
+    "first_asset":  {
+                        "unit":  "unit://fme/enterprise-ui-core",
+                        "changeset":  "changeset://fme/enterprise-ui-core/001",
+                        "vcells":  7
+                    },
+    "next_phase":  [
+                       "Expand VUR asset mining",
+                       "Persist richer ARD dependency graph",
+                       "Build VVE Overlay Explorer",
+                       "Advance Hyper Agent mission lifecycle",
+                       "Integrate Main Console",
+                       "Prepare owner-safe external VCRAS connector"
+                   ]
+}

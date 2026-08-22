@@ -1,0 +1,18 @@
+{
+  "types": [
+    "MISSION",
+    "VCELL",
+    "UNIT",
+    "DIFF",
+    "APPROVAL",
+    "BUILD_RESULT",
+    "RELATION_PREVIEW"
+  ],
+  "action_targets": [
+    "VUR",
+    "VVE",
+    "VCG",
+    "VPSF",
+    "REPOSITORY_BRIDGE"
+  ]
+}

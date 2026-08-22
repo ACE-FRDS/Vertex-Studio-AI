@@ -1,0 +1,45 @@
+﻿{
+    "vcell_id":  "vcell://fme/enterprise-ui/relationship-editor-dialog",
+    "name":  "RelationshipEditorDialog",
+    "version":  "0.1.0",
+    "kind":  "ui",
+    "zone":  "restricted",
+    "status":  "candidate",
+    "source":  {
+                   "project":  "VRTEX FM ENGINE",
+                   "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                   "branch":  "codex/release-readiness",
+                   "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                   "source_path":  "src/components/relationship/RelationshipEditorDialog.vue"
+               },
+    "lineage":  {
+                    "origin_id":  "project://fme/relationship/relationship-editor-dialog",
+                    "derived_from":  [
+
+                                     ],
+                    "created_by":  "FME"
+                },
+    "compatibility":  {
+                          "systems":  [
+                                          "vsa",
+                                          "vur",
+                                          "vve"
+                                      ],
+                          "runtimes":  [
+                                           "vue"
+                                       ],
+                          "platforms":  [
+                                            "windows"
+                                        ]
+                      },
+    "relations":  [
+
+                  ],
+    "artifacts":  [
+                      {
+                          "path":  "source/relationship/RelationshipEditorDialog.vue",
+                          "bytes":  13906,
+                          "sha256":  "32d5de512fafc3144f5e32eb47df85d18efcd3037ddb8f83444bf58fdc31fcb2"
+                      }
+                  ]
+}

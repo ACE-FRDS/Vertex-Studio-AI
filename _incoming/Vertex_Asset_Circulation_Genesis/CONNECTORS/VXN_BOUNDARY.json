@@ -1,0 +1,8 @@
+{
+  "schema": "VXN_BOUNDARY",
+  "version": "1.0.0",
+  "default": "deny",
+  "https_443": true,
+  "public_discovery": true,
+  "write_path": "inbound_only"
+}

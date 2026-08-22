@@ -1,0 +1,19 @@
+{
+  "schema": "VCG_BOUNDARY",
+  "version": "1.0.0",
+  "capabilities": [
+    "READ_REPO",
+    "GIT_INSPECT",
+    "WRITE_VVE",
+    "BUILD",
+    "TEST",
+    "READ_PUBLIC_VUR"
+  ],
+  "forbidden": [
+    "DIRECT_REAL_REPOSITORY_WRITE",
+    "READ_SECRETS",
+    "ADMIN_SHELL",
+    "ARBITRARY_NETWORK"
+  ],
+  "default": "deny"
+}

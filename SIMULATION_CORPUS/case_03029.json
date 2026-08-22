@@ -1,0 +1,1 @@
+{"case": 3029, "profile": "overconfident", "mission": {"intent": "simulation-case-3029", "risk": "HIGH"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

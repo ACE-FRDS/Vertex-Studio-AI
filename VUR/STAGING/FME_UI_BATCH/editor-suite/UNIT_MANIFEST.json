@@ -1,0 +1,49 @@
+{
+    "unit_id":  "unit://fme/editor-suite",
+    "name":  "editor suite",
+    "version":  "0.1.0",
+    "status":  "candidate",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/components/editor/DiffEditor.vue",
+                          "bytes":  1329,
+                          "sha256":  "b106001e7eade044dd3521f5d7c86cbf89f70ab96066d295a587f76b5995437c"
+                      },
+                      {
+                          "path":  "source/components/editor/EditorWorkspace.vue",
+                          "bytes":  4510,
+                          "sha256":  "51c7204bd2bda918b11af3e6144ba64ccb9ea7fb5a2192b6fd1bc4076d25ecfa"
+                      },
+                      {
+                          "path":  "source/components/editor/ScriptPreview.vue",
+                          "bytes":  995,
+                          "sha256":  "3da41399c91161c58c1864a176f5072c06925bf027dddc656194911d8adaf680"
+                      },
+                      {
+                          "path":  "source/components/editor/StructureView.vue",
+                          "bytes":  1143,
+                          "sha256":  "68fa060fabd7fa3a2f1279c08aa7ff613aca05bd0a0c58570e34531c4e2e2fd6"
+                      },
+                      {
+                          "path":  "source/components/editor/XmlEditor.vue",
+                          "bytes":  7609,
+                          "sha256":  "762e8844b450f2542312f5c8117b374aac4ba492ce67160126dbc8ea0a0f0cd4"
+                      },
+                      {
+                          "path":  "source/components/editor/XmlTreeNode.vue",
+                          "bytes":  1019,
+                          "sha256":  "d360a10d97ea11c9e777d77528f82c95064437ecbd06be795861a543807a47bc"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

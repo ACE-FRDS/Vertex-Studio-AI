@@ -1,0 +1,21 @@
+{
+  "schema": "VERTEX_CHAPPY_BOOT_SEQUENCE",
+  "version": "1.0.0",
+  "order": [
+    "CANON",
+    "VCC",
+    "VSP",
+    "VMB",
+    "VUR",
+    "ARD",
+    "VVE",
+    "REPOSITORY_MAP",
+    "OBSERVATORY"
+  ],
+  "doctrine": {
+    "vve_is_future_overlay": true,
+    "direct_real_repository_write": false,
+    "human_gate_required": true
+  },
+  "boarding_milestone": "CHAPPY-BOARDING-001"
+}

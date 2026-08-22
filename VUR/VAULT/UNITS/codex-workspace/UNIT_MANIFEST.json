@@ -1,0 +1,24 @@
+{
+    "unit_id":  "unit://fme/codex-workspace",
+    "name":  "codex workspace",
+    "version":  "0.1.0",
+    "status":  "verified",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/components/codex/CodexWorkspace.vue",
+                          "bytes":  30158,
+                          "sha256":  "55cc249cff2fbbd875c2dfe2fefb32576884b999635e81bd84d168dfb67067ea"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

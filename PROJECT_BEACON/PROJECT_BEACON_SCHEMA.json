@@ -1,0 +1,15 @@
+{
+  "schema": "VPB_PROJECT_BEACON",
+  "version": "1.0.0",
+  "project_id": "project://vertex/example",
+  "display_name": "Example Project",
+  "logo": "assets/project.svg",
+  "resume": {
+    "repository": true,
+    "branch": true,
+    "vve": true,
+    "session": true,
+    "agent_context": true,
+    "ui_layout": true
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "package_id": "pack://vertex/hotline-nerve-gateway",
+  "name": "Vertex Hotline Nerve Gateway Pack",
+  "version": "0.1.0",
+  "python": "3.9+",
+  "created_at": "2026-08-21T09:34:02.723046+00:00",
+  "files": 39,
+  "bytes_without_manifest": 8605235,
+  "features": [
+    "VCG",
+    "VCRAS",
+    "Hyper Agent Router",
+    "ARD Relation Bridge",
+    "VVE Bridge",
+    "Repository Read Bridge",
+    "VUR Bridge",
+    "Audit"
+  ],
+  "entries": [
+    {
+      "path": "README_FIRST.md",
+      "bytes": 1558,
+      "sha256": "065134913732b7a33097ed77c65fe22a85c9ced2f308b0c4d87741c28c214a8a"
+    },
+    {
+      "path": "SMOKE_CLIENT.ps1",
+      "bytes": 451,
+      "sha256": "8ce3703a80fbc81932eeec823fd1a3ec5249a400d32394099c32bf6427bdb9dd"
+    },
+    {
+      "path": "BUILD.ps1",
+      "bytes": 453,
+      "sha256": "55d661b1128dde26c102803e56bd6ed9a8bdabf0e305deb5b279ce220755853d"
+    },
+    {
+      "path": "RUN_DEMO.ps1",
+      "bytes": 320,
+      "sha256": "f08c8b9b96c77a2b17f70c87aea7e948ab9b2a62af49d9d34dde8bdb3ba49452"
+    },
+    {
+      "path": "EXAMPLE_MISSION.ps1",
+      "bytes": 421,
+      "sha256": "6dfdd830a7c97d2bb0856bfa75155c7bf5dd7913ff0b79f5f0f01f076cd29c34"
+    },
+    {
+      "path": "RUN_GATEWAY.ps1",
+      "bytes": 370,
+      "sha256": "ea40eb7717aea4ff323d3d028ae15ede4c3e13983bd89ae5f8c1588e8aec7b62"
+    },
+    {
+      "path": "TEST.ps1",
+      "bytes": 182,
+      "sha256": "d936c37f7c0d5760ba3565569301d4c467f2030d9f071198760692b46b5135f4"
+    },
+    {
+      "path": "INSTALL.ps1",
+      "bytes": 868,
+      "sha256": "257becdec4380c883fffbd28149595b3816965212dbd388b31d9bf448b1632a7"
+    },
+    {
+      "path": "ARCHITECTURE/00_SYSTEM_MAP.md",
+      "bytes": 880,
+      "sha256": "76ba392c2296a4ebf749e6bb30a0a287b0078ef01b0722332508e961eeded4c8"
+    },
+    {
+      "path": "ARCHITECTURE/01_SECURITY_BOUNDARIES.md",
+      "bytes": 475,
+      "sha256": "f3f86236eb902b7380cb114868d0533cb41acadbcf5dc4484cae651e00b489bb"
+    },
+    {
+      "path": "tests/test_vcras.py",
+      "bytes": 339,
+      "sha256": "429e376becd442fdaf3d10d26578bbe49a0690b20999b72700c46f7deab905eb"
+    },
+    {
+      "path": "tests/test_commands.py",
+      "bytes": 312,
+      "sha256": "e4d1d7c47445aedf7bccb5bed7210e48b4e247db8029cf00d0f783b3ff17a158"
+    },
+    {
+      "path": "tests/test_vve.py",
+      "bytes": 502,
+      "sha256": "6fdedf52fd2adacf9661957efdff7d65246307fd975fba77e4f167ae27de1129"
+    },
+    {
+      "path": "tests/test_policy.py",
+      "bytes": 458,
+      "sha256": "725419aff9aa4ffab7b4d6e5a8e42859852d6f9a761e8c72a59b908b4420701c"
+    },
+    {
+      "path": "tests/test_ard.py",
+      "bytes": 305,
+      "sha256": "a3b5955d8732372c9b4f35fab7d564252d83b56607ec74eb01fcdf7ae0c54800"
+    },
+    {
+      "path": "fixtures/ard_relation_fixture.jsonl",
+      "bytes": 5342500,
+      "sha256": "6f2bda2394bee41707d41e7d60cbcf677f82c2ae9bd9998a612e496a5246ba44"
+    },
+    {
+      "path": "fixtures/mission_fixture.jsonl",
+      "bytes": 3234816,
+      "sha256": "51b2827cef12c0a7e4744fecd3fccffa33ee8dad09156cd749cb40454ac680c3"
+    },
+    {
+      "path": "fixtures/README.md",
+      "bytes": 172,
+      "sha256": "6b13d061bce1a46556d1a0e10619b4722012c3739ce799527e7dbab2396199b1"
+    },
+    {
+      "path": "CONFIG/gateway.json",
+      "bytes": 530,
+      "sha256": "ab586654e1c33ba2f5860c395ca1ba8e993a97ea9fedf445a1189e6c6f32c3a7"
+    },
+    {
+      "path": "CONFIG/capabilities.json",
+      "bytes": 1029,
+      "sha256": "1355b3ff9467353f1ad31ee9d42e5e1a8293aa572ec498476b73cbfe2956bf13"
+    },
+    {
+      "path": "CONFIG/command_profiles.json",
+      "bytes": 705,
+      "sha256": "58ba1c3a56fb7349ad4c58978e3d52652986769208a79e43f8ebe42ed15e1e7c"
+    },
+    {
+      "path": "src/vertex_gateway/policy.py",
+      "bytes": 586,
+      "sha256": "72bef13c621853cd799d54a8f8f1c64e9d26cb7e7da913dfcbf473416709e008"
+    },
+    {
+      "path": "src/vertex_gateway/router.py",
+      "bytes": 2577,
+      "sha256": "47b002657947c3205af9d6e5e2dec517009904c7a5d8be1035cdfe840ef65039"
+    },
+    {
+      "path": "src/vertex_gateway/audit.py",
+      "bytes": 670,
+      "sha256": "3563bdc7479c919258b8f5a141470930969684e805af93af26d098556a9e8461"
+    },
+    {
+      "path": "src/vertex_gateway/__main__.py",
+      "bytes": 237,
+      "sha256": "c8e52cd3839a6ced568e217caf096992f57aedca41f7e1633f30f4cad5c1eea8"
+    },
+    {
+      "path": "src/vertex_gateway/util.py",
+      "bytes": 648,
+      "sha256": "7e2e8c0b7cdaca33bbb755cf87e3a463b2077b21d0ad5d179dcf267963bcd65f"
+    },
+    {
+      "path": "src/vertex_gateway/config.py",
+      "bytes": 575,
+      "sha256": "ce135a31ad67fe3912a8c2a26f31f638231ec48899088a5954c8365304cf273c"
+    },
+    {
+      "path": "src/vertex_gateway/__init__.py",
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    {
+      "path": "src/vertex_gateway/server.py",
+      "bytes": 3666,
+      "sha256": "3d9e904ebf4c399cbc8defff0d52da98ed1382b08765d366dac9fac878c79fc7"
+    },
+    {
+      "path": "src/vertex_gateway/missions.py",
+      "bytes": 635,
+      "sha256": "f05cee912357041ca9fe8f7f31ffc8d964996ff5ff8255ad86554930781c91fa"
+    },
+    {
+      "path": "src/vertex_gateway/vcras.py",
+      "bytes": 617,
+      "sha256": "39d97e84f0101c8412349f86a2d3b301e01ad1d40f57cbca5930c84cc7ecdd90"
+    },
+    {
+      "path": "src/vertex_gateway/errors.py",
+      "bytes": 196,
+      "sha256": "b65336be7b779519ddf499e9262f3594f9fd32eec90a99b09fe3675ef1f35141"
+    },
+    {
+      "path": "src/vertex_gateway/commands.py",
+      "bytes": 1040,
+      "sha256": "2b5467ef1882279a903f2a907d55380036a6e61e35ff8bf0d21076ae1e50dcee"
+    },
+    {
+      "path": "src/vertex_gateway/auth.py",
+      "bytes": 599,
+      "sha256": "bc93766abe6f5ca933d635cc208f63d6588bc7e5e46981ac3962521be174b617"
+    },
+    {
+      "path": "src/vertex_gateway/bridges/ard.py",
+      "bytes": 2851,
+      "sha256": "3f9b606a93066b7887766bed1c798b2105a8c4edc8eaf233a66afe383043b1bb"
+    },
+    {
+      "path": "src/vertex_gateway/bridges/repository.py",
+      "bytes": 886,
+      "sha256": "5f38a8b1e6c0d13d23d185cfb53385885f4d92b50ef399658442ff5fb4e0e648"
+    },
+    {
+      "path": "src/vertex_gateway/bridges/vur.py",
+      "bytes": 493,
+      "sha256": "8f4a6abea37041d16ffb7092942aee5681297e4f60d8117a771ab66730f33f80"
+    },
+    {
+      "path": "src/vertex_gateway/bridges/vve.py",
+      "bytes": 1291,
+      "sha256": "0779a07e1dc779ab602444c12822365b2988b98e764cb0a34846bf1efe8c9080"
+    }
+  ]
+}

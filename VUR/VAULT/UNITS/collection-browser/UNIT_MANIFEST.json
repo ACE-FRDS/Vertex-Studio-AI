@@ -1,0 +1,24 @@
+{
+    "unit_id":  "unit://fme/collection-browser",
+    "name":  "collection browser",
+    "version":  "0.1.0",
+    "status":  "verified",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/components/collections/CollectionBrowserWorkspace.vue",
+                          "bytes":  10329,
+                          "sha256":  "7b9694aaa502f87c230a4c81e8c9155383a57e6a8fcc0795b34f90c58cc812af"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

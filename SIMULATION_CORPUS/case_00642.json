@@ -1,0 +1,1 @@
+{"case": 642, "profile": "premature_stop", "mission": {"intent": "simulation-case-642", "risk": "LOW"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

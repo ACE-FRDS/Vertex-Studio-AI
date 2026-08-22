@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "zones": [
+    {
+      "id": "public",
+      "discoverable": true,
+      "readable": true,
+      "external_ai": true,
+      "materialize": true
+    },
+    {
+      "id": "restricted",
+      "discoverable": true,
+      "readable": false,
+      "external_ai": false,
+      "materialize": "policy_required"
+    },
+    {
+      "id": "owner",
+      "discoverable": false,
+      "readable": "owner_only",
+      "external_ai": "owner_hotline_only",
+      "materialize": "owner_only"
+    },
+    {
+      "id": "internal",
+      "discoverable": false,
+      "readable": "internal_only",
+      "external_ai": false,
+      "materialize": false
+    },
+    {
+      "id": "quarantine",
+      "discoverable": false,
+      "readable": "inspection_only",
+      "external_ai": false,
+      "materialize": false
+    }
+  ]
+}

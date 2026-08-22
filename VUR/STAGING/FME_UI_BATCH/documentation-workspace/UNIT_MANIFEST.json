@@ -1,0 +1,24 @@
+{
+    "unit_id":  "unit://fme/documentation-workspace",
+    "name":  "documentation workspace",
+    "version":  "0.1.0",
+    "status":  "candidate",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/components/docs/DocumentationWorkspace.vue",
+                          "bytes":  32142,
+                          "sha256":  "11a806a329e4558e8a928490f65f51fccd0a9af313e0143ed6dd7c9066fc2fc0"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

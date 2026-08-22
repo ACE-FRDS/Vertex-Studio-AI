@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "load_order": [
+    "WORLD/schema/world.vxn.json",
+    "CONTINUITY/VCC/index.json",
+    "CONTINUITY/VSP/current.json",
+    "REPOSITORY/state.json",
+    "INTELLIGENCE/mission/current.json"
+  ],
+  "policy": "evidence_before_assumption",
+  "on_missing_evidence": "stop_and_report"
+}

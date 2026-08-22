@@ -1,0 +1,55 @@
+{
+  "schema": "VUR_VCELL_MANIFEST",
+  "version": "1.0.0",
+  "required": [
+    "vcell_id",
+    "name",
+    "version",
+    "kind",
+    "zone",
+    "status",
+    "lineage",
+    "compatibility",
+    "relations",
+    "artifacts"
+  ],
+  "template": {
+    "vcell_id": "vcell://namespace/name",
+    "name": "",
+    "description": "",
+    "version": "0.1.0",
+    "kind": "ui|service|provider|runtime|workflow|tool|data|policy|connector|design",
+    "zone": "restricted",
+    "status": "candidate",
+    "source": {
+      "source_type": "vertex|git|project|external|generated",
+      "repository": null,
+      "branch": null,
+      "commit": null,
+      "source_path": null
+    },
+    "lineage": {
+      "origin_id": null,
+      "derived_from": [],
+      "supersedes": [],
+      "created_by": null,
+      "created_at": null
+    },
+    "compatibility": {
+      "systems": [],
+      "runtimes": [],
+      "platforms": [],
+      "constraints": []
+    },
+    "relations": [],
+    "artifacts": [],
+    "access": {
+      "discoverable": false,
+      "readable": false,
+      "source_access": false,
+      "binary_access": false,
+      "external_ai": false,
+      "materialize": false
+    }
+  }
+}

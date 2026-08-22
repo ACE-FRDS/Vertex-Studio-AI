@@ -1,0 +1,29 @@
+{
+    "previous_snapshot":  "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\SNAPSHOTS\\mothership-20260822-112718.json",
+    "current_snapshot":  "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\SNAPSHOTS\\mothership-20260822-113218.json",
+    "gateway":  {
+                    "before":  "0.2.0",
+                    "after":  "0.2.0"
+                },
+    "vur":  {
+                "vcells_before":  7,
+                "vcells_after":  7,
+                "units_before":  10,
+                "units_after":  10,
+                "packs_before":  0,
+                "packs_after":  0
+            },
+    "ard":  {
+                "nodes_before":  11,
+                "nodes_after":  11,
+                "edges_before":  11,
+                "edges_after":  11
+            },
+    "vve":  {
+                "changesets_before":  1,
+                "changesets_after":  1
+            },
+    "repositories":  [
+
+                     ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "vertex.world/1",
+  "canonical_entities": [
+    "Identity","Authority","Capability","Mission","State","Relation",
+    "Behavior","Evidence","Artifact","Revision","Projection","Resource"
+  ],
+  "invariants": [
+    "machine_cannot_self_promote_root",
+    "projection_cannot_silently_rewrite_canonical_truth",
+    "mutation_requires_authority_scope",
+    "mission_completion_requires_acceptance_evidence",
+    "source_lineage_origin_is_preserved"
+  ]
+}

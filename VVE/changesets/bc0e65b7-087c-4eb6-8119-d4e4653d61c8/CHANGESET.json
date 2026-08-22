@@ -1,0 +1,13 @@
+{
+  "changeset_id": "changeset://vertex/bc0e65b7-087c-4eb6-8119-d4e4653d61c8",
+  "created_at": "2026-08-22T04:50:01.820460500+00:00",
+  "state": "DRAFT",
+  "overlay_root": "G:\\Vertex Protocol\\Vertex Project\\VVE\\changesets\\bc0e65b7-087c-4eb6-8119-d4e4653d61c8",
+  "files": [
+    {
+      "path": "CHAPPY_ABOARD.md",
+      "bytes": 141,
+      "sha256": "8d70d679f55a38ef7a2cccb7fb815987891ee6c9c53820c62d28a2dcc1ee106b"
+    }
+  ]
+}

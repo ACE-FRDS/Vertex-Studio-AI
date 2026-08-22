@@ -1,0 +1,11 @@
+{
+  "given": "VHA Developer bound to local-8B",
+  "action": "swap cognition to cloud-large",
+  "must_preserve": [
+    "VHA identity",
+    "role",
+    "authority",
+    "mission",
+    "VCC/VSP continuity"
+  ]
+}

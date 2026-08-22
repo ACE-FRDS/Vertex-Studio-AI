@@ -1,0 +1,91 @@
+{
+    "version":  "1.0.0",
+    "entries":  [
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/enterprise-ui-core",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                        "vcells":  7,
+                        "promoted_at":  "2026-08-21T09:22:07.1139407Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/application-pages",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  1,
+                        "promoted_at":  "2026-08-22T00:19:53.6795626Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/clipboard-suite",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  2,
+                        "promoted_at":  "2026-08-22T00:19:53.6920705Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/codex-workspace",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  1,
+                        "promoted_at":  "2026-08-22T00:19:53.7090822Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/collection-browser",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  1,
+                        "promoted_at":  "2026-08-22T00:19:53.7230937Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/documentation-workspace",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  1,
+                        "promoted_at":  "2026-08-22T00:19:53.7326013Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/editor-suite",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  6,
+                        "promoted_at":  "2026-08-22T00:19:53.7486102Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/enterprise-theme",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  1,
+                        "promoted_at":  "2026-08-22T00:19:53.7621199Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/knowledge-workspace",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  1,
+                        "promoted_at":  "2026-08-22T00:19:53.7731370Z"
+                    },
+                    {
+                        "event":  "VAULT_PROMOTE",
+                        "unit_id":  "unit://fme/workspace-core",
+                        "source_project":  "VRTEX FM ENGINE",
+                        "source_commit":  "3243552",
+                        "artifacts":  1,
+                        "promoted_at":  "2026-08-22T00:19:53.7902078Z"
+                    }
+                ],
+    "rules":  {
+                  "origin_must_be_preserved":  true,
+                  "derived_assets_must_reference_parent":  true,
+                  "promotion_history_append_only":  true,
+                  "retirement_does_not_delete_lineage":  true
+              }
+}

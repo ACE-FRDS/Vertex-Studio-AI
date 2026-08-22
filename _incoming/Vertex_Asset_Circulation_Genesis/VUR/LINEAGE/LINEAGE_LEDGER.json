@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "entries": [],
+  "rules": {
+    "origin_must_be_preserved": true,
+    "derived_assets_must_reference_parent": true,
+    "promotion_history_append_only": true,
+    "retirement_does_not_delete_lineage": true
+  }
+}

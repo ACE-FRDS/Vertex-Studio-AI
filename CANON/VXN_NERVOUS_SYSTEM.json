@@ -1,0 +1,43 @@
+{
+  "canonical_role": "VERTEX_WORLD_NERVOUS_SYSTEM",
+  "rule": "No fleet system exchanges mission/state/authority/evidence/capability outside a VXN Envelope.",
+  "domains": [
+    "identity",
+    "authority",
+    "mission",
+    "state",
+    "relation",
+    "capability",
+    "evidence",
+    "transport",
+    "execution",
+    "recovery",
+    "continuity"
+  ],
+  "participants": [
+    "Human",
+    "HyperAgent",
+    "VSA",
+    "Radar",
+    "Frontier",
+    "Aegis",
+    "Escort",
+    "Supply",
+    "Portable",
+    "Repository",
+    "Hub",
+    "VCC",
+    "VSP",
+    "Memory",
+    "Observatory",
+    "Simulator"
+  ],
+  "reflexes": [
+    "authority_denied",
+    "integrity_failure",
+    "provider_down",
+    "workspace_escape",
+    "portable_lost",
+    "lineage_conflict"
+  ]
+}

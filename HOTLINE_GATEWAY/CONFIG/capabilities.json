@@ -1,0 +1,64 @@
+{
+    "default":  "deny",
+    "capabilities":  {
+                         "READ_VUR":  {
+                                          "enabled":  true,
+                                          "risk":  "low"
+                                      },
+                         "READ_VVE":  {
+                                          "enabled":  true,
+                                          "risk":  "low"
+                                      },
+                         "WRITE_VVE":  {
+                                           "enabled":  true,
+                                           "risk":  "medium",
+                                           "human_gate":  false
+                                       },
+                         "READ_ARD_GRAPH":  {
+                                                "enabled":  true,
+                                                "risk":  "low"
+                                            },
+                         "QUERY_RELATIONS":  {
+                                                 "enabled":  true,
+                                                 "risk":  "low"
+                                             },
+                         "GIT_INSPECT":  {
+                                             "enabled":  true,
+                                             "risk":  "low"
+                                         },
+                         "BUILD":  {
+                                       "enabled":  true,
+                                       "risk":  "medium",
+                                       "profile_required":  true
+                                   },
+                         "TEST":  {
+                                      "enabled":  true,
+                                      "risk":  "medium",
+                                      "profile_required":  true
+                                  },
+                         "MISSION_SUBMIT":  {
+                                                "enabled":  true,
+                                                "risk":  "low"
+                                            },
+                         "DIRECT_REAL_REPOSITORY_WRITE":  {
+                                                              "enabled":  false,
+                                                              "risk":  "critical"
+                                                          },
+                         "ARBITRARY_SHELL":  {
+                                                 "enabled":  false,
+                                                 "risk":  "critical"
+                                             },
+                         "READ_SECRETS":  {
+                                              "enabled":  false,
+                                              "risk":  "critical"
+                                          },
+                         "READ_MOTHERSHIP_STATE":  {
+                                                       "enabled":  true,
+                                                       "risk":  "low"
+                                                   },
+                         "READ_MOTHERSHIP_DELTA":  {
+                                                       "enabled":  true,
+                                                       "risk":  "low"
+                                                   }
+                     }
+}

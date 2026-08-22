@@ -1,0 +1,27 @@
+{
+  "name": "Vertex World Fleet Genesis",
+  "authority": [
+    "Human",
+    "Vertex Constitution",
+    "Aegis",
+    "Hyper Agent",
+    "VXN Runtime",
+    "Fleet Units"
+  ],
+  "invariants": [
+    "Human is final authority for重大/irreversible decisions",
+    "Evidence over assumption",
+    "Hyper Agent and VXN Runtime are co-primary and may not be designed as optional siblings",
+    "Human enters Vertex World through Hyper Agent",
+    "VXN Runtime is the world execution core",
+    "VSA is the mothership/bridge/observability workspace",
+    "Portable is mothership equipment with launch-return-salvage lifecycle",
+    "Radar is a first-class sensor/discovery layer",
+    "Supply, Escort, and Aegis are first-class fleet roles",
+    "VCC preserves why; VSP preserves now; StartupSource defines re-entry order",
+    "Original project lineages are preserved during convergence",
+    "Virtual Workspace precedes materialization",
+    "Variable hardware/model/strategy policy stays cartridge-loadable",
+    "Core architecture may not silently shrink a human world-scale intent into a toy MVP"
+  ]
+}

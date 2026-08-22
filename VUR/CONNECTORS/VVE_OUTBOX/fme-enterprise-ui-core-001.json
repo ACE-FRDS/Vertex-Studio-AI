@@ -1,0 +1,63 @@
+{
+    "schema":  "VVE_CHANGESET",
+    "version":  "1.0.0",
+    "changeset_id":  "changeset://fme/enterprise-ui-core/001",
+    "target_project_id":  "project://vertex-studio/mothership",
+    "source_unit_id":  "unit://fme/enterprise-ui-core",
+    "created_at":  "2026-08-21T09:23:52.2710589Z",
+    "state":  "DRAFT",
+    "real_repository_write":  false,
+    "simulation_required":  true,
+    "human_gate_required":  true,
+    "changes":  [
+                    {
+                        "path":  "vve/fme-enterprise-ui-core/icons\\KnowledgeBrainIcon.vue",
+                        "operation":  "MATERIALIZE",
+                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\icons\\KnowledgeBrainIcon.vue",
+                        "target_state":  "VUR_MATERIALIZED"
+                    },
+                    {
+                        "path":  "vve/fme-enterprise-ui-core/inspector\\InspectorPanel.vue",
+                        "operation":  "MATERIALIZE",
+                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\inspector\\InspectorPanel.vue",
+                        "target_state":  "VUR_MATERIALIZED"
+                    },
+                    {
+                        "path":  "vve/fme-enterprise-ui-core/inspector\\ValidationPanel.vue",
+                        "operation":  "MATERIALIZE",
+                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\inspector\\ValidationPanel.vue",
+                        "target_state":  "VUR_MATERIALIZED"
+                    },
+                    {
+                        "path":  "vve/fme-enterprise-ui-core/layout\\StatusBar.vue",
+                        "operation":  "MATERIALIZE",
+                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\layout\\StatusBar.vue",
+                        "target_state":  "VUR_MATERIALIZED"
+                    },
+                    {
+                        "path":  "vve/fme-enterprise-ui-core/layout\\VertexHeader.vue",
+                        "operation":  "MATERIALIZE",
+                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\layout\\VertexHeader.vue",
+                        "target_state":  "VUR_MATERIALIZED"
+                    },
+                    {
+                        "path":  "vve/fme-enterprise-ui-core/relationship\\RelationshipDesignerWorkspace.vue",
+                        "operation":  "MATERIALIZE",
+                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\relationship\\RelationshipDesignerWorkspace.vue",
+                        "target_state":  "VUR_MATERIALIZED"
+                    },
+                    {
+                        "path":  "vve/fme-enterprise-ui-core/relationship\\RelationshipEditorDialog.vue",
+                        "operation":  "MATERIALIZE",
+                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\relationship\\RelationshipEditorDialog.vue",
+                        "target_state":  "VUR_MATERIALIZED"
+                    }
+                ]
+}

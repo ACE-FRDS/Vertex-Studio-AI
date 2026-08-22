@@ -1,0 +1,35 @@
+﻿{
+    "unit_id":  "unit://fme/enterprise-ui-core",
+    "name":  "FME Enterprise UI Core",
+    "description":  "Standard Sci-Fi enterprise UI assets recovered from VRTEX FM ENGINE",
+    "version":  "0.1.0",
+    "zone":  "restricted",
+    "status":  "candidate",
+    "vcells":  [
+                   "vcell://fme/enterprise-ui/status-bar",
+                   "vcell://fme/enterprise-ui/vertex-header",
+                   "vcell://fme/enterprise-ui/inspector-panel",
+                   "vcell://fme/enterprise-ui/validation-panel",
+                   "vcell://fme/enterprise-ui/knowledge-brain-icon",
+                   "vcell://fme/enterprise-ui/relationship-designer-workspace",
+                   "vcell://fme/enterprise-ui/relationship-editor-dialog"
+               ],
+    "lineage":  {
+                    "origin_id":  "project://fme",
+                    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                    "source_commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7"
+                },
+    "compatibility":  {
+                          "systems":  [
+                                          "vsa",
+                                          "vur",
+                                          "vve"
+                                      ]
+                      },
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

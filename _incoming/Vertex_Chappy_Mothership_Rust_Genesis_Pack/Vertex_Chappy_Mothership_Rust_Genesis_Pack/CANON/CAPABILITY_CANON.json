@@ -1,0 +1,43 @@
+{
+  "schema": "VERTEX_CAPABILITY_CANON",
+  "version": "1.0.0",
+  "capabilities": [
+    {
+      "id": "READ_MOTHERSHIP_STATE",
+      "risk": "read"
+    },
+    {
+      "id": "READ_VUR",
+      "risk": "read"
+    },
+    {
+      "id": "QUERY_ARD",
+      "risk": "read"
+    },
+    {
+      "id": "GIT_INSPECT",
+      "risk": "read"
+    },
+    {
+      "id": "RUN_BUILD",
+      "risk": "execute"
+    },
+    {
+      "id": "RUN_TEST",
+      "risk": "execute"
+    },
+    {
+      "id": "CREATE_VVE_CHANGESET",
+      "risk": "write_vve"
+    },
+    {
+      "id": "WRITE_VVE_FILE",
+      "risk": "write_vve"
+    },
+    {
+      "id": "PROMOTE_VVE",
+      "risk": "promote",
+      "human_gate": true
+    }
+  ]
+}

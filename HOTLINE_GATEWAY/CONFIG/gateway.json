@@ -1,0 +1,14 @@
+{
+    "bind_host":  "0.0.0.0",
+    "bind_port":  8765,
+    "owner_only":  true,
+    "require_token":  true,
+    "token_env":  "VERTEX_VCRAS_TOKEN",
+    "audit_file":  "STATE/audit.jsonl",
+    "mission_store":  "STATE/missions",
+    "mothership_root":  "G:\\Vertex Protocol\\Vertex Project",
+    "vur_root":  "G:\\Vertex Protocol\\Vertex Project\\VUR",
+    "vve_root":  "G:\\Vertex Protocol\\Vertex Project\\VVE",
+    "repository_root":  "G:\\Vertex Protocol\\Vertex Project",
+    "vve_outbox":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\CONNECTORS\\VVE_OUTBOX"
+}

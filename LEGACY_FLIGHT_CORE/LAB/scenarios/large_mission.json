@@ -1,0 +1,10 @@
+{
+  "given": "human mission exceeds worker reliable context",
+  "action": "normalize/decompose",
+  "must_produce": [
+    "dependency graph",
+    "header/footer per task",
+    "party plan",
+    "relay/evidence contracts"
+  ]
+}

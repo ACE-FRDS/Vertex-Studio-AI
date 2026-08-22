@@ -1,0 +1,1 @@
+{"case": 2863, "profile": "supply_missing", "mission": {"intent": "simulation-case-2863", "risk": "NORMAL"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

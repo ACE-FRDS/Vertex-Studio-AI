@@ -1,0 +1,354 @@
+{
+    "captured_at":  "2026-08-22T01:52:14.4377225Z",
+    "gateway":  {
+                    "ok":  true,
+                    "service":  "VCRAS/VCG",
+                    "version":  "0.2.0"
+                },
+    "capabilities":  [
+                         "BUILD",
+                         "GIT_INSPECT",
+                         "MISSION_SUBMIT",
+                         "QUERY_RELATIONS",
+                         "READ_ARD_GRAPH",
+                         "READ_MOTHERSHIP_DELTA",
+                         "READ_MOTHERSHIP_STATE",
+                         "READ_VUR",
+                         "READ_VVE",
+                         "TEST",
+                         "WRITE_VVE"
+                     ],
+    "vur":  {
+                "vcells":  7,
+                "units":  10,
+                "packs":  0,
+                "templates":  0,
+                "relations":  0,
+                "sources":  0,
+                "projects":  0
+            },
+    "repositories":  [
+                         {
+                             "repository_id":  "repo://vertex/vertex-studio",
+                             "role":  "REAL_REPOSITORY",
+                             "project_id":  "project://vertex-studio/mothership",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex Studio",
+                             "remote":  "https://github.com/ACE-FRDS/Vertex-Studio.git",
+                             "branch":  "main",
+                             "commit":  "fb0ad90",
+                             "exists":  true,
+                             "git":  {
+                                         "toplevel":  {
+                                                          "returncode":  0,
+                                                          "stdout":  "C:/Users/acefr/Documents/Vertex Project/Vertex Studio",
+                                                          "stderr":  ""
+                                                      },
+                                         "branch":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "main",
+                                                        "stderr":  ""
+                                                    },
+                                         "commit":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "fb0ad90",
+                                                        "stderr":  ""
+                                                    },
+                                         "remote":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "https://github.com/ACE-FRDS/Vertex-Studio.git",
+                                                        "stderr":  ""
+                                                    },
+                                         "status":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "",
+                                                        "stderr":  ""
+                                                    }
+                                     }
+                         },
+                         {
+                             "repository_id":  "repo://vertex/fme",
+                             "role":  "RESOURCE_REPOSITORY",
+                             "project_id":  "project://fme",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex FM Engine\\ProgramSource\\Source",
+                             "remote":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                             "branch":  "codex/release-readiness",
+                             "commit":  "3243552",
+                             "exists":  true,
+                             "git":  {
+                                         "toplevel":  {
+                                                          "returncode":  0,
+                                                          "stdout":  "C:/Users/acefr/Documents/Vertex Project/Vertex FM Engine/ProgramSource/Source",
+                                                          "stderr":  ""
+                                                      },
+                                         "branch":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "codex/release-readiness",
+                                                        "stderr":  ""
+                                                    },
+                                         "commit":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "3243552",
+                                                        "stderr":  ""
+                                                    },
+                                         "remote":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                                        "stderr":  ""
+                                                    },
+                                         "status":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "",
+                                                        "stderr":  ""
+                                                    }
+                                     }
+                         },
+                         {
+                             "repository_id":  "repo://vertex/legacy-vertex-ai",
+                             "role":  "LEGACY_REPOSITORY",
+                             "project_id":  "project://legacy/vertex-ai",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex AI",
+                             "remote":  "https://github.com/ACE-FRDS/vertex_AI.git",
+                             "branch":  "feature/vertex-ai-0.1.6-routing-rotation",
+                             "commit":  "74b1a61",
+                             "exists":  true,
+                             "git":  {
+                                         "toplevel":  {
+                                                          "returncode":  0,
+                                                          "stdout":  "C:/Users/acefr/Documents/Vertex Project/Vertex AI",
+                                                          "stderr":  ""
+                                                      },
+                                         "branch":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "feature/vertex-ai-0.1.6-routing-rotation",
+                                                        "stderr":  ""
+                                                    },
+                                         "commit":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "74b1a61",
+                                                        "stderr":  ""
+                                                    },
+                                         "remote":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "https://github.com/ACE-FRDS/vertex_AI.git",
+                                                        "stderr":  ""
+                                                    },
+                                         "status":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "?? \"Vertex AI.worktrees/\"",
+                                                        "stderr":  ""
+                                                    }
+                                     }
+                         },
+                         {
+                             "repository_id":  "repo://vertex/legacy-vertex-ai-worktree",
+                             "role":  "LEGACY_WORKTREE",
+                             "project_id":  "project://legacy/vertex-ai",
+                             "path":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex AI.worktrees\\vertex-ai-developer-workspace-implementation",
+                             "remote":  "https://github.com/ACE-FRDS/vertex_AI.git",
+                             "branch":  "agents/vertex-ai-developer-workspace-implementation",
+                             "commit":  "f8fef98",
+                             "exists":  true,
+                             "git":  {
+                                         "toplevel":  {
+                                                          "returncode":  0,
+                                                          "stdout":  "C:/Users/acefr/Documents/Vertex Project/Vertex AI.worktrees/vertex-ai-developer-workspace-implementation",
+                                                          "stderr":  ""
+                                                      },
+                                         "branch":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "agents/vertex-ai-developer-workspace-implementation",
+                                                        "stderr":  ""
+                                                    },
+                                         "commit":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "f8fef98",
+                                                        "stderr":  ""
+                                                    },
+                                         "remote":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "https://github.com/ACE-FRDS/vertex_AI.git",
+                                                        "stderr":  ""
+                                                    },
+                                         "status":  {
+                                                        "returncode":  0,
+                                                        "stdout":  "M ProgramSource/Cargo.lock\n M ProgramSource/apps/management-ui/src-tauri/Cargo.toml\n M ProgramSource/apps/management-ui/src-tauri/src/lib.rs\n M ProgramSource/apps/management-ui/src/App.vue\n M ProgramSource/apps/management-ui/src/DeveloperWorkspace.vue\n M ProgramSource/apps/management-ui/src/services/developer.ts\n M ProgramSource/apps/management-ui/src/services/local-ai.ts\n M ProgramSource/crates/vertex-ai-developer/src/agent.rs\n M ProgramSource/crates/vertex-ai-developer/src/workspace.rs\n M ProgramSource/crates/vertex-ai-provider-openai/src/lib.rs\n?? ProgramSource/apps/management-ui/src-tauri/src/lib.rs.provider-generic.bak\n?? ProgramSource/apps/management-ui/src-tauri/src/lib.rs.provider-generic.prepatch.bak\n?? ProgramSource/crates/vertex-ai-developer/src/agent.rs.allgreen.bak\n?? ProgramSource/crates/vertex-ai-developer/src/workspace.rs.git-worktree.prepatch.bak\n?? ProgramSource/crates/vertex-ai-provider-openai/src/lib.rs.lmstudio-models.prepatch.bak",
+                                                        "stderr":  ""
+                                                    }
+                                     }
+                         }
+                     ],
+    "mothership_graph":  {
+                             "root":  "project://vertex-studio/mothership",
+                             "max_depth":  8,
+                             "nodes":  [
+                                           "changeset://fme/enterprise-ui-core/001",
+                                           "project://vertex-studio/mothership",
+                                           "repo://vertex/vertex-studio",
+                                           "unit://fme/enterprise-ui-core",
+                                           "vcell://fme/enterprise-ui/inspector-panel",
+                                           "vcell://fme/enterprise-ui/knowledge-brain-icon",
+                                           "vcell://fme/enterprise-ui/relationship-designer-workspace",
+                                           "vcell://fme/enterprise-ui/relationship-editor-dialog",
+                                           "vcell://fme/enterprise-ui/status-bar",
+                                           "vcell://fme/enterprise-ui/validation-panel",
+                                           "vcell://fme/enterprise-ui/vertex-header"
+                                       ],
+                             "edges":  [
+                                           {
+                                               "relation_type":  "HAS_REPOSITORY",
+                                               "source_id":  "project://vertex-studio/mothership",
+                                               "target_id":  "repo://vertex/vertex-studio",
+                                               "metadata":  {
+                                                                "source":  "REPOSITORY_MAP",
+                                                                "role":  "REAL_REPOSITORY"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "REALIZED_BY",
+                                               "source_id":  "project://vertex-studio/mothership",
+                                               "target_id":  "repo://vertex/vertex-studio",
+                                               "metadata":  {
+                                                                "source":  "REPOSITORY_MAP"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "TARGETS_PROJECT",
+                                               "source_id":  "changeset://fme/enterprise-ui-core/001",
+                                               "target_id":  "project://vertex-studio/mothership",
+                                               "metadata":  {
+                                                                "source":  "VVE",
+                                                                "state":  "DRAFT"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "MATERIALIZED_FROM",
+                                               "source_id":  "changeset://fme/enterprise-ui-core/001",
+                                               "target_id":  "unit://fme/enterprise-ui-core",
+                                               "metadata":  {
+                                                                "source":  "VVE"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "COMPOSED_OF",
+                                               "source_id":  "unit://fme/enterprise-ui-core",
+                                               "target_id":  "vcell://fme/enterprise-ui/status-bar",
+                                               "metadata":  {
+                                                                "source":  "VUR"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "COMPOSED_OF",
+                                               "source_id":  "unit://fme/enterprise-ui-core",
+                                               "target_id":  "vcell://fme/enterprise-ui/vertex-header",
+                                               "metadata":  {
+                                                                "source":  "VUR"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "COMPOSED_OF",
+                                               "source_id":  "unit://fme/enterprise-ui-core",
+                                               "target_id":  "vcell://fme/enterprise-ui/inspector-panel",
+                                               "metadata":  {
+                                                                "source":  "VUR"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "COMPOSED_OF",
+                                               "source_id":  "unit://fme/enterprise-ui-core",
+                                               "target_id":  "vcell://fme/enterprise-ui/validation-panel",
+                                               "metadata":  {
+                                                                "source":  "VUR"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "COMPOSED_OF",
+                                               "source_id":  "unit://fme/enterprise-ui-core",
+                                               "target_id":  "vcell://fme/enterprise-ui/knowledge-brain-icon",
+                                               "metadata":  {
+                                                                "source":  "VUR"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "COMPOSED_OF",
+                                               "source_id":  "unit://fme/enterprise-ui-core",
+                                               "target_id":  "vcell://fme/enterprise-ui/relationship-designer-workspace",
+                                               "metadata":  {
+                                                                "source":  "VUR"
+                                                            }
+                                           },
+                                           {
+                                               "relation_type":  "COMPOSED_OF",
+                                               "source_id":  "unit://fme/enterprise-ui-core",
+                                               "target_id":  "vcell://fme/enterprise-ui/relationship-editor-dialog",
+                                               "metadata":  {
+                                                                "source":  "VUR"
+                                                            }
+                                           }
+                                       ]
+                         },
+    "vve":  [
+                {
+                    "schema":  "VVE_CHANGESET",
+                    "version":  "1.0.0",
+                    "changeset_id":  "changeset://fme/enterprise-ui-core/001",
+                    "target_project_id":  "project://vertex-studio/mothership",
+                    "source_unit_id":  "unit://fme/enterprise-ui-core",
+                    "created_at":  "2026-08-21T09:23:52.2710589Z",
+                    "state":  "DRAFT",
+                    "real_repository_write":  false,
+                    "simulation_required":  true,
+                    "human_gate_required":  true,
+                    "changes":  [
+                                    {
+                                        "path":  "vve/fme-enterprise-ui-core/icons\\KnowledgeBrainIcon.vue",
+                                        "operation":  "MATERIALIZE",
+                                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\icons\\KnowledgeBrainIcon.vue",
+                                        "target_state":  "VUR_MATERIALIZED"
+                                    },
+                                    {
+                                        "path":  "vve/fme-enterprise-ui-core/inspector\\InspectorPanel.vue",
+                                        "operation":  "MATERIALIZE",
+                                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\inspector\\InspectorPanel.vue",
+                                        "target_state":  "VUR_MATERIALIZED"
+                                    },
+                                    {
+                                        "path":  "vve/fme-enterprise-ui-core/inspector\\ValidationPanel.vue",
+                                        "operation":  "MATERIALIZE",
+                                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\inspector\\ValidationPanel.vue",
+                                        "target_state":  "VUR_MATERIALIZED"
+                                    },
+                                    {
+                                        "path":  "vve/fme-enterprise-ui-core/layout\\StatusBar.vue",
+                                        "operation":  "MATERIALIZE",
+                                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\layout\\StatusBar.vue",
+                                        "target_state":  "VUR_MATERIALIZED"
+                                    },
+                                    {
+                                        "path":  "vve/fme-enterprise-ui-core/layout\\VertexHeader.vue",
+                                        "operation":  "MATERIALIZE",
+                                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\layout\\VertexHeader.vue",
+                                        "target_state":  "VUR_MATERIALIZED"
+                                    },
+                                    {
+                                        "path":  "vve/fme-enterprise-ui-core/relationship\\RelationshipDesignerWorkspace.vue",
+                                        "operation":  "MATERIALIZE",
+                                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\relationship\\RelationshipDesignerWorkspace.vue",
+                                        "target_state":  "VUR_MATERIALIZED"
+                                    },
+                                    {
+                                        "path":  "vve/fme-enterprise-ui-core/relationship\\RelationshipEditorDialog.vue",
+                                        "operation":  "MATERIALIZE",
+                                        "source_asset_id":  "unit://fme/enterprise-ui-core",
+                                        "source_path":  "G:\\Vertex Protocol\\Vertex Project\\VUR\\VAULT\\UNITS\\fme-enterprise-ui-core\\source\\relationship\\RelationshipEditorDialog.vue",
+                                        "target_state":  "VUR_MATERIALIZED"
+                                    }
+                                ]
+                }
+            ]
+}

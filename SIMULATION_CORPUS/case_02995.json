@@ -1,0 +1,1 @@
+{"case": 2995, "profile": "hallucination", "mission": {"intent": "simulation-case-2995", "risk": "NORMAL"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

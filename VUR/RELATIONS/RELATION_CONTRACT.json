@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "relation_types": [
+    "COMPOSED_OF",
+    "DEPENDS_ON",
+    "PROVIDES",
+    "CONSUMES",
+    "COMPATIBLE_WITH",
+    "DERIVED_FROM",
+    "SUPERSEDES",
+    "CONFLICTS_WITH",
+    "MATERIALIZED_TO",
+    "PROMOTED_TO",
+    "VALIDATED_BY",
+    "DEPLOYED_TO",
+    "OWNED_BY",
+    "BELONGS_TO_PROJECT"
+  ],
+  "cross_zone_relation_requires_policy_check": true
+}

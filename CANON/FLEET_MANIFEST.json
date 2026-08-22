@@ -1,0 +1,76 @@
+{
+  "mothership": {
+    "systems": [
+      "vsa",
+      "hyper_agent",
+      "vxn_runtime",
+      "vertex_core",
+      "memory_core",
+      "vcc",
+      "vsp",
+      "startup_source",
+      "radar",
+      "frontier",
+      "observatory",
+      "simulator",
+      "repository",
+      "hub",
+      "convergence",
+      "project_vault",
+      "virtual_workspace",
+      "model_router",
+      "human_resources",
+      "cartridge_bay",
+      "portable_bay"
+    ]
+  },
+  "fleet_units": {
+    "supply_ship": [
+      "package",
+      "model",
+      "runtime",
+      "toolchain",
+      "knowledge",
+      "cache",
+      "reinforcement"
+    ],
+    "escort_ship": [
+      "sandbox",
+      "workspace_guard",
+      "process_watch",
+      "resource_limit",
+      "recovery",
+      "secret_isolation"
+    ],
+    "aegis_ship": [
+      "identity",
+      "trust_graph",
+      "policy",
+      "authority",
+      "invariant",
+      "anomaly",
+      "isolate",
+      "abort"
+    ],
+    "portable": [
+      "mission_package",
+      "sqlite_state",
+      "knowledge_subset",
+      "permissions",
+      "runtime",
+      "carrier_link",
+      "return_merge",
+      "salvage"
+    ]
+  },
+  "world_contracts": [
+    "capability",
+    "authority",
+    "sensor",
+    "resource",
+    "mission_profile",
+    "trust",
+    "state",
+    "communication"
+  ]
+}

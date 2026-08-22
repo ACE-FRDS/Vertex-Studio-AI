@@ -1,0 +1,10 @@
+[package]
+name="vsa-impact-front-lab"
+version.workspace=true
+edition.workspace=true
+rust-version.workspace=true
+license.workspace=true
+[dependencies]
+tokio.workspace=true
+uuid.workspace=true
+vertex-ai-impact={path="../../crates/vertex-ai-impact"}

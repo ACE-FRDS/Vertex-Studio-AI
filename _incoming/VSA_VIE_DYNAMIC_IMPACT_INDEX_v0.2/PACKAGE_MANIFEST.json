@@ -1,0 +1,67 @@
+{
+  "name": "VSA VIE Dynamic Impact Index",
+  "version": "0.2",
+  "kind": "rust-source-package",
+  "files": [
+    {
+      "path": "Architecture/ADR-0016-front-facing-dynamic-impact-index.md",
+      "bytes": 900,
+      "sha256": "35be008df206796f10266711c329a0674100aa810423ed64f4f99c8b8a0313bf"
+    },
+    {
+      "path": "Experiment/DYNAMIC_IMPACT_EXPERIMENT.md",
+      "bytes": 668,
+      "sha256": "ba8753fd74338b3385456776baf992eb7786255e97663848c7e3baaf8f14c607"
+    },
+    {
+      "path": "ProgramSource/apps/vsa-impact-front-lab/Cargo.toml",
+      "bytes": 247,
+      "sha256": "a892bddbaf7b80f2d636f5cc713cf24a49a0f34148cf3b4b12de4f4fdb63502a"
+    },
+    {
+      "path": "ProgramSource/apps/vsa-impact-front-lab/src/main.rs",
+      "bytes": 709,
+      "sha256": "016aef3e7eadac5f5568dc97037216387b5a5e2221b502634430d36cac145bea"
+    },
+    {
+      "path": "ProgramSource/crates/vertex-ai-impact/Cargo.toml",
+      "bytes": 308,
+      "sha256": "fa3ce617b7746f0179ebe0ac62eefc793d6ae103850ad1853b41ec71d05cc719"
+    },
+    {
+      "path": "ProgramSource/crates/vertex-ai-impact/src/domain.rs",
+      "bytes": 1700,
+      "sha256": "564d9e1927eba46b897d02477a34829b0ce9e29ebf92a9d4545745c7e6321d30"
+    },
+    {
+      "path": "ProgramSource/crates/vertex-ai-impact/src/engine.rs",
+      "bytes": 4344,
+      "sha256": "59749e90e695584bcdd71d8df0ab16d2fbd19b7b40d3478615c0605ec81245c8"
+    },
+    {
+      "path": "ProgramSource/crates/vertex-ai-impact/src/lib.rs",
+      "bytes": 101,
+      "sha256": "2c8c8afd6167eaf209d0e8cb6e3f9e0481a75ab7970c2c57fbbea0d9f8c96d15"
+    },
+    {
+      "path": "ProgramSource/crates/vertex-ai-impact/src/repository.rs",
+      "bytes": 1068,
+      "sha256": "dd8a2737e55835576f50f0d5f8cb6ea59a6d32210575c457e4f43a89a40d3ed0"
+    },
+    {
+      "path": "README_FIRST.md",
+      "bytes": 585,
+      "sha256": "3c394558b2eed7fb5f001166dca093f8a01de37c29c3dda1da2ce4d411c30b12"
+    },
+    {
+      "path": "install-vie-v02.ps1",
+      "bytes": 1370,
+      "sha256": "f0b22d00dad018c2e036812d26455ea6813850c72d817d151c99886db4ca3214"
+    },
+    {
+      "path": "verify-vie-v02.ps1",
+      "bytes": 250,
+      "sha256": "b2236afd10fb9cd951bd1752cd51bbd0aec7335b523dc84b9c2333aa30fe2674"
+    }
+  ]
+}

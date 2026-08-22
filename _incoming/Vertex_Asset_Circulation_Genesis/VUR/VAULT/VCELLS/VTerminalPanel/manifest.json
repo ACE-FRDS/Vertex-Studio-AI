@@ -1,0 +1,24 @@
+{
+  "vcell_id": "vcell://vertex/ui/vterminalpanel",
+  "name": "VTerminalPanel",
+  "version": "0.1.0",
+  "kind": "ui",
+  "zone": "restricted",
+  "status": "candidate",
+  "lineage": {
+    "origin_id": "pack://vertex/asset-circulation-genesis",
+    "derived_from": []
+  },
+  "compatibility": {
+    "systems": [
+      "vsa",
+      "vur",
+      "vve"
+    ],
+    "platforms": [
+      "windows"
+    ]
+  },
+  "relations": [],
+  "artifacts": []
+}

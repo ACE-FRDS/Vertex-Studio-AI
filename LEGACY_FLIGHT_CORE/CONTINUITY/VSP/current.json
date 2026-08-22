@@ -1,0 +1,11 @@
+{
+  "world_state": "CONSTRUCTION",
+  "canonical_target": "VERTEX_WORLD",
+  "mainlines": ["VXN","VSA"],
+  "next_vertical_slices": [
+    "semantic_mutation_to_revision_to_projection",
+    "mission_to_decomposition_to_party_to_evidence",
+    "workspace_to_preview_to_materialization",
+    "hub_publish_to_peer_fetch_to_integrity_verify"
+  ]
+}

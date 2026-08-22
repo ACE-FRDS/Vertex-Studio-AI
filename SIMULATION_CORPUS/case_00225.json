@@ -1,0 +1,1 @@
+{"case": 225, "profile": "permission_loop", "mission": {"intent": "simulation-case-225", "risk": "LOW"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

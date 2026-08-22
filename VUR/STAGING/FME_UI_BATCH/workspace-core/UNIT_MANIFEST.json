@@ -1,0 +1,24 @@
+{
+    "unit_id":  "unit://fme/workspace-core",
+    "name":  "workspace core",
+    "version":  "0.1.0",
+    "status":  "candidate",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/components/workspace/ModuleWorkspace.vue",
+                          "bytes":  33893,
+                          "sha256":  "11f4151f73071a03ebe248fee3205b91607ba9f27d971f8b955db277683f9de0"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

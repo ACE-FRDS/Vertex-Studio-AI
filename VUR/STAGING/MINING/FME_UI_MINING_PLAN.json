@@ -1,0 +1,168 @@
+{
+    "schema":  "VUR_MINING_PLAN",
+    "version":  "1.0.1",
+    "source":  "VRTEX FM ENGINE",
+    "source_root":  "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex FM Engine\\ProgramSource\\Source\\src",
+    "totals":  {
+                   "files":  22,
+                   "bytes":  474581,
+                   "already_vaulted":  7,
+                   "new_candidates":  15
+               },
+    "assets":  [
+                   {
+                       "path":  "components\\clipboard\\BottomPanel.vue",
+                       "bytes":  5086,
+                       "sha256":  "c5912f61cd19384eac7277e9ca785f8ff126382f830c254a94dac67f95a23642",
+                       "proposed_unit":  "unit://fme/clipboard-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\clipboard\\ClipboardSidebar.vue",
+                       "bytes":  32626,
+                       "sha256":  "0a6975c62c2f88ccb3c78fb2832359b9b6f670de65af109678c2d08e80c8f79f",
+                       "proposed_unit":  "unit://fme/clipboard-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\codex\\CodexWorkspace.vue",
+                       "bytes":  30158,
+                       "sha256":  "55cc249cff2fbbd875c2dfe2fefb32576884b999635e81bd84d168dfb67067ea",
+                       "proposed_unit":  "unit://fme/codex-workspace",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\collections\\CollectionBrowserWorkspace.vue",
+                       "bytes":  10329,
+                       "sha256":  "7b9694aaa502f87c230a4c81e8c9155383a57e6a8fcc0795b34f90c58cc812af",
+                       "proposed_unit":  "unit://fme/collection-browser",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\docs\\DocumentationWorkspace.vue",
+                       "bytes":  32142,
+                       "sha256":  "11a806a329e4558e8a928490f65f51fccd0a9af313e0143ed6dd7c9066fc2fc0",
+                       "proposed_unit":  "unit://fme/documentation-workspace",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\editor\\DiffEditor.vue",
+                       "bytes":  1329,
+                       "sha256":  "b106001e7eade044dd3521f5d7c86cbf89f70ab96066d295a587f76b5995437c",
+                       "proposed_unit":  "unit://fme/editor-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\editor\\EditorWorkspace.vue",
+                       "bytes":  4510,
+                       "sha256":  "51c7204bd2bda918b11af3e6144ba64ccb9ea7fb5a2192b6fd1bc4076d25ecfa",
+                       "proposed_unit":  "unit://fme/editor-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\editor\\ScriptPreview.vue",
+                       "bytes":  995,
+                       "sha256":  "3da41399c91161c58c1864a176f5072c06925bf027dddc656194911d8adaf680",
+                       "proposed_unit":  "unit://fme/editor-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\editor\\StructureView.vue",
+                       "bytes":  1143,
+                       "sha256":  "68fa060fabd7fa3a2f1279c08aa7ff613aca05bd0a0c58570e34531c4e2e2fd6",
+                       "proposed_unit":  "unit://fme/editor-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\editor\\XmlEditor.vue",
+                       "bytes":  7609,
+                       "sha256":  "762e8844b450f2542312f5c8117b374aac4ba492ce67160126dbc8ea0a0f0cd4",
+                       "proposed_unit":  "unit://fme/editor-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\editor\\XmlTreeNode.vue",
+                       "bytes":  1019,
+                       "sha256":  "d360a10d97ea11c9e777d77528f82c95064437ecbd06be795861a543807a47bc",
+                       "proposed_unit":  "unit://fme/editor-suite",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\icons\\KnowledgeBrainIcon.vue",
+                       "bytes":  1588,
+                       "sha256":  "5c748ac5b1d975af7ddd7106bd931bcbc35b8106c205c7083a61080d05eb07e6",
+                       "proposed_unit":  "unit://fme/design-assets",
+                       "vault_state":  "ALREADY_VAULTED"
+                   },
+                   {
+                       "path":  "components\\inspector\\InspectorPanel.vue",
+                       "bytes":  25043,
+                       "sha256":  "d3e88b49e70795a94d89e757a4527b63159661d55d424ce63cdcb55309bd9cdb",
+                       "proposed_unit":  "unit://fme/inspector-suite",
+                       "vault_state":  "ALREADY_VAULTED"
+                   },
+                   {
+                       "path":  "components\\inspector\\ValidationPanel.vue",
+                       "bytes":  526,
+                       "sha256":  "9c79918fce1bf6c9b314ec2a7a7e3e836670ee979616a2c8b8929da50963e247",
+                       "proposed_unit":  "unit://fme/inspector-suite",
+                       "vault_state":  "ALREADY_VAULTED"
+                   },
+                   {
+                       "path":  "components\\knowledge\\KnowledgeWorkspace.vue",
+                       "bytes":  22636,
+                       "sha256":  "96ab1bf22b50473573fbac09a1cdab6d0280d34fea3ff8db1baf5778a5c7ae49",
+                       "proposed_unit":  "unit://fme/knowledge-workspace",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "components\\layout\\StatusBar.vue",
+                       "bytes":  1113,
+                       "sha256":  "6f971ac96a62d6c8809836deb65b7f04776efa67e291e14d4a0bef2e1856e274",
+                       "proposed_unit":  "unit://fme/enterprise-shell",
+                       "vault_state":  "ALREADY_VAULTED"
+                   },
+                   {
+                       "path":  "components\\layout\\VertexHeader.vue",
+                       "bytes":  11109,
+                       "sha256":  "ce137c9727087e046e88bfbe0f4a6ffc025d51c7de3a19da243ff430ede4e3e2",
+                       "proposed_unit":  "unit://fme/enterprise-shell",
+                       "vault_state":  "ALREADY_VAULTED"
+                   },
+                   {
+                       "path":  "components\\relationship\\RelationshipDesignerWorkspace.vue",
+                       "bytes":  107141,
+                       "sha256":  "819b235a4bbd192ddc35ce816606d77b7a58d960787be39a12ee90a1326a0311",
+                       "proposed_unit":  "unit://fme/relationship-designer",
+                       "vault_state":  "ALREADY_VAULTED"
+                   },
+                   {
+                       "path":  "components\\relationship\\RelationshipEditorDialog.vue",
+                       "bytes":  13906,
+                       "sha256":  "32d5de512fafc3144f5e32eb47df85d18efcd3037ddb8f83444bf58fdc31fcb2",
+                       "proposed_unit":  "unit://fme/relationship-designer",
+                       "vault_state":  "ALREADY_VAULTED"
+                   },
+                   {
+                       "path":  "components\\workspace\\ModuleWorkspace.vue",
+                       "bytes":  33893,
+                       "sha256":  "11f4151f73071a03ebe248fee3205b91607ba9f27d971f8b955db277683f9de0",
+                       "proposed_unit":  "unit://fme/workspace-core",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "pages\\MainPage.vue",
+                       "bytes":  7275,
+                       "sha256":  "adaa864c9d6f7192f149728fd151c47eb89c457c1909b11c2e0c476e72e57913",
+                       "proposed_unit":  "unit://fme/application-pages",
+                       "vault_state":  "NEW_CANDIDATE"
+                   },
+                   {
+                       "path":  "styles\\main.scss",
+                       "bytes":  123405,
+                       "sha256":  "e912733727a0c98b1992d0617b31303394eaec606cdfb24040d98210e7123027",
+                       "proposed_unit":  "unit://fme/enterprise-theme",
+                       "vault_state":  "NEW_CANDIDATE"
+                   }
+               ]
+}

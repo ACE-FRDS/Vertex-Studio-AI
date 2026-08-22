@@ -1,0 +1,41 @@
+# Local runtime state and generated evidence
+**/STATE/
+
+# Build outputs and dependency caches
+**/target/
+**/build/
+**/dist/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/.cache/
+*.py[cod]
+
+# Local databases, logs, and credentials
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Large generated package images (GitHub's regular Git limit is 100 MiB)
+*.vxpack
+
+# Duplicate archives and local backups
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.backup-*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

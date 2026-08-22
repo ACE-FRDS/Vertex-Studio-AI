@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VERTEX // VUR CONTROL CONSOLE</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="starfield"></div>
+<div class="app-shell">
+  <header class="command-bar">
+    <div class="brand"><span class="crest">V</span><div><b>VERTEX</b><small>FLEET GENESIS</small></div></div>
+    <nav>
+      <button class="nav active">MAIN</button><button class="nav">VUR</button><button class="nav">VVE</button>
+      <button class="nav">BLUEPRINT</button><button class="nav">AGENTS</button><button class="nav">VPSF</button>
+      <button class="nav">FLEET</button><button class="nav">SYSTEM</button>
+    </nav>
+    <div class="telemetry"><span class="dot ok"></span> MOTHERSHIP ONLINE</div>
+  </header>
+
+  <aside class="left-rail">
+    <section class="panel project-beacon">
+      <div class="panel-title">PROJECT BEACONS</div>
+      <button class="beacon active"><span class="beacon-logo">VS</span><span><b>Vertex Studio</b><small>RETURN READY</small></span></button>
+      <button class="beacon"><span class="beacon-logo fm">FM</span><span><b>FM Engine</b><small>RESOURCE SOURCE</small></span></button>
+      <button class="beacon"><span class="beacon-logo vu">VU</span><span><b>VUR</b><small>HANGAR</small></span></button>
+    </section>
+
+    <section class="panel chat-panel">
+      <div class="panel-title">HYPER AGENT // HOTLINE</div>
+      <div class="chat-message system">VCRAS OWNER CHANNEL ESTABLISHED</div>
+      <div class="chat-message agent"><b>HYPER AGENT</b><br>VUR格納庫を監視中。3件のVCellがVVE投入可能です。</div>
+      <div class="chat-message user">FM Engine由来のUI部品だけ表示。</div>
+      <div class="chat-message agent"><b>HYPER AGENT</b><br>Enterprise Sci-Fi候補を抽出しました。</div>
+      <div class="chat-input"><input placeholder="Command / mission..."><button>TRANSMIT</button></div>
+    </section>
+  </aside>
+
+  <main class="workspace">
+    <section class="hero-row">
+      <div class="captain-card engineer">
+        <div class="holo-ring"></div>
+        <img src="captain-engineer.svg" alt="Male engineering captain">
+        <div class="captain-meta"><small>REPOSITORY / ENGINEERING</small><b>CAPTAIN AERON VALE</b><span>VUR INTEGRITY 99.98%</span></div>
+      </div>
+      <div class="mission-core">
+        <div class="core-orbit"><div class="core"></div></div>
+        <h1>VUR CONTROL CONSOLE</h1>
+        <p>格納庫から母艦を育てる</p>
+        <div class="metrics">
+          <div><strong>12,840</strong><span>VCELLS</span></div>
+          <div><strong>1,486</strong><span>UNITS</span></div>
+          <div><strong>327</strong><span>PACKS</span></div>
+          <div><strong>04</strong><span>READY</span></div>
+        </div>
+      </div>
+      <div class="captain-card security">
+        <div class="holo-ring"></div>
+        <img src="captain-security.svg" alt="Female security captain">
+        <div class="captain-meta"><small>SECURITY / NAVIGATION</small><b>CAPTAIN LYRA VOSS</b><span>OWNER ZONE SEALED</span></div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="panel graph-panel">
+        <div class="panel-title"><span>RELATION GRAPH</span><span class="tiny">LIVE MAP</span></div>
+        <svg class="graph" viewBox="0 0 900 430">
+          <defs>
+            <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <g class="links">
+            <path d="M450 215 C330 90 230 120 150 170"/><path d="M450 215 C570 90 680 120 750 170"/>
+            <path d="M450 215 C320 320 240 300 150 270"/><path d="M450 215 C580 320 670 300 750 270"/>
+          </g>
+          <g class="node central"><circle cx="450" cy="215" r="64"/><text x="450" y="210">VUR</text><text x="450" y="232" class="sub">CORE</text></g>
+          <g class="node"><circle cx="150" cy="170" r="48"/><text x="150" y="176">VVE</text></g>
+          <g class="node"><circle cx="750" cy="170" r="48"/><text x="750" y="176">VPSF</text></g>
+          <g class="node"><circle cx="150" cy="270" r="48"/><text x="150" y="276">FME</text></g>
+          <g class="node"><circle cx="750" cy="270" r="48"/><text x="750" y="276">VCG</text></g>
+          <circle class="pulse-dot d1" cx="330" cy="130" r="5"/><circle class="pulse-dot d2" cx="610" cy="135" r="5"/>
+        </svg>
+      </div>
+
+      <div class="panel zone-panel">
+        <div class="panel-title">ACCESS ZONES</div>
+        <div class="zone public"><span>PUBLIC</span><label class="v-toggle"><input type="checkbox" checked><span></span></label></div>
+        <div class="zone restricted"><span>RESTRICTED</span><label class="v-toggle"><input type="checkbox" checked><span></span></label></div>
+        <div class="zone owner"><span>OWNER</span><label class="v-toggle"><input type="checkbox" checked><span></span></label></div>
+        <div class="zone internal"><span>INTERNAL</span><label class="v-toggle"><input type="checkbox"><span></span></label></div>
+        <div class="zone quarantine"><span>QUARANTINE</span><label class="v-toggle danger"><input type="checkbox"><span></span></label></div>
+        <div class="zone-note">External AI access is bound to VUR policy and Owner Hotline capability.</div>
+      </div>
+
+      <div class="panel explorer-panel">
+        <div class="panel-title">VVE OVERLAY EXPLORER</div>
+        <div class="file real">src/main.rs <span>REAL</span></div>
+        <div class="file modified">src/ui/vur_console.rs <span>MODIFIED</span></div>
+        <div class="file new">src/vur/materialize.rs <span>NEW</span></div>
+        <div class="file materialized">assets/fme/theme.vcell <span>VUR</span></div>
+        <div class="file delete">legacy/old_panel.rs <span>DELETE</span></div>
+        <div class="file conflict">src/policy.rs <span>CONFLICT</span></div>
+        <button class="promote-btn">RUN SHADOW VALIDATION</button>
+      </div>
+
+      <div class="panel inspector-panel">
+        <div class="panel-title">VCELL INSPECTOR</div>
+        <h3>FME // Enterprise Panel</h3>
+        <div class="tag-row"><span class="tag">UI</span><span class="tag">DERIVED_FROM FME</span><span class="tag">RESTRICTED</span></div>
+        <dl><dt>Compatibility</dt><dd>VSA UI Runtime</dd><dt>Lineage</dt><dd>ACE-FRDS/vrtex_fm_engine</dd><dt>State</dt><dd>VERIFIED</dd></dl>
+        <button class="materialize-btn">MATERIALIZE TO VVE</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="status-bar">
+    <span>VUR 1.0 GENESIS</span><span>VVE FUTURE TREE: 6 CHANGES</span><span>SHADOW VALIDATION: STANDBY</span><span>HOTLINE: OWNER ONLY</span>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

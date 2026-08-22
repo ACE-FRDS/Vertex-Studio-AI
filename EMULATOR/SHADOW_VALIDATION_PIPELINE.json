@@ -1,0 +1,30 @@
+{
+  "flow": [
+    "VSA",
+    "VVE",
+    "EMULATOR",
+    "SHADOW_VALIDATION",
+    "SAFE_PROMOTE",
+    "VERTEX_SERVER",
+    "VFILE"
+  ],
+  "checks": [
+    "startup",
+    "ui",
+    "database",
+    "migration",
+    "connector",
+    "build",
+    "tests",
+    "regression",
+    "policy"
+  ],
+  "states": [
+    "LIVE",
+    "STAGED",
+    "VALIDATING",
+    "BLOCKED",
+    "ROLLBACK_READY",
+    "READY_TO_PROMOTE"
+  ]
+}

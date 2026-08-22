@@ -1,0 +1,1 @@
+{"case": 2632, "profile": "authority_escape", "mission": {"intent": "simulation-case-2632", "risk": "NORMAL"}, "expected": {"human_gate": true, "recovery": true, "preserve_evidence": true}}

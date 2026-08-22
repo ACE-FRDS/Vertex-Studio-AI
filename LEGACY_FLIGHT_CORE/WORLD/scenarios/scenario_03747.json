@@ -1,0 +1,41 @@
+{
+  "scenario": 3747,
+  "intent": "Human asks Vertex to evolve subsystem 61",
+  "normalize": {
+    "goals": [
+      "goal-3747-a",
+      "goal-3747-b"
+    ],
+    "constraints": [
+      "authority",
+      "integrity",
+      "continuity"
+    ]
+  },
+  "decompose": {
+    "tasks": 5,
+    "party": true,
+    "subparty": false
+  },
+  "cognition": {
+    "candidates": [
+      "4b",
+      "8b",
+      "20b",
+      "cloud"
+    ],
+    "selection": "evidence-based"
+  },
+  "execution": {
+    "backend": "Network",
+    "transactional": true
+  },
+  "evidence": {
+    "required": true,
+    "vcc_if_durable": true,
+    "vsp_always": true
+  },
+  "recovery": {
+    "inject": "provider-down"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "VUR_PACK_MANIFEST",
+  "version": "1.0.0",
+  "template": {
+    "pack_id": "pack://namespace/name",
+    "name": "",
+    "version": "0.1.0",
+    "zone": "restricted",
+    "units": [],
+    "vcells": [],
+    "templates": [],
+    "relations": [],
+    "target_profiles": [],
+    "deployment_policy": {
+      "vve_first": true,
+      "simulation_required": true,
+      "human_gate_required": true
+    }
+  }
+}

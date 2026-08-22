@@ -1,0 +1,63 @@
+from pathlib import Path
+import uuid,json
+from .db import WorldDB
+from .mission import normalize,decompose
+from .repository import SemanticRepository
+from .provider import discover
+from .workspace import VirtualWorkspace
+from .executor import detect_build_commands,run_command
+from .cognition import execute_task
+class VertexWorld:
+ def __init__(self,root):
+  self.root=Path(root);self.state=self.root/"STATE";self.state.mkdir(parents=True,exist_ok=True);self.db=WorldDB(self.state/"world.db");self.repo=SemanticRepository(self.state/"repository")
+  self.boot_count=int(self.db.get_state("boot_count",0))+1;self.db.set_state("boot_count",self.boot_count);self.db.event("BOOT",{"boot_count":self.boot_count})
+ def discover_providers(self):
+  ps=discover();self.db.set_state("providers",ps);self.db.event("PROVIDER_DISCOVERY",ps);return ps
+ def ensure_vha(self,provider="reference",model="reference-model"):
+  vid=self.db.get_state("default_vha_id")
+  if not vid:vid=str(uuid.uuid4());self.db.set_state("default_vha_id",vid)
+  self.db.vha(vid,"Developer","developer",provider,model,"bounded-human-delegation");return vid
+ def swap_cognition(self,provider,model):
+  vid=self.ensure_vha(provider,model);self.db.event("COGNITION_SWAP",{"vha_id":vid,"provider":provider,"model":model});return vid
+ def _select_provider(self,override=None):
+  if override:return override
+  for p in self.discover_providers():
+   if p.get("healthy") and p.get("models"):return {"kind":p["kind"],"base_url":p["base_url"],"model":p["models"][0]}
+  return None
+ def execute_mission(self,intent,workspace=None,reliable_units=2,inject_failure=False,provider_override=None,materialize=False):
+  mid=self.db.mission(intent);c=normalize(intent);self.db.mission_state(mid,"NORMALIZED");tasks=decompose(c,reliable_units);self.db.mission_state(mid,"DECOMPOSED")
+  provider=self._select_provider(provider_override);vid=self.ensure_vha(provider["kind"] if provider else "reference",provider["model"] if provider else "reference-model")
+  self.db.checkpoint(mid,{"mission_id":mid,"canonical":c,"vha_id":vid,"provider":provider})
+  ws=None;before=None;diffs=[];build=[]
+  if workspace is not None:
+   ws=VirtualWorkspace(workspace,self.state/"workspaces"/mid);ws.mount();before=ws.digest();self.db.event("WORKSPACE_MOUNTED",{"mission_id":mid,"path":str(workspace),"digest":before})
+  try:
+   self.db.mission_state(mid,"EXECUTING")
+   for n,t in enumerate(tasks):
+    tid=self.db.task(mid,t["title"],t["role"],t["header"],t["footer"]);self.db.task_state(tid,"RUNNING")
+    if inject_failure and n==max(0,len(tasks)//2):raise RuntimeError("INJECTED_FAILURE")
+    result={"summary":"Reference execution","edits":[],"evidence":["reference-engine"],"unresolved":[],"next":"review"}
+    if provider and ws:
+     inv=ws.inventory();reads={}
+     for item in inv:
+      if item["path"].lower().endswith((".py",".rs",".ts",".tsx",".js",".vue",".md",".toml",".json")) and item["bytes"]<200000:
+       try:reads[item["path"]]=ws.read_text(item["path"])
+       except Exception:pass
+      if len(reads)>=8:break
+     result=execute_task(provider,t,inv,reads)
+     for e in result["edits"]:
+      rel=e["path"];b,a=ws.write_text(rel,e["content"]);diffs.append({"path":rel,"diff":ws.diff_text(rel,b,a)})
+    self.db.task_state(tid,"DONE",json.dumps(result),list(result["evidence"])+[f"task:{tid}","header:validated","footer:validated"])
+   if ws:
+    for cmd in detect_build_commands(ws.stage):
+     br=run_command(ws.stage,cmd);build.append({"command":cmd,**br});self.db.event("BUILD_RESULT",{"mission_id":mid,"command":cmd,"ok":br["ok"],"code":br["code"]})
+     if not br["ok"]:raise RuntimeError(f"BUILD_OR_TEST_FAILED:{cmd}:{br['code']}")
+   mutation={"mission":mid,"intent":intent,"task_count":len(tasks),"workspace_before":before,"workspace_after":ws.digest() if ws else None,"diffs":diffs,"build_results":build,"provider":provider}
+   rid=self.repo.commit(mid,mutation,["tasks-completed","contracts-validated","build-stage-complete"],"Mission execution");self.db.revision(mid,None,mutation,["tasks-completed","contracts-validated","build-stage-complete"]);self.db.vcc("MISSION_RESULT",f"Mission {mid} completed",[rid]);self.db.vsp(mid,"COMPLETED","PASS" if all(x["ok"] for x in build) else "N/A","PASS","","reboot-and-continue")
+   if materialize and ws:
+    for d in diffs:ws.materialize(d["path"])
+    self.db.event("MATERIALIZED",{"mission_id":mid,"files":[d["path"] for d in diffs]})
+   self.db.mission_state(mid,"COMPLETED");return {"ok":True,"mission_id":mid,"revision":rid,"tasks":len(tasks),"provider":provider,"diffs":diffs,"build_results":build}
+  except Exception as e:
+   snap=self.db.latest_checkpoint(mid);self.db.event("FAILURE",{"mission_id":mid,"error":str(e)});self.db.vcc("FAILURE_REPAIR",f"Mission {mid} failed and recovered",[str(e)]);self.db.vsp(mid,"RECOVERED","FAIL","RECOVERED",str(e),"resume");self.db.mission_state(mid,"RECOVERED");return {"ok":False,"recovered":snap is not None,"mission_id":mid,"error":str(e),"provider":provider,"diffs":diffs,"build_results":build}
+ def status(self):return {"boot_count":self.boot_count,"db":self.db.summary(),"repo_bad_objects":self.repo.fsck(),"providers":self.db.get_state("providers",[])}

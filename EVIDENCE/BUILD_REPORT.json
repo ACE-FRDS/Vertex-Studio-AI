@@ -1,0 +1,8 @@
+{
+  "python_test": "PASS FLEET GENESIS\n{\n  \"contacts\": 8,\n  \"trace\": 4,\n  \"simulation_worlds\": 10000\n}\n",
+  "rust": {
+    "attempted": false,
+    "ok": null,
+    "reason": "cargo unavailable"
+  }
+}

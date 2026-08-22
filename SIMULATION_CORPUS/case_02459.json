@@ -1,0 +1,1 @@
+{"case": 2459, "profile": "schema_drift", "mission": {"intent": "simulation-case-2459", "risk": "HIGH"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

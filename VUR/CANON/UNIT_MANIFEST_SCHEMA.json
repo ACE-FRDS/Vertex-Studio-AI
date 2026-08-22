@@ -1,0 +1,21 @@
+{
+  "schema": "VUR_UNIT_MANIFEST",
+  "version": "1.0.0",
+  "template": {
+    "unit_id": "unit://namespace/name",
+    "name": "",
+    "version": "0.1.0",
+    "zone": "restricted",
+    "status": "candidate",
+    "vcells": [],
+    "relations": [],
+    "lineage": {},
+    "compatibility": {},
+    "deployment": {
+      "vve_materialize": true,
+      "direct_repository_write": false,
+      "simulation_required": true,
+      "human_gate_required": true
+    }
+  }
+}

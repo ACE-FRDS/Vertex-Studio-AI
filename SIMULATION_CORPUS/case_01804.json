@@ -1,0 +1,1 @@
+{"case": 1804, "profile": "stale_vsp", "mission": {"intent": "simulation-case-1804", "risk": "NORMAL"}, "expected": {"human_gate": false, "recovery": true, "preserve_evidence": true}}

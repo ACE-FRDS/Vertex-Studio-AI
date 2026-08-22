@@ -1,0 +1,14 @@
+{
+  "given": [
+    "Project A",
+    "Project B"
+  ],
+  "strategy": "NEUTRAL_NEW_PROJECT",
+  "must_preserve": [
+    "A origin",
+    "B origin",
+    "lineage",
+    "evidence",
+    "supersession relations"
+  ]
+}

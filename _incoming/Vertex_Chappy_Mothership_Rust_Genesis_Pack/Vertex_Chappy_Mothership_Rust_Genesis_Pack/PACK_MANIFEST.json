@@ -1,0 +1,244 @@
+{
+  "schema": "VERTEX_PACK_MANIFEST",
+  "version": "1.0.0",
+  "pack_id": "pack://vertex/chappy-mothership-rust-genesis",
+  "name": "Vertex Chappy Mothership Rust Genesis Pack",
+  "pack_version": "0.1.0-genesis",
+  "language": "Rust",
+  "independent_implementation": true,
+  "reference_pattern_note": "General architecture patterns only; no proprietary source or binaries included.",
+  "files": 47,
+  "uncompressed_bytes_without_manifest": 40433,
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "bytes": 35,
+      "sha256": "b3b46612bdc35055ca9cefdd2ce8911cac29f95e196cd013db2509ede2d1151f"
+    },
+    {
+      "path": "ARCHITECTURE/CODEX_OMAGE_NOTES.md",
+      "bytes": 896,
+      "sha256": "0de3eb0383c93d6442d7950f6b2f978c96b20a66e3cb4d3c4709d5afed4a58fc"
+    },
+    {
+      "path": "ARCHITECTURE/MOTHERSHIP_PLAN.md",
+      "bytes": 1340,
+      "sha256": "78021bf7006b3505393cd12030018d0b5483e6cb6a72192d728e5af34d9cc0e6"
+    },
+    {
+      "path": "ARCHITECTURE/THREAT_MODEL.md",
+      "bytes": 785,
+      "sha256": "8fe0a43a86db70b39f463d1fb71697cddfa18c73a372a718e52ff2451bdeb541"
+    },
+    {
+      "path": "ARCHITECTURE/VVE_GITHUB_BRIDGE_PROTOCOL.md",
+      "bytes": 964,
+      "sha256": "2b3de556710c27e8faafbf6ed028fccd179c0da19766d9e382c3ce9e4925bb4e"
+    },
+    {
+      "path": "BUILD.ps1",
+      "bytes": 543,
+      "sha256": "a00d83716bb0a3d321bfd79250601aa38b58000f9d5150ac7fb5182d8e616c83"
+    },
+    {
+      "path": "CANON/BOARDING_BOOT_SEQUENCE.json",
+      "bytes": 382,
+      "sha256": "6a57de43d02221cbc2e2469fbb66755a174db7383006b5819af017441aec8532"
+    },
+    {
+      "path": "CANON/CAPABILITY_CANON.json",
+      "bytes": 693,
+      "sha256": "00d3b43dc6e93e5636a5a750d787fa61cb9c2e521372045441567309ce1ba443"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 1102,
+      "sha256": "fc0c2399e13d0c2a56b59e3036356874565b347fccb2ea0dda61ef57a88c2aea"
+    },
+    {
+      "path": "INSTALL_RUST_WINDOWS.ps1",
+      "bytes": 535,
+      "sha256": "61a15e66b18b66c2df0b600356bd64b66a0f0bc82dd2c4fcc91d2eaefcebc510"
+    },
+    {
+      "path": "README_FIRST.md",
+      "bytes": 2343,
+      "sha256": "134e0bbed3436844d263c38b8f77b9c9a4f887f4203cd67faabd0fdf9e8658af"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 1096,
+      "sha256": "63e2857e0fe01a66d30589e8f94c16e00022dbabc0140898f2abcb0d090e88d8"
+    },
+    {
+      "path": "RUN.ps1",
+      "bytes": 286,
+      "sha256": "e8f26bb74d67e1f3c95ceec8950bc0d0fb8f0964d31212599c2beb115939eaa1"
+    },
+    {
+      "path": "SMOKE.ps1",
+      "bytes": 681,
+      "sha256": "c9696dba8b211aafc7b1101e548331ee475ddf06cf22ded8d7cd0f8655f4e821"
+    },
+    {
+      "path": "apps/vertex-harnessd/Cargo.toml",
+      "bytes": 501,
+      "sha256": "ef58e4cf6e56518b950db7bbcc2f4e1acc98eaf1b47e8a61e1d7b5a7d1ff3344"
+    },
+    {
+      "path": "apps/vertex-harnessd/src/main.rs",
+      "bytes": 2462,
+      "sha256": "c9a9d6c8955c25e9fb8ad77f92f9e7f2a905eef247e5d3291f4fea96d6f20b2e"
+    },
+    {
+      "path": "apps/vertexctl/Cargo.toml",
+      "bytes": 304,
+      "sha256": "fd18663db024a5c04c5f032eb763271e19c71c82c4c24a2ddd39eabcd0c3c3d6"
+    },
+    {
+      "path": "apps/vertexctl/src/main.rs",
+      "bytes": 951,
+      "sha256": "073910ccd96f3d249d32cbcb5a60437ae78e8e905d91a0d3ae0495e6d2451041"
+    },
+    {
+      "path": "config/vertex-harness.toml",
+      "bytes": 1319,
+      "sha256": "afd0c770babb2a638a4fab392e0b627bc1c769d0a299454ba4fb50caa2c8c944"
+    },
+    {
+      "path": "crates/vertex-audit/Cargo.toml",
+      "bytes": 251,
+      "sha256": "412dc2b75330107537814314716f8bd1f63d493370d630ccafa69bb608407d14"
+    },
+    {
+      "path": "crates/vertex-audit/src/lib.rs",
+      "bytes": 901,
+      "sha256": "1928538855de968b874910319474ebf535d8280fc086e4951bf195fdc56157e2"
+    },
+    {
+      "path": "crates/vertex-core/Cargo.toml",
+      "bytes": 246,
+      "sha256": "0e72887a2fd3cfb054461d159bac3d0467f1e4a0b5762b21bc0ace38ca984943"
+    },
+    {
+      "path": "crates/vertex-core/src/lib.rs",
+      "bytes": 2401,
+      "sha256": "c435058b36ca50832ecb000e5e595927c40749d4e2afbdeff377978ff7e6f8e2"
+    },
+    {
+      "path": "crates/vertex-git/Cargo.toml",
+      "bytes": 191,
+      "sha256": "39bd96cf4c88ef03b7e7f9c92f6f5e703bcacecc40d34e44474eb4c1448653f5"
+    },
+    {
+      "path": "crates/vertex-git/src/lib.rs",
+      "bytes": 1101,
+      "sha256": "2eec6d57c38876ee5bd34a8e3f845d32eaebe813371a0573047793cbeb74988e"
+    },
+    {
+      "path": "crates/vertex-harness/Cargo.toml",
+      "bytes": 606,
+      "sha256": "f285d70f5bfdb1290c88b46e1dbbdd56228088dbb0651e984933aff5bc09f468"
+    },
+    {
+      "path": "crates/vertex-harness/src/lib.rs",
+      "bytes": 3879,
+      "sha256": "8009f9b61b5d584423cf332694a124944d41464e688e917e36551b5982c48d44"
+    },
+    {
+      "path": "crates/vertex-memory/Cargo.toml",
+      "bytes": 198,
+      "sha256": "05e11cd97db5c33ff39108182267af050a7c389372c0a594b5f0b17edee454b6"
+    },
+    {
+      "path": "crates/vertex-memory/src/lib.rs",
+      "bytes": 622,
+      "sha256": "c81f42ec3d47f812ce80ff6922fd229a6df1af1a3ebfce74bf8e00ca599c056e"
+    },
+    {
+      "path": "crates/vertex-missions/Cargo.toml",
+      "bytes": 242,
+      "sha256": "ea2f32e1e8ecf3c6926a356a3721cf349b57edf46ef70e56de40da06bca3e0a2"
+    },
+    {
+      "path": "crates/vertex-missions/src/lib.rs",
+      "bytes": 511,
+      "sha256": "4eac986cd3f2b433c517bb71a4fecd3bc5841b3a5a1e9e4778ab0158b776a936"
+    },
+    {
+      "path": "crates/vertex-policy/Cargo.toml",
+      "bytes": 235,
+      "sha256": "d5fd24049468b52e0fa346aa0defc95c8116482a40bede2500f96f7fc8665228"
+    },
+    {
+      "path": "crates/vertex-policy/src/lib.rs",
+      "bytes": 3606,
+      "sha256": "858f87bd6d99005e85d736d983146c212cca1d8bb95443098f774a9ed51f2d2d"
+    },
+    {
+      "path": "crates/vertex-relations/Cargo.toml",
+      "bytes": 201,
+      "sha256": "55be6e066e46e4b518b41c705b37f10ad7587dd85b9aa6b6edf86f1f63713a66"
+    },
+    {
+      "path": "crates/vertex-relations/src/lib.rs",
+      "bytes": 2155,
+      "sha256": "3a472174e828f2f0799cb305344dbe1cee6a69d14e6244f38b3f27b934a1dd7d"
+    },
+    {
+      "path": "crates/vertex-runtime/Cargo.toml",
+      "bytes": 283,
+      "sha256": "44ac391d462d03c8fb4c6b47dcb235ffd579c9425d344ea04a6c224d1da490b1"
+    },
+    {
+      "path": "crates/vertex-runtime/src/lib.rs",
+      "bytes": 1617,
+      "sha256": "3ba5cb0390819f732cd80cc06fa9b4dc1128f0fc4e24d070b0e3b0c04fa1fd69"
+    },
+    {
+      "path": "crates/vertex-state/Cargo.toml",
+      "bytes": 198,
+      "sha256": "1915b0e0c2ca0e1e082482506907b215c3945e00d3fc1b15dc3073267c291901"
+    },
+    {
+      "path": "crates/vertex-state/src/lib.rs",
+      "bytes": 516,
+      "sha256": "49e095cb1ce339d3db2701a25f19eaf3bd13ced6f5dbfc76ad3d9214b7299887"
+    },
+    {
+      "path": "crates/vertex-vve/Cargo.toml",
+      "bytes": 327,
+      "sha256": "d90acf09a81ecbc46e337564faaa0863fa85ac3d2f2323ae724b429f0db5f7dc"
+    },
+    {
+      "path": "crates/vertex-vve/src/lib.rs",
+      "bytes": 2393,
+      "sha256": "c4a19dc1a45ebb079c1175da479ec09f3fa94f151f888c4666948966327d3873"
+    },
+    {
+      "path": "examples/mission-create-vve.json",
+      "bytes": 79,
+      "sha256": "62a40f6c87093c2443d2bb7cbe52bd6730e155a3d95a17ea1d6f6c6cea2e462b"
+    },
+    {
+      "path": "examples/mission-git-inspect.json",
+      "bytes": 146,
+      "sha256": "e12b2498c1d1fa4534235a3b42460d5576ba98b146f92b256e5b625118bb69c1"
+    },
+    {
+      "path": "examples/mission-query-ard.json",
+      "bytes": 144,
+      "sha256": "abcf3f3d12d137f520b72140725e2e94454d9d53d3fde147d88fbbdd6e1b591b"
+    },
+    {
+      "path": "examples/mission-read-state.json",
+      "bytes": 80,
+      "sha256": "44af7f835eeb5add84229673ebf21ea95e0ef9f5f3a2129770f0f992588f4dee"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "bytes": 86,
+      "sha256": "7458b2d74495e6fb1c1edeea4d5a793705476431dadb60627187111f91441e13"
+    }
+  ]
+}

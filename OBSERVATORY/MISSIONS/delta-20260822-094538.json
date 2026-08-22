@@ -1,0 +1,44 @@
+{
+    "schema":  "VERTEX_OBSERVATORY_MISSION",
+    "version":  "1.0.0",
+    "mission_id":  "mission://observatory/delta/a471ff68-f1a2-4b7b-8713-b7e05a6ae7b5",
+    "mission_type":  "MOTHERSHIP_CHANGE_REVIEW",
+    "capability":  "MISSION_SUBMIT",
+    "actor":  "observatory",
+    "created_at":  "2026-08-22T00:45:38.6496739Z",
+    "state":  "DISPATCHED",
+    "events":  [
+                   "VUR_CHANGED"
+               ],
+    "delta":  {
+                  "previous_snapshot":  "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\SNAPSHOTS\\mothership-20260821-210952.json",
+                  "current_snapshot":  "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\SNAPSHOTS\\mothership-20260822-094538.json",
+                  "gateway":  {
+                                  "before":  "0.2.0",
+                                  "after":  "0.2.0"
+                              },
+                  "vur":  {
+                              "vcells_before":  7,
+                              "vcells_after":  7,
+                              "units_before":  1,
+                              "units_after":  10,
+                              "packs_before":  0,
+                              "packs_after":  0
+                          },
+                  "ard":  {
+                              "nodes_before":  11,
+                              "nodes_after":  11,
+                              "edges_before":  11,
+                              "edges_after":  11
+                          },
+                  "vve":  {
+                              "changesets_before":  1,
+                              "changesets_after":  1
+                          },
+                  "repositories":  [
+
+                                   ]
+              },
+    "dispatched_at":  "2026-08-22T00:48:32.5498666Z",
+    "gateway_mission_id":  "mission://a87f8fec-f647-422c-89bd-f8483eb7801c"
+}

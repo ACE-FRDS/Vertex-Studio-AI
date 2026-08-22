@@ -1,0 +1,34 @@
+{
+  "top": [
+    "MAIN",
+    "VUR",
+    "VVE",
+    "BLUEPRINT",
+    "AGENTS",
+    "MEMORY",
+    "VPSF",
+    "FLEET",
+    "SYSTEM"
+  ],
+  "left": [
+    "ProjectBeacon",
+    "HyperAgentChat"
+  ],
+  "center": [
+    "Workspace",
+    "RelationGraph",
+    "VVE"
+  ],
+  "right": [
+    "RepositoryExplorer",
+    "VURExplorer",
+    "Inspector"
+  ],
+  "bottom": [
+    "Activity",
+    "BuildTest",
+    "Audit",
+    "Telemetry",
+    "MissionState"
+  ]
+}

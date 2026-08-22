@@ -1,0 +1,6 @@
+{
+  "schema": "VPSF_BOUNDARY",
+  "version": "1.0.0",
+  "purpose": "Prototype Simulation Field",
+  "separate_from_llm_trial_field": true
+}

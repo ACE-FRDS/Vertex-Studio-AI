@@ -1,0 +1,29 @@
+{
+    "unit_id":  "unit://fme/clipboard-suite",
+    "name":  "clipboard suite",
+    "version":  "0.1.0",
+    "status":  "candidate",
+    "zone":  "restricted",
+    "source":  "VRTEX FM ENGINE",
+    "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+    "source_branch":  "codex/release-readiness",
+    "source_commit":  "3243552",
+    "artifacts":  [
+                      {
+                          "path":  "source/components/clipboard/BottomPanel.vue",
+                          "bytes":  5086,
+                          "sha256":  "c5912f61cd19384eac7277e9ca785f8ff126382f830c254a94dac67f95a23642"
+                      },
+                      {
+                          "path":  "source/components/clipboard/ClipboardSidebar.vue",
+                          "bytes":  32626,
+                          "sha256":  "0a6975c62c2f88ccb3c78fb2832359b9b6f670de65af109678c2d08e80c8f79f"
+                      }
+                  ],
+    "deployment":  {
+                       "vve_materialize":  true,
+                       "direct_repository_write":  false,
+                       "simulation_required":  true,
+                       "human_gate_required":  true
+                   }
+}

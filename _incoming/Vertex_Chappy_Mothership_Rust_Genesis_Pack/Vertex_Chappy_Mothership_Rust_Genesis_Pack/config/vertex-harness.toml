@@ -1,0 +1,43 @@
+[server]
+bind_host = "127.0.0.1"
+bind_port = 9876
+token_env = "VERTEX_CHAPPY_TOKEN"
+
+[paths]
+mothership_root = "G:\\Vertex Protocol\\Vertex Project"
+state_file = "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\CURRENT\\MOTHERSHIP_STATE.json"
+delta_file = "G:\\Vertex Protocol\\Vertex Project\\OBSERVATORY\\CURRENT\\MOTHERSHIP_DELTA.json"
+vur_registry = "G:\\Vertex Protocol\\Vertex Project\\VUR\\REGISTRY\\VUR_REGISTRY.json"
+vve_root = "G:\\Vertex Protocol\\Vertex Project\\VVE"
+real_repository = "C:\\Users\\acefr\\Documents\\Vertex Project\\Vertex Studio"
+audit_file = "STATE\\chappy-audit.jsonl"
+
+[policy]
+active_profile = "owner_safe"
+direct_real_repository_write = false
+human_gate_required = true
+
+[policy.profiles.owner_safe]
+allowed_capabilities = [
+  "READ_MOTHERSHIP_STATE",
+  "READ_VUR",
+  "QUERY_ARD",
+  "GIT_INSPECT",
+  "RUN_BUILD",
+  "RUN_TEST",
+  "RUN_POWERSHELL_SAFE",
+  "CREATE_VVE_CHANGESET",
+  "WRITE_VVE_FILE"
+]
+allowed_programs = ["git", "cargo", "python", "python.exe", "powershell.exe"]
+allowed_roots = [
+  "G:\\Vertex Protocol\\Vertex Project",
+  "C:\\Users\\acefr\\Documents\\Vertex Project"
+]
+max_command_seconds = 300
+
+[policy.profiles.owner_full]
+allowed_capabilities = ["*"]
+allowed_programs = ["*"]
+allowed_roots = ["G:\\Vertex Protocol\\Vertex Project", "C:\\Users\\acefr\\Documents\\Vertex Project"]
+max_command_seconds = 1800

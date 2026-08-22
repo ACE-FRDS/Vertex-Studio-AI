@@ -1,0 +1,619 @@
+{
+    "version":  "1.0.0",
+    "vcells":  [
+                   {
+                       "vcell_id":  "vcell://fme/enterprise-ui/inspector-panel",
+                       "name":  "InspectorPanel",
+                       "version":  "0.1.0",
+                       "kind":  "ui",
+                       "zone":  "restricted",
+                       "status":  "candidate",
+                       "source":  {
+                                      "project":  "VRTEX FM ENGINE",
+                                      "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "branch":  "codex/release-readiness",
+                                      "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                                      "source_path":  "src/components/inspector/InspectorPanel.vue"
+                                  },
+                       "lineage":  {
+                                       "origin_id":  "project://fme/inspector/inspector-panel",
+                                       "derived_from":  [
+
+                                                        ],
+                                       "created_by":  "FME"
+                                   },
+                       "compatibility":  {
+                                             "systems":  [
+                                                             "vsa",
+                                                             "vur",
+                                                             "vve"
+                                                         ],
+                                             "runtimes":  [
+                                                              "vue"
+                                                          ],
+                                             "platforms":  [
+                                                               "windows"
+                                                           ]
+                                         },
+                       "relations":  [
+
+                                     ],
+                       "artifacts":  [
+                                         {
+                                             "path":  "source/inspector/InspectorPanel.vue",
+                                             "bytes":  25043,
+                                             "sha256":  "d3e88b49e70795a94d89e757a4527b63159661d55d424ce63cdcb55309bd9cdb"
+                                         }
+                                     ]
+                   },
+                   {
+                       "vcell_id":  "vcell://fme/enterprise-ui/knowledge-brain-icon",
+                       "name":  "KnowledgeBrainIcon",
+                       "version":  "0.1.0",
+                       "kind":  "design",
+                       "zone":  "restricted",
+                       "status":  "candidate",
+                       "source":  {
+                                      "project":  "VRTEX FM ENGINE",
+                                      "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "branch":  "codex/release-readiness",
+                                      "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                                      "source_path":  "src/components/icons/KnowledgeBrainIcon.vue"
+                                  },
+                       "lineage":  {
+                                       "origin_id":  "project://fme/icons/knowledge-brain-icon",
+                                       "derived_from":  [
+
+                                                        ],
+                                       "created_by":  "FME"
+                                   },
+                       "compatibility":  {
+                                             "systems":  [
+                                                             "vsa",
+                                                             "vur",
+                                                             "vve"
+                                                         ],
+                                             "runtimes":  [
+                                                              "vue"
+                                                          ],
+                                             "platforms":  [
+                                                               "windows"
+                                                           ]
+                                         },
+                       "relations":  [
+
+                                     ],
+                       "artifacts":  [
+                                         {
+                                             "path":  "source/icons/KnowledgeBrainIcon.vue",
+                                             "bytes":  1588,
+                                             "sha256":  "5c748ac5b1d975af7ddd7106bd931bcbc35b8106c205c7083a61080d05eb07e6"
+                                         }
+                                     ]
+                   },
+                   {
+                       "vcell_id":  "vcell://fme/enterprise-ui/relationship-designer-workspace",
+                       "name":  "RelationshipDesignerWorkspace",
+                       "version":  "0.1.0",
+                       "kind":  "ui",
+                       "zone":  "restricted",
+                       "status":  "candidate",
+                       "source":  {
+                                      "project":  "VRTEX FM ENGINE",
+                                      "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "branch":  "codex/release-readiness",
+                                      "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                                      "source_path":  "src/components/relationship/RelationshipDesignerWorkspace.vue"
+                                  },
+                       "lineage":  {
+                                       "origin_id":  "project://fme/relationship/relationship-designer-workspace",
+                                       "derived_from":  [
+
+                                                        ],
+                                       "created_by":  "FME"
+                                   },
+                       "compatibility":  {
+                                             "systems":  [
+                                                             "vsa",
+                                                             "vur",
+                                                             "vve"
+                                                         ],
+                                             "runtimes":  [
+                                                              "vue"
+                                                          ],
+                                             "platforms":  [
+                                                               "windows"
+                                                           ]
+                                         },
+                       "relations":  [
+
+                                     ],
+                       "artifacts":  [
+                                         {
+                                             "path":  "source/relationship/RelationshipDesignerWorkspace.vue",
+                                             "bytes":  107141,
+                                             "sha256":  "819b235a4bbd192ddc35ce816606d77b7a58d960787be39a12ee90a1326a0311"
+                                         }
+                                     ]
+                   },
+                   {
+                       "vcell_id":  "vcell://fme/enterprise-ui/relationship-editor-dialog",
+                       "name":  "RelationshipEditorDialog",
+                       "version":  "0.1.0",
+                       "kind":  "ui",
+                       "zone":  "restricted",
+                       "status":  "candidate",
+                       "source":  {
+                                      "project":  "VRTEX FM ENGINE",
+                                      "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "branch":  "codex/release-readiness",
+                                      "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                                      "source_path":  "src/components/relationship/RelationshipEditorDialog.vue"
+                                  },
+                       "lineage":  {
+                                       "origin_id":  "project://fme/relationship/relationship-editor-dialog",
+                                       "derived_from":  [
+
+                                                        ],
+                                       "created_by":  "FME"
+                                   },
+                       "compatibility":  {
+                                             "systems":  [
+                                                             "vsa",
+                                                             "vur",
+                                                             "vve"
+                                                         ],
+                                             "runtimes":  [
+                                                              "vue"
+                                                          ],
+                                             "platforms":  [
+                                                               "windows"
+                                                           ]
+                                         },
+                       "relations":  [
+
+                                     ],
+                       "artifacts":  [
+                                         {
+                                             "path":  "source/relationship/RelationshipEditorDialog.vue",
+                                             "bytes":  13906,
+                                             "sha256":  "32d5de512fafc3144f5e32eb47df85d18efcd3037ddb8f83444bf58fdc31fcb2"
+                                         }
+                                     ]
+                   },
+                   {
+                       "vcell_id":  "vcell://fme/enterprise-ui/status-bar",
+                       "name":  "StatusBar",
+                       "version":  "0.1.0",
+                       "kind":  "ui",
+                       "zone":  "restricted",
+                       "status":  "candidate",
+                       "source":  {
+                                      "project":  "VRTEX FM ENGINE",
+                                      "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "branch":  "codex/release-readiness",
+                                      "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                                      "source_path":  "src/components/layout/StatusBar.vue"
+                                  },
+                       "lineage":  {
+                                       "origin_id":  "project://fme/layout/status-bar",
+                                       "derived_from":  [
+
+                                                        ],
+                                       "created_by":  "FME"
+                                   },
+                       "compatibility":  {
+                                             "systems":  [
+                                                             "vsa",
+                                                             "vur",
+                                                             "vve"
+                                                         ],
+                                             "runtimes":  [
+                                                              "vue"
+                                                          ],
+                                             "platforms":  [
+                                                               "windows"
+                                                           ]
+                                         },
+                       "relations":  [
+
+                                     ],
+                       "artifacts":  [
+                                         {
+                                             "path":  "source/layout/StatusBar.vue",
+                                             "bytes":  1113,
+                                             "sha256":  "6f971ac96a62d6c8809836deb65b7f04776efa67e291e14d4a0bef2e1856e274"
+                                         }
+                                     ]
+                   },
+                   {
+                       "vcell_id":  "vcell://fme/enterprise-ui/validation-panel",
+                       "name":  "ValidationPanel",
+                       "version":  "0.1.0",
+                       "kind":  "ui",
+                       "zone":  "restricted",
+                       "status":  "candidate",
+                       "source":  {
+                                      "project":  "VRTEX FM ENGINE",
+                                      "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "branch":  "codex/release-readiness",
+                                      "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                                      "source_path":  "src/components/inspector/ValidationPanel.vue"
+                                  },
+                       "lineage":  {
+                                       "origin_id":  "project://fme/inspector/validation-panel",
+                                       "derived_from":  [
+
+                                                        ],
+                                       "created_by":  "FME"
+                                   },
+                       "compatibility":  {
+                                             "systems":  [
+                                                             "vsa",
+                                                             "vur",
+                                                             "vve"
+                                                         ],
+                                             "runtimes":  [
+                                                              "vue"
+                                                          ],
+                                             "platforms":  [
+                                                               "windows"
+                                                           ]
+                                         },
+                       "relations":  [
+
+                                     ],
+                       "artifacts":  [
+                                         {
+                                             "path":  "source/inspector/ValidationPanel.vue",
+                                             "bytes":  526,
+                                             "sha256":  "9c79918fce1bf6c9b314ec2a7a7e3e836670ee979616a2c8b8929da50963e247"
+                                         }
+                                     ]
+                   },
+                   {
+                       "vcell_id":  "vcell://fme/enterprise-ui/vertex-header",
+                       "name":  "VertexHeader",
+                       "version":  "0.1.0",
+                       "kind":  "ui",
+                       "zone":  "restricted",
+                       "status":  "candidate",
+                       "source":  {
+                                      "project":  "VRTEX FM ENGINE",
+                                      "repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "branch":  "codex/release-readiness",
+                                      "commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7",
+                                      "source_path":  "src/components/layout/VertexHeader.vue"
+                                  },
+                       "lineage":  {
+                                       "origin_id":  "project://fme/layout/vertex-header",
+                                       "derived_from":  [
+
+                                                        ],
+                                       "created_by":  "FME"
+                                   },
+                       "compatibility":  {
+                                             "systems":  [
+                                                             "vsa",
+                                                             "vur",
+                                                             "vve"
+                                                         ],
+                                             "runtimes":  [
+                                                              "vue"
+                                                          ],
+                                             "platforms":  [
+                                                               "windows"
+                                                           ]
+                                         },
+                       "relations":  [
+
+                                     ],
+                       "artifacts":  [
+                                         {
+                                             "path":  "source/layout/VertexHeader.vue",
+                                             "bytes":  11109,
+                                             "sha256":  "ce137c9727087e046e88bfbe0f4a6ffc025d51c7de3a19da243ff430ede4e3e2"
+                                         }
+                                     ]
+                   }
+               ],
+    "units":  [
+                  {
+                      "unit_id":  "unit://fme/enterprise-ui-core",
+                      "name":  "FME Enterprise UI Core",
+                      "description":  "Standard Sci-Fi enterprise UI assets recovered from VRTEX FM ENGINE",
+                      "version":  "0.1.0",
+                      "zone":  "restricted",
+                      "status":  "verified",
+                      "vcells":  [
+                                     "vcell://fme/enterprise-ui/status-bar",
+                                     "vcell://fme/enterprise-ui/vertex-header",
+                                     "vcell://fme/enterprise-ui/inspector-panel",
+                                     "vcell://fme/enterprise-ui/validation-panel",
+                                     "vcell://fme/enterprise-ui/knowledge-brain-icon",
+                                     "vcell://fme/enterprise-ui/relationship-designer-workspace",
+                                     "vcell://fme/enterprise-ui/relationship-editor-dialog"
+                                 ],
+                      "lineage":  {
+                                      "origin_id":  "project://fme",
+                                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                                      "source_commit":  "324355223a9f8ebf2644f45b124abc61cefae8b7"
+                                  },
+                      "compatibility":  {
+                                            "systems":  [
+                                                            "vsa",
+                                                            "vur",
+                                                            "vve"
+                                                        ]
+                                        },
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/application-pages",
+                      "name":  "application pages",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/pages/MainPage.vue",
+                                            "bytes":  7275,
+                                            "sha256":  "adaa864c9d6f7192f149728fd151c47eb89c457c1909b11c2e0c476e72e57913"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/clipboard-suite",
+                      "name":  "clipboard suite",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/components/clipboard/BottomPanel.vue",
+                                            "bytes":  5086,
+                                            "sha256":  "c5912f61cd19384eac7277e9ca785f8ff126382f830c254a94dac67f95a23642"
+                                        },
+                                        {
+                                            "path":  "source/components/clipboard/ClipboardSidebar.vue",
+                                            "bytes":  32626,
+                                            "sha256":  "0a6975c62c2f88ccb3c78fb2832359b9b6f670de65af109678c2d08e80c8f79f"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/codex-workspace",
+                      "name":  "codex workspace",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/components/codex/CodexWorkspace.vue",
+                                            "bytes":  30158,
+                                            "sha256":  "55cc249cff2fbbd875c2dfe2fefb32576884b999635e81bd84d168dfb67067ea"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/collection-browser",
+                      "name":  "collection browser",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/components/collections/CollectionBrowserWorkspace.vue",
+                                            "bytes":  10329,
+                                            "sha256":  "7b9694aaa502f87c230a4c81e8c9155383a57e6a8fcc0795b34f90c58cc812af"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/documentation-workspace",
+                      "name":  "documentation workspace",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/components/docs/DocumentationWorkspace.vue",
+                                            "bytes":  32142,
+                                            "sha256":  "11a806a329e4558e8a928490f65f51fccd0a9af313e0143ed6dd7c9066fc2fc0"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/editor-suite",
+                      "name":  "editor suite",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/components/editor/DiffEditor.vue",
+                                            "bytes":  1329,
+                                            "sha256":  "b106001e7eade044dd3521f5d7c86cbf89f70ab96066d295a587f76b5995437c"
+                                        },
+                                        {
+                                            "path":  "source/components/editor/EditorWorkspace.vue",
+                                            "bytes":  4510,
+                                            "sha256":  "51c7204bd2bda918b11af3e6144ba64ccb9ea7fb5a2192b6fd1bc4076d25ecfa"
+                                        },
+                                        {
+                                            "path":  "source/components/editor/ScriptPreview.vue",
+                                            "bytes":  995,
+                                            "sha256":  "3da41399c91161c58c1864a176f5072c06925bf027dddc656194911d8adaf680"
+                                        },
+                                        {
+                                            "path":  "source/components/editor/StructureView.vue",
+                                            "bytes":  1143,
+                                            "sha256":  "68fa060fabd7fa3a2f1279c08aa7ff613aca05bd0a0c58570e34531c4e2e2fd6"
+                                        },
+                                        {
+                                            "path":  "source/components/editor/XmlEditor.vue",
+                                            "bytes":  7609,
+                                            "sha256":  "762e8844b450f2542312f5c8117b374aac4ba492ce67160126dbc8ea0a0f0cd4"
+                                        },
+                                        {
+                                            "path":  "source/components/editor/XmlTreeNode.vue",
+                                            "bytes":  1019,
+                                            "sha256":  "d360a10d97ea11c9e777d77528f82c95064437ecbd06be795861a543807a47bc"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/enterprise-theme",
+                      "name":  "enterprise theme",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/styles/main.scss",
+                                            "bytes":  123405,
+                                            "sha256":  "e912733727a0c98b1992d0617b31303394eaec606cdfb24040d98210e7123027"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/knowledge-workspace",
+                      "name":  "knowledge workspace",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/components/knowledge/KnowledgeWorkspace.vue",
+                                            "bytes":  22636,
+                                            "sha256":  "96ab1bf22b50473573fbac09a1cdab6d0280d34fea3ff8db1baf5778a5c7ae49"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  },
+                  {
+                      "unit_id":  "unit://fme/workspace-core",
+                      "name":  "workspace core",
+                      "version":  "0.1.0",
+                      "status":  "verified",
+                      "zone":  "restricted",
+                      "source":  "VRTEX FM ENGINE",
+                      "source_repository":  "https://github.com/ACE-FRDS/vrtex_fm_engine.git",
+                      "source_branch":  "codex/release-readiness",
+                      "source_commit":  "3243552",
+                      "artifacts":  [
+                                        {
+                                            "path":  "source/components/workspace/ModuleWorkspace.vue",
+                                            "bytes":  33893,
+                                            "sha256":  "11f4151f73071a03ebe248fee3205b91607ba9f27d971f8b955db277683f9de0"
+                                        }
+                                    ],
+                      "deployment":  {
+                                         "vve_materialize":  true,
+                                         "direct_repository_write":  false,
+                                         "simulation_required":  true,
+                                         "human_gate_required":  true
+                                     }
+                  }
+              ],
+    "packs":  [
+
+              ],
+    "templates":  [
+
+                  ],
+    "relations":  [
+
+                  ],
+    "sources":  [
+
+                ],
+    "projects":  [
+
+                 ],
+    "updated_at":  "2026-08-22T00:19:53.7902078Z"
+}

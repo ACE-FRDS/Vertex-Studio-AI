@@ -1,0 +1,33 @@
+{
+  "system_id": "VUR",
+  "name": "Vertex Unit Repository",
+  "version": "1.0.0-genesis",
+  "motto": "格納庫から母艦を育てる",
+  "asset_hierarchy": [
+    "VCell",
+    "Unit",
+    "Subsystem",
+    "Solution",
+    "Fleet"
+  ],
+  "integration": {
+    "virtual_workspace": "VVE",
+    "repository": "Real Repository / Semantic Repository",
+    "simulator": "VPSF / Emulator / Shadow Validation",
+    "convergence": "External and legacy intake",
+    "cartridge_bay": "Detachable deployable packs",
+    "supply_ship": "Fleet distribution",
+    "escort_ship": "Sandbox / workspace guard / isolation",
+    "aegis_ship": "Policy / authority / anomaly / abort",
+    "nerve_engine": "Event communication"
+  },
+  "principles": [
+    "No direct write from VUR to Real Repository",
+    "VVE first",
+    "Lineage preserved",
+    "Relations explicit",
+    "Zone-aware access",
+    "Human gate before promotion",
+    "Existing Fleet Genesis is extended, not replaced"
+  ]
+}

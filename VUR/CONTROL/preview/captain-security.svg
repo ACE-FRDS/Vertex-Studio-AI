@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 760">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#120a2b"/><stop offset="1" stop-color="#351247"/></linearGradient>
+ <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25153e"/><stop offset=".5" stop-color="#44255c"/><stop offset="1" stop-color="#17122f"/></linearGradient>
+ <linearGradient id="sigil" x1="0" x2="1"><stop stop-color="#ff7ad9"/><stop offset=".5" stop-color="#9b72ff"/><stop offset="1" stop-color="#63ddff"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="520" height="760" fill="url(#bg)"/>
+<circle cx="260" cy="240" r="150" fill="none" stroke="#c45cff" opacity=".2"/>
+<circle cx="260" cy="240" r="190" fill="none" stroke="#63ddff" opacity=".08"/>
+<ellipse cx="260" cy="700" rx="190" ry="45" fill="#d45cff" opacity=".14" filter="url(#g)"/>
+<!-- body -->
+<path d="M110 730 Q130 480 190 412 Q215 391 232 383 L288 383 Q308 391 332 412 Q390 478 410 730Z" fill="url(#coat)" stroke="#744b9b" stroke-width="4"/>
+<path d="M185 425 L247 515 L202 730 L115 730 Q132 512 185 425Z" fill="#160d2b"/>
+<path d="M335 425 L273 515 L318 730 L405 730 Q388 512 335 425Z" fill="#160d2b"/>
+<path d="M238 420 L260 502 L282 420" fill="none" stroke="url(#sigil)" stroke-width="8"/>
+<!-- neck/head -->
+<path d="M226 390 Q230 352 232 330 L288 330 Q290 352 294 390 Q260 414 226 390Z" fill="#d8a7a0"/>
+<ellipse cx="260" cy="255" rx="84" ry="108" fill="#dfb0a7"/>
+<!-- long hair -->
+<path d="M175 258 Q158 132 257 111 Q353 126 350 266 L374 414 Q330 394 313 331 L310 190 Q248 166 192 222 L201 338 Q180 385 150 402Z" fill="#3b2b54"/>
+<path d="M179 226 Q187 126 264 111 Q332 122 351 196 Q297 161 242 170 Q211 181 179 226Z" fill="#4b386b"/>
+<!-- face -->
+<path d="M207 243 Q226 231 244 241" fill="none" stroke="#4b3b52" stroke-width="4"/><path d="M276 241 Q295 230 312 243" fill="none" stroke="#4b3b52" stroke-width="4"/>
+<ellipse cx="226" cy="248" rx="5" ry="4" fill="#ca72ff"/><ellipse cx="294" cy="248" rx="5" ry="4" fill="#ca72ff"/>
+<path d="M259 257 L253 290 L265 292" fill="none" stroke="#a77772" stroke-width="3"/>
+<path d="M230 317 Q260 331 289 316" fill="none" stroke="#995c72" stroke-width="4"/>
+<!-- mantle / security armor -->
+<path d="M126 520 Q165 458 210 432 L260 515 L310 432 Q355 456 394 520 L364 570 L315 548 L260 626 L205 548 L156 570Z" fill="none" stroke="url(#sigil)" stroke-width="5"/>
+<path d="M260 515 L242 545 L260 580 L278 545Z" fill="#c8a7ff" stroke="#63ddff" stroke-width="3"/>
+<path d="M146 592 L200 568 M374 592 L320 568" stroke="#ff75d3" opacity=".45" stroke-width="4"/>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "canonical_truth_owner": false,
+  "surfaces": [
+    "WORLD_VIEW","MISSION_CONTROL","PARTY_BOARD","COGNITION_PANEL",
+    "REPOSITORY_EXPLORER","LINEAGE_MAP","CONVERGENCE_BLUEPRINT",
+    "HUB","OBSERVATORY","PROJECTION_EDITOR","PREVIEW"
+  ],
+  "rule": "VSA may request semantic mutations; it must not silently redefine canonical truth."
+}

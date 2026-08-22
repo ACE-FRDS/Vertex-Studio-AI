@@ -1,0 +1,14 @@
+{
+  "given": "Provider.Timeout=30s",
+  "mutation": "Provider.Timeout=60s",
+  "requires": [
+    "authority",
+    "evidence",
+    "VCC rationale"
+  ],
+  "then": [
+    "semantic revision",
+    "affected graph",
+    "projection invalidation"
+  ]
+}

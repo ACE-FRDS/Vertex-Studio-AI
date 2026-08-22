@@ -1,0 +1,39 @@
+{
+  "cycles": 80,
+  "completed": 73,
+  "failed": 7,
+  "recovered": 7,
+  "final": {
+    "boot_count": 2,
+    "db": {
+      "missions": 80,
+      "tasks": 80,
+      "vha": 1,
+      "checkpoints": 80,
+      "semantic_revisions": 73,
+      "vcc": 80,
+      "vsp": 80,
+      "events": 567
+    },
+    "repo_bad_objects": [],
+    "providers": [
+      {
+        "kind": "LMStudio",
+        "healthy": false,
+        "models": [],
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      },
+      {
+        "kind": "Ollama",
+        "healthy": false,
+        "models": [],
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      }
+    ]
+  },
+  "tests": [
+    "PASS life",
+    "PASS recovery",
+    "PASS reboot"
+  ]
+}
