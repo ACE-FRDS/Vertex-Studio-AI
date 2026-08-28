@@ -1,0 +1,28 @@
+{
+  "schema": "vsa.inspector.manifest.v0.1.1",
+  "generatedAt": "2026-08-24T20:23:14.5730905+09:00",
+  "mode": "READ_ONLY_ACTIVE_WORKSPACE",
+  "endpoints": [
+    "/health.json",
+    "/inspector/manifest.json",
+    "/inspector/project.json",
+    "/inspector/active-tree.json",
+    "/inspector/git-status.json"
+  ],
+  "capabilities": {
+    "health": true,
+    "projectMetadata": true,
+    "activeTree": true,
+    "gitStatus": true,
+    "fileContents": false,
+    "commandExecute": false,
+    "writeFiles": false,
+    "gitCommit": false,
+    "gitPush": false
+  },
+  "security": {
+    "absoluteHostPathsExposed": false,
+    "secretsExposed": false,
+    "arbitraryFileRead": false
+  }
+}

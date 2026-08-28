@@ -1,0 +1,38 @@
+{
+  "schema": "vertex.vxn.contract-registry.v1",
+  "contracts": [
+    {
+      "producer": "ANY",
+      "id": "VXN-NATIVE-FRAME",
+      "version": "1",
+      "guarantee": "Typed machine-native transport envelope",
+      "consumer": "ANY"
+    },
+    {
+      "producer": "VXN",
+      "id": "VXN-MODEL-ADAPTER",
+      "version": "1",
+      "guarantee": "Model-native dialect adaptation; raw native not mandatory",
+      "consumer": "MODEL"
+    },
+    {
+      "producer": "VXN/ARD/LLM",
+      "id": "VXN-CANDIDATE-WORLD",
+      "version": "1",
+      "guarantee": "No canonical mutation before authority gate",
+      "consumer": "VTC"
+    },
+    {
+      "producer": "VXN",
+      "id": "VXN-VTC-HANDOFF",
+      "version": "1",
+      "guarantee": "Reality mutation delegated to transaction authority",
+      "consumer": "VTC"
+    },
+    {
+      "id": "VXN-MEMORY-ROLES",
+      "version": "1",
+      "guarantee": "VCC=WHY; VSP=NOW; VMB=ACTIVE; Impact=NEXT_ATTENTION"
+    }
+  ]
+}

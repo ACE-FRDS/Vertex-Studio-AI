@@ -1,0 +1,12 @@
+[package]
+name = "vsa-mothership"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+vsa-vertex-bridge = { path = "../vsa-vertex-bridge" }
+vsa-foundation = { path = "../vsa-foundation" }
+
+[lints]
+workspace = true

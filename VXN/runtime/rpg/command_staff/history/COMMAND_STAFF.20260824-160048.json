@@ -1,0 +1,44 @@
+{
+  "schema": "vertex.world.rpg.command-staff-evidence.v1",
+  "updated_at": "2026-08-24T16:00:48.5826956+09:00",
+  "counts": {
+    "total": 1,
+    "commander_class": 0,
+    "senior_staff": 0,
+    "active_staff": 1,
+    "probationary_staff": 0
+  },
+  "staff": [
+    {
+      "staff_id": "INTEGRATOR::deepseek/deepseek-r1-0528-qwen3-8b",
+      "role": "Integrator",
+      "staff_class": "INTEGRATOR",
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "staff_tier": "ACTIVE_STAFF",
+      "evidence": {
+        "samples": 2,
+        "integration_success_rate": 1.0,
+        "mission_clear_contribution": 1.0,
+        "escalation_avoidance_rate": 1.0,
+        "average_final_score": 1.0,
+        "compatibility_score": 66.7,
+        "evidence_score": 95.0
+      },
+      "confidence": {
+        "tier": "PROVISIONAL",
+        "index": 15
+      },
+      "party_models": [
+        {
+          "model": "hunyuan-4b-instruct",
+          "samples": 2
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "field_role_affinity_not_used_for_command_staff": true,
+    "integration_evidence_primary": true,
+    "low_sample_results_are_provisional": true
+  }
+}

@@ -4,6 +4,7 @@
 # Build outputs and dependency caches
 **/target/
 **/build/
+**/_build/
 **/dist/
 **/node_modules/
 **/__pycache__/
@@ -33,6 +34,26 @@
 *.tar
 *.tar.gz
 *.backup-*
+*.bak
+*.bak.*
+
+# Local probes, generated reports, and archival working copies
+_vsa_probe_*/
+**/_reports/
+**/backup/
+**/backups/
+HANGER/Checkpoint_Packages/
+HANGER/Milestone_Packages/
+Gateway/private-hub/
+**/_vertex_reports/
+**/_vertex_runtime/
+**/_vertex_hub_runtime/
+**/src-tauri/gen/
+VXN/experiments/
+**/*会話記録*.pdf
+*.failed.rs
+*-failed.rs
+*.tmp
 
 # OS and editor files
 .DS_Store

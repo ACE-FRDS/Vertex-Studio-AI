@@ -1,0 +1,27 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/vsa-foundation",
+  "crates/vsa-studio",
+  "crates/vsa-web",
+  "crates/vsa-ard",
+  "crates/vsa-mnl",
+  "crates/vsa-rcc",
+  "crates/vsa-observatory",
+  "crates/vsa-continuity",
+  "crates/vsa-convergence",
+  "crates/vsa-cartridge",
+  "crates/vsa-drone",
+  "crates/vsa-portfolio",
+  "crates/vsa-mothership",
+  "crates/vsa-ai-contracts",
+  "apps/vsa-cli",
+]
+
+[workspace.package]
+edition="2024"
+version="0.1.0"
+license="Apache-2.0 OR MIT"
+
+[workspace.lints.rust]
+unsafe_code="forbid"

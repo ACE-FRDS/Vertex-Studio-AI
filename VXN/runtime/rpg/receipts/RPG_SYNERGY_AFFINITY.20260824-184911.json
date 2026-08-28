@@ -1,0 +1,9 @@
+{
+  "schema": "vertex.world.rpg.synergy-affinity-engine-receipt.v1.1",
+  "completed_at": "2026-08-24T18:49:11.7786889+09:00",
+  "battle_logs_processed": 4,
+  "output": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\synergy\\VERTEX_WORLD_SYNERGY_AFFINITY.json",
+  "summary": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\affinity\\CURRENT_AFFINITY_SUMMARY.json",
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE"
+}

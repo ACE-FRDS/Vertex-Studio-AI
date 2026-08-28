@@ -1,0 +1,17 @@
+[package]
+name = "vsa-mothership"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde_json = "1"
+vsa-vertex-bridge = { path = "../vsa-vertex-bridge" }
+vsa-foundation = { path = "../vsa-foundation" }
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+vsa-agent-contracts = { path = "../vsa-agent-contracts" }
+vsa-ard = { path = "../vsa-ard" }

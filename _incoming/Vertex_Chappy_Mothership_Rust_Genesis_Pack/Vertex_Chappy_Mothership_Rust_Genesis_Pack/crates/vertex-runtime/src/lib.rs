@@ -20,6 +20,9 @@ pub struct RunSpec {
 
 #[derive(Debug, Clone, Serialize)]
 pub struct RunResult {
+    pub program: String,
+    pub args: Vec<String>,
+    pub cwd: PathBuf,
     pub exit_code: Option<i32>,
     pub stdout: String,
     pub stderr: String,
@@ -99,6 +102,10 @@ pub async fn run(cfg: &Config, spec: RunSpec) -> Result<RunResult, VertexError> 
 
     let secs = spec.timeout_seconds.unwrap_or(max).min(max);
 
+    let program = spec.program.clone();
+    let args = spec.args.clone();
+    let cwd = spec.cwd.clone();
+
     let mut cmd = Command::new(&spec.program);
     cmd.args(&spec.args)
         .current_dir(&spec.cwd)
@@ -112,6 +119,9 @@ pub async fn run(cfg: &Config, spec: RunSpec) -> Result<RunResult, VertexError> 
 
     match timeout(Duration::from_secs(secs), child.wait_with_output()).await {
         Ok(Ok(out)) => Ok(RunResult {
+            program: program.clone(),
+            args: args.clone(),
+            cwd: cwd.clone(),
             exit_code: out.status.code(),
             stdout: String::from_utf8_lossy(&out.stdout).into_owned(),
             stderr: String::from_utf8_lossy(&out.stderr).into_owned(),
@@ -119,6 +129,9 @@ pub async fn run(cfg: &Config, spec: RunSpec) -> Result<RunResult, VertexError> 
         }),
         Ok(Err(e)) => Err(VertexError::Execution(e.to_string())),
         Err(_) => Ok(RunResult {
+            program,
+            args,
+            cwd,
             exit_code: None,
             stdout: String::new(),
             stderr: "command timed out".into(),
@@ -154,6 +167,18 @@ pub async fn run_powershell_safe(
 
     let secs = spec.timeout_seconds.unwrap_or(max).min(max);
 
+    let program = "powershell.exe".to_owned();
+    let args = vec![
+        "-NoLogo".to_owned(),
+        "-NoProfile".to_owned(),
+        "-NonInteractive".to_owned(),
+        "-ExecutionPolicy".to_owned(),
+        "Bypass".to_owned(),
+        "-Command".to_owned(),
+        script.to_owned(),
+    ];
+    let cwd = cfg.paths.mothership_root.clone();
+
     let mut cmd = Command::new("powershell.exe");
 
     cmd.args([
@@ -177,6 +202,9 @@ pub async fn run_powershell_safe(
 
     match timeout(Duration::from_secs(secs), child.wait_with_output()).await {
         Ok(Ok(out)) => Ok(RunResult {
+            program: program.clone(),
+            args: args.clone(),
+            cwd: cwd.clone(),
             exit_code: out.status.code(),
             stdout: String::from_utf8_lossy(&out.stdout).into_owned(),
             stderr: String::from_utf8_lossy(&out.stderr).into_owned(),
@@ -184,6 +212,9 @@ pub async fn run_powershell_safe(
         }),
         Ok(Err(e)) => Err(VertexError::Execution(e.to_string())),
         Err(_) => Ok(RunResult {
+            program,
+            args,
+            cwd,
             exit_code: None,
             stdout: String::new(),
             stderr: "PowerShell safe action timed out".into(),

@@ -1,0 +1,200 @@
+{
+  "package": "VXN Startup Package v0.1",
+  "files": [
+    {
+      "path": "BUILD_LOG.txt",
+      "bytes": 156,
+      "sha256": "ae8a89d7c6f95f5db95bf9879ca71e15dd8eb7c9359f9afef44da67a0a5f0528"
+    },
+    {
+      "path": "BUILD_REPORT.json",
+      "bytes": 132,
+      "sha256": "b1ef9a5330a8e34e6e1118d4407d7eca95c45707766809ea2f3ec63973c47edb"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 208,
+      "sha256": "a108e008a78cde5ed241073c78987dc0a74e5752cab4649b4bb3a0afa648c647"
+    },
+    {
+      "path": "FEATURE_MATRIX.md",
+      "bytes": 945,
+      "sha256": "85732e731d69f0d134b1198c45a813ec780cf40087591584e00a566084ac7417"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1551,
+      "sha256": "518c6928ae9333caf0cd278022518c343dea7e8160dd35c48ad330014e2ac060"
+    },
+    {
+      "path": "SOURCE_INDEX.md",
+      "bytes": 659,
+      "sha256": "c55550254077aa9cf62601a814a43e0cf712f45f7debcc7759ffdce0eeb7f9a2"
+    },
+    {
+      "path": "VXN_PACKAGE.manifest",
+      "bytes": 138,
+      "sha256": "ff6c94be02c420f6e2b24684c2f966e8d44561bcdf664c9de4987731a1901101"
+    },
+    {
+      "path": "crates/vxn-cli/Cargo.toml",
+      "bytes": 180,
+      "sha256": "af95c42a2bb6e1ba21ffd76e17d41df4b5327466c0abc8edd14e5796da451ed8"
+    },
+    {
+      "path": "crates/vxn-cli/src/main.rs",
+      "bytes": 683,
+      "sha256": "82e05f80ee212f8cb8f8d60e1b1f7be7baa40a19732dd6ee74ebf48a00c6b685"
+    },
+    {
+      "path": "crates/vxn-core/Cargo.toml",
+      "bytes": 145,
+      "sha256": "01b6723a1babc63ae5a4c8b669df03306f9776cd1cbcd40bf6fee03b8dddd9c0"
+    },
+    {
+      "path": "crates/vxn-core/src/backend.rs",
+      "bytes": 531,
+      "sha256": "239bf398ada1252fd33ab05ec7686fad24966a9c0ee5e61f147e18994abc32a4"
+    },
+    {
+      "path": "crates/vxn-core/src/capability.rs",
+      "bytes": 1091,
+      "sha256": "bb40a601b4f33c303e36cfcfd02e2d3848e97999440f0dda20211404e9129c56"
+    },
+    {
+      "path": "crates/vxn-core/src/error.rs",
+      "bytes": 1041,
+      "sha256": "cc2257815511159c8e2a54108c2b925131d7aa06759a2e0607a4374a41e647cf"
+    },
+    {
+      "path": "crates/vxn-core/src/ingress.rs",
+      "bytes": 413,
+      "sha256": "5034f3ddb500cbd3f571406917ba2c5340493b049847d5499ea03eac505e4ac5"
+    },
+    {
+      "path": "crates/vxn-core/src/ir.rs",
+      "bytes": 892,
+      "sha256": "53bb6d80223305d0ff9d97af01e991f6e5d4d97bfe9250ab1d7f0139f9466621"
+    },
+    {
+      "path": "crates/vxn-core/src/lib.rs",
+      "bytes": 415,
+      "sha256": "5f3a5728136299f214a5a6b3641b99525307b03b16bd130031e267a08a30b045"
+    },
+    {
+      "path": "crates/vxn-core/src/observability.rs",
+      "bytes": 826,
+      "sha256": "e24bb0b44a4d33ca28d3fb40e3389230bc53f34baab4236a3bf261436d2a7e43"
+    },
+    {
+      "path": "crates/vxn-core/src/optimizer.rs",
+      "bytes": 1344,
+      "sha256": "9cfb3e720473ff88af4af8090422f279e808dc08b0b19daae3c46d45e82ffc69"
+    },
+    {
+      "path": "crates/vxn-core/src/package.rs",
+      "bytes": 1033,
+      "sha256": "84ee38bd7b483116a447a1643f62fdfaeec0a7daed66e0d3392dcf69a4572192"
+    },
+    {
+      "path": "crates/vxn-core/src/parser.rs",
+      "bytes": 1910,
+      "sha256": "4e65602e495485158f3a237a3a7f1df3adfe8f637544d34f75aa7e4d31616e80"
+    },
+    {
+      "path": "crates/vxn-core/src/reinforcement.rs",
+      "bytes": 1132,
+      "sha256": "11da573659fdaa36591e924d791369584ccf04c51011fbf0dc727d4de365b591"
+    },
+    {
+      "path": "crates/vxn-core/src/runtime.rs",
+      "bytes": 5313,
+      "sha256": "4cbbfb9ca854343fa729adf3160bf1245d7e8ad8622d38b23bbcdd7652af2fbb"
+    },
+    {
+      "path": "crates/vxn-core/src/scheduler.rs",
+      "bytes": 402,
+      "sha256": "aa1e27f5ca02d08cbd57f58b249ff0990e1ffacd396a011c9c4ecba834fa11fe"
+    },
+    {
+      "path": "crates/vxn-core/src/security.rs",
+      "bytes": 771,
+      "sha256": "e5e5317cee429757da6a3fa809135e43c4d9fcce945d1d7b8e1df3168d35b1a2"
+    },
+    {
+      "path": "crates/vxn-core/src/storage.rs",
+      "bytes": 2468,
+      "sha256": "c3a7c3391243eb4ef1b823319335e61022c139c65ab930c0dad95fe454306e40"
+    },
+    {
+      "path": "crates/vxn-core/src/transport.rs",
+      "bytes": 844,
+      "sha256": "51e47af503f5f5164a495c3db89bae5558853beb75ae1314460ffadc87d3946d"
+    },
+    {
+      "path": "crates/vxn-core/src/validator.rs",
+      "bytes": 1368,
+      "sha256": "dd8ddbd4b2498f327843687b16c3f8ab5167e9ef3f74b02db9c3bec19e6549bc"
+    },
+    {
+      "path": "dna/ARCHITECTURE.md",
+      "bytes": 596,
+      "sha256": "1b100106157a5b9a6a77cd92703d34b3ae5e77a9ee1a6ae09c46f36cb3cdbce1"
+    },
+    {
+      "path": "dna/IDENTITY.md",
+      "bytes": 243,
+      "sha256": "288d1f942c3146281760048f0c47f44213f1ed776bf8537b19946549ebaa9305"
+    },
+    {
+      "path": "dna/INVARIANTS.md",
+      "bytes": 626,
+      "sha256": "7cc5a98869fdf16e54463a659660a98d0570f4d0a9a25ef50d2905a3387da901"
+    },
+    {
+      "path": "examples/add.vxn",
+      "bytes": 55,
+      "sha256": "525b39b6564937e95f49c2d1c20dd9302ce08d857a972ae1aefdd06c4fb05e60"
+    },
+    {
+      "path": "examples/branch.vxn",
+      "bytes": 157,
+      "sha256": "74cc31b48c0cea4b8faa897d7fccf1efbd785c5f8b125e794ef2e2248a29d8ee"
+    },
+    {
+      "path": "examples/storage.vxn",
+      "bytes": 71,
+      "sha256": "5ef16571d568d46f17e6d201ac9fb46e43d2cefc172d32431e5c94812f45366c"
+    },
+    {
+      "path": "native/vxn-accel/include/vxn_accel.h",
+      "bytes": 176,
+      "sha256": "f9d2f1266a84506efe4289add6f85d81674579ade3a44f9cfe87d0398961da2e"
+    },
+    {
+      "path": "native/vxn-accel/src/vxn_accel.cpp",
+      "bytes": 147,
+      "sha256": "6fc0a457f4b9036eb74a78ae15854f08e594ec464c0533e18f37593938a3100a"
+    },
+    {
+      "path": "rcc/RCC_BASELINE.toml",
+      "bytes": 196,
+      "sha256": "08976accc752d92379d05aecfd3e0b1a5835d1cbf79fa4eba97c30e9349deac8"
+    },
+    {
+      "path": "scripts/verify.ps1",
+      "bytes": 120,
+      "sha256": "fea30e40907f9151ac775ae6bc1a21592fb28ca315c43fba0eb82685af669f1f"
+    },
+    {
+      "path": "scripts/verify.sh",
+      "bytes": 114,
+      "sha256": "0b2aabaeb15d0618a657e4260fa09bb9bceaebbdfa160b52189b120221a989f0"
+    },
+    {
+      "path": "vcc-seed/VCC_SEED.md",
+      "bytes": 470,
+      "sha256": "b1336f216784b411860801c76b104182e44190326c26e03142c19d87996c6feb"
+    }
+  ]
+}

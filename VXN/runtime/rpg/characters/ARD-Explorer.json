@@ -1,0 +1,35 @@
+{
+  "character_id": "ARD-Explorer",
+  "display_name": "Explorer",
+  "class": "SCOUT",
+  "model": "hunyuan-4b-instruct",
+  "model_tier": "3B4B",
+  "evidence": {
+    "missions": 1,
+    "successes": 1,
+    "failures": 0,
+    "total_latency_ms": 11466.0,
+    "measured_samples": 1
+  },
+  "progression": {
+    "xp": 390.0,
+    "level": 2,
+    "rank": "E"
+  },
+  "affinities": {
+    "explorer": 2,
+    "planner": 0,
+    "critic": 0,
+    "scope_guard": 0,
+    "verifier": 0,
+    "optimizer": 0,
+    "integration": 0,
+    "review": 0
+  },
+  "equipment_affinity": {
+    "lock_scope": 0,
+    "vcc_vsp": 0,
+    "candidate_vtc": 0,
+    "impact_association": 0
+  }
+}

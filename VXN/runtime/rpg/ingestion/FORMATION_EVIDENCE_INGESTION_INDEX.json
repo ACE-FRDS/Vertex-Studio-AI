@@ -1,0 +1,33 @@
+{
+  "schema": "vertex.world.rpg.formation-evidence-ingestion.v1.2",
+  "updated_at": "2026-08-24T18:49:11.4528443+09:00",
+  "formation_receipts_found": 3,
+  "ingested": [
+    {
+      "run_id": "VXN-SCHEDULED-BUS-EXEC-20260824-183809",
+      "mission_class": "TRANSACTION_SAFETY",
+      "source": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\formation_executor\\VXN-SCHEDULED-BUS-EXEC-20260824-183809\\VERTEX_ARD_FORMATION_EXECUTION_RECEIPT.json",
+      "battle_log": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\battle_logs\\VXN-SCHEDULED-BUS-EXEC-20260824-183809.RPG_BATTLE_LOG.json",
+      "clear": false,
+      "stable_width": 1,
+      "rookies": 0
+    },
+    {
+      "run_id": "VXN-SCHEDULED-BUS-EXEC-20260824-184423",
+      "mission_class": "TRANSACTION_SAFETY",
+      "source": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\formation_executor\\VXN-SCHEDULED-BUS-EXEC-20260824-184423\\VERTEX_ARD_FORMATION_EXECUTION_RECEIPT.json",
+      "battle_log": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\battle_logs\\VXN-SCHEDULED-BUS-EXEC-20260824-184423.RPG_BATTLE_LOG.json",
+      "clear": true,
+      "stable_width": 2,
+      "rookies": 0
+    }
+  ],
+  "skipped": [
+    {
+      "run_id": "VXN-FORMATION-EXEC-20260824-153501",
+      "source": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\formation_executor\\VXN-FORMATION-EXEC-20260824-153501\\VERTEX_ARD_FORMATION_EXECUTION_RECEIPT.json",
+      "battle_log": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\battle_logs\\VXN-FORMATION-EXEC-20260824-153501.RPG_BATTLE_LOG.json",
+      "reason": "ALREADY_INGESTED"
+    }
+  ]
+}

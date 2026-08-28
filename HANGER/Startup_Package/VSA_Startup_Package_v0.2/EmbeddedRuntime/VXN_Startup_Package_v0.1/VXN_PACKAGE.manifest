@@ -1,0 +1,6 @@
+name=vxn-startup-package
+version=0.1.0
+entry=examples/add.vxn
+dna=dna/IDENTITY.md
+rcc=rcc/RCC_BASELINE.toml
+vcc_seed=vcc-seed/VCC_SEED.md

@@ -1,0 +1,6 @@
+mission=<id>
+decision_required=<what Human must decide>
+reason=<why automatic continuation is prohibited>
+evidence=<refs>
+options=<bounded choices>
+reversibility=<reversible|irreversible>

@@ -1,0 +1,33 @@
+{
+  "schema": "vertex-public-knowledge/3",
+  "canonicalOrigin": "https://vertex.a-portal.net/",
+  "generatedAt": "2026-08-27T21:19:59.7232076+09:00",
+  "sourceModel": "content+data",
+  "database": false,
+  "sections": [
+    "lexicon",
+    "concepts",
+    "architecture",
+    "research",
+    "specifications",
+    "documentation",
+    "changelog"
+  ],
+  "endpoints": {
+    "research": "https://vertex.a-portal.net/ai/research.json",
+    "concepts": "https://vertex.a-portal.net/ai/concepts.json",
+    "lexicon": "https://vertex.a-portal.net/ai/vertex-lexicon.json",
+    "sources": "https://vertex.a-portal.net/ai/sources.json",
+    "relations": "https://vertex.a-portal.net/ai/relations.json",
+    "researchSchema": "https://vertex.a-portal.net/ai/schemas/research-entry.schema.json",
+    "lexiconSchema": "https://vertex.a-portal.net/ai/schemas/lexicon-entry.schema.json",
+    "humanResearch": "https://vertex.a-portal.net/research/",
+    "humanKnowledge": "https://vertex.a-portal.net/knowledge/"
+  },
+  "policy": {
+    "fabrication": "forbidden",
+    "unknownHandling": "definition_pending",
+    "hypothesisHandling": "must_not_be_presented_as_established_fact",
+    "canonicalSource": "Vertex AI Knowledge Hub"
+  }
+}

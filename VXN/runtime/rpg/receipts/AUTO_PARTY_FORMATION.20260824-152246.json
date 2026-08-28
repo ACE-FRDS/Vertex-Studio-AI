@@ -1,0 +1,12 @@
+{
+  "schema": "vertex.world.ard.auto-party-formation-receipt.v1",
+  "completed_at": "2026-08-24T15:22:46.7640988+09:00",
+  "mission_class": "CODING",
+  "party_size": 4,
+  "physical_parallel_width": 3,
+  "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+  "formation_plan": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\formations\\ARD-FORMATION-CODING-20260824-152246.json",
+  "automatic_execution": false,
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE"
+}

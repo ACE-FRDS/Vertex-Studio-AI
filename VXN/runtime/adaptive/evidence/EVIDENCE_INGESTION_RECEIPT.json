@@ -1,0 +1,62 @@
+{
+  "schema": "vertex.vxn.adaptive-runtime-evidence-ingestion.v1",
+  "run_id": "VXN-ADAPTIVE-20260824-135241",
+  "source": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\automation\\VXN-EXP-20260824-131122\\VXN_EXPERIMENT_REPORT.json",
+  "status": "INGESTED",
+  "hints": [
+    {
+      "model_class": "LARGE",
+      "mission_id": "M01_LOCK_SCOPE_UI",
+      "preferred_variant": "F_MODEL_PLUS_CANDIDATE_VTC",
+      "evidence_samples": 2,
+      "prompt_tokens": 564.0,
+      "latency_ms": 19517.0,
+      "tokens_per_sec": 12.834
+    },
+    {
+      "model_class": "LARGE",
+      "mission_id": "M02_TRANSACTION_SAFETY",
+      "preferred_variant": "A_RAW_MODEL",
+      "evidence_samples": 2,
+      "prompt_tokens": 215.0,
+      "latency_ms": 10252.5,
+      "tokens_per_sec": 13.366
+    },
+    {
+      "model_class": "LARGE",
+      "mission_id": "M03_MEMORY_RECALL",
+      "preferred_variant": "F_MODEL_PLUS_CANDIDATE_VTC",
+      "evidence_samples": 2,
+      "prompt_tokens": 551.0,
+      "latency_ms": 16037.5,
+      "tokens_per_sec": 12.693
+    },
+    {
+      "model_class": "SMALL",
+      "mission_id": "M01_LOCK_SCOPE_UI",
+      "preferred_variant": "F_MODEL_PLUS_CANDIDATE_VTC",
+      "evidence_samples": 2,
+      "prompt_tokens": 554.0,
+      "latency_ms": 18432.0,
+      "tokens_per_sec": 55.555
+    },
+    {
+      "model_class": "SMALL",
+      "mission_id": "M02_TRANSACTION_SAFETY",
+      "preferred_variant": "E_MODEL_PLUS_LOCK_SCOPE",
+      "evidence_samples": 2,
+      "prompt_tokens": 339.0,
+      "latency_ms": 18326.0,
+      "tokens_per_sec": 55.876
+    },
+    {
+      "model_class": "SMALL",
+      "mission_id": "M03_MEMORY_RECALL",
+      "preferred_variant": "D_MODEL_PLUS_IMPACT_ASSOCIATION",
+      "evidence_samples": 2,
+      "prompt_tokens": 722.0,
+      "latency_ms": 18595.5,
+      "tokens_per_sec": 55.067
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[package]
+name = "vxn-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+vxn-core = { path = "../vxn-core" }
+
+[lints]
+workspace = true

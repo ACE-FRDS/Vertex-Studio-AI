@@ -1,0 +1,84 @@
+{
+  "schema": "vertex.world.ard.auto-party-formation.v1",
+  "formation_id": "ARD-FORMATION-CODING-20260824-152246",
+  "generated_at": "2026-08-24T15:22:46.7365596+09:00",
+  "mission": {
+    "class": "CODING",
+    "desired_party_size": 4
+  },
+  "party": {
+    "roles": [
+      {
+        "role": "Critic",
+        "model": "hunyuan-4b-instruct",
+        "level": 2,
+        "xp": 390.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 1,
+        "role_affinity": 59.6,
+        "model_role_affinity": 59.4,
+        "synergy_bonus": 0.6,
+        "formation_score": 0.5146
+      },
+      {
+        "role": "ScopeGuard",
+        "model": "hunyuan-4b-instruct",
+        "level": 2,
+        "xp": 390.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 1,
+        "role_affinity": 59.6,
+        "model_role_affinity": 59.4,
+        "synergy_bonus": 0.6,
+        "formation_score": 0.4831
+      },
+      {
+        "role": "Planner",
+        "model": "hunyuan-4b-instruct",
+        "level": 2,
+        "xp": 395.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 1,
+        "role_affinity": 59.6,
+        "model_role_affinity": 59.4,
+        "synergy_bonus": 0.0,
+        "formation_score": 0.4668
+      },
+      {
+        "role": "Explorer",
+        "model": "hunyuan-4b-instruct",
+        "level": 2,
+        "xp": 390.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 1,
+        "role_affinity": 59.6,
+        "model_role_affinity": 59.4,
+        "synergy_bonus": 0.6,
+        "formation_score": 0.4621
+      }
+    ],
+    "physical_parallel_width": 3,
+    "formation_evidence": {
+      "conservative_score": 60.0,
+      "confidence_tier": "PROVISIONAL"
+    }
+  },
+  "command": {
+    "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "compatibility_score": 60.0,
+    "confidence_tier": "PROVISIONAL"
+  },
+  "execution_policy": {
+    "automatic_execution": false,
+    "requires_go_signal": true,
+    "allow_runtime_backoff": true,
+    "allow_model_escalation": true,
+    "allow_toolbox_hot_swap": true
+  },
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE",
+    "model_invocation": "NONE",
+    "agent_execution": "NONE"
+  }
+}

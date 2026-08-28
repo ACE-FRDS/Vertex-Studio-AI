@@ -1,0 +1,28 @@
+{
+  "schema": "vertex.vxn.adaptive-runtime-core.manifest.v1",
+  "version": "0.1.0",
+  "run_id": "VXN-ADAPTIVE-20260824-135241",
+  "generated_at": "2026-08-24T13:52:41.4065073+09:00",
+  "organs": [
+    "RuntimeObserver",
+    "RuntimeComposer",
+    "ModelEscalation",
+    "ToolboxHotSwap",
+    "ExperimentEvidenceStore"
+  ],
+  "invariants": [
+    "FULL_VXN_IS_NOT_DEFAULT",
+    "MINIMUM_EFFECTIVE_RUNTIME_IS_PREFERRED",
+    "RUNTIME_MAY_CHANGE_MID_MISSION",
+    "MODEL_MAY_ESCALATE_OR_DEESCALATE",
+    "TOOLBOX_MAY_ATTACH_OR_DETACH_COMPONENTS",
+    "OBSERVER_DATA_DRIVES_COMPOSITION",
+    "VTC_REMAINS_REALITY_MUTATION_BOUNDARY"
+  ],
+  "evidence_status": "INGESTED",
+  "authority": {
+    "canonical_mutation": "DENIED",
+    "vtc_execution": "DENIED",
+    "project_runtime_composition": "ALLOWED"
+  }
+}

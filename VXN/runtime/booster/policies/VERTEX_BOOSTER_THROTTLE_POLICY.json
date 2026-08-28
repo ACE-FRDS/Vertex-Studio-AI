@@ -1,0 +1,70 @@
+{
+  "schema": "vertex.booster.master-throttle-policy.v1",
+  "version": "0.1.0",
+  "modes": [
+    {
+      "id": "IDLE",
+      "target": 0,
+      "range": [
+        0,
+        15
+      ]
+    },
+    {
+      "id": "ECO",
+      "target": 25,
+      "range": [
+        10,
+        35
+      ]
+    },
+    {
+      "id": "CRUISE",
+      "target": 50,
+      "range": [
+        30,
+        65
+      ]
+    },
+    {
+      "id": "PERFORMANCE",
+      "target": 75,
+      "range": [
+        60,
+        90
+      ]
+    },
+    {
+      "id": "BOOST",
+      "target": 100,
+      "range": [
+        85,
+        100
+      ]
+    }
+  ],
+  "channels": [
+    "COGNITIVE",
+    "MEMORY",
+    "TOOLBOX",
+    "COMPUTE",
+    "AUTHORITY",
+    "PARALLELISM"
+  ],
+  "control": {
+    "automatic_default": true,
+    "human_override": true,
+    "throttle_is_not_uniform": true,
+    "mission_map_controls_channel_weights": true,
+    "allow_mid_mission_change": true,
+    "step_up_max": 20,
+    "step_down_max": 25,
+    "hysteresis": 5
+  },
+  "safety": {
+    "boost_does_not_imply_authority_escalation": true,
+    "high_risk_reduces_authority_even_if_compute_increases": true,
+    "canonical_mutation": "DENIED",
+    "vtc_execution": "DENIED"
+  }
+}

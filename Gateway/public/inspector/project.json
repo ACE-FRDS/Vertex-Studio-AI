@@ -1,0 +1,253 @@
+{
+  "schema": "vsa.inspector.project.v0.1.1",
+  "generatedAt": "2026-08-24T20:23:14.5730905+09:00",
+  "project": {
+    "name": "Vertex Studio AI",
+    "root": "VSA_ROOT"
+  },
+  "activeWorkspace": {
+    "name": "VSA_Startup_Package_v0.2",
+    "root": "VSA_ACTIVE_WORKSPACE",
+    "exists": true
+  },
+  "git": {
+    "branch": "main",
+    "commit": "9c09a39c",
+    "dirtyCount": 15
+  },
+  "tree": {
+    "maxDepth": 8,
+    "entryCount": 1229,
+    "truncated": false
+  },
+  "workspaceMarkers": [
+    {
+      "path": "apps/vsa-shell/src-tauri/Cargo.toml",
+      "type": "file",
+      "size": 510,
+      "lastModified": "2026-08-23T21:03:02.1248305+09:00"
+    },
+    {
+      "path": "apps/vsa-shell/src-tauri/tauri.conf.json",
+      "type": "file",
+      "size": 454,
+      "lastModified": "2026-08-23T21:05:00.1159618+09:00"
+    },
+    {
+      "path": "apps/vsa-shell/package.json",
+      "type": "file",
+      "size": 453,
+      "lastModified": "2026-08-23T20:16:04.4675222+09:00"
+    },
+    {
+      "path": "apps/vsa-shell/vite.config.ts",
+      "type": "file",
+      "size": 120,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-cli/Cargo.toml",
+      "type": "file",
+      "size": 180,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/Cargo.toml",
+      "type": "file",
+      "size": 145,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/Cargo.toml",
+      "type": "file",
+      "size": 208,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/V3_RECOVERY_V4_REFIRE.20260823-200942/package.json",
+      "type": "file",
+      "size": 454,
+      "lastModified": "2026-08-23T19:50:20.2854945+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VERTEX_HUB_INSTALLER_LOADER_V2_FAILED.20260823-203951/Cargo.toml",
+      "type": "file",
+      "size": 476,
+      "lastModified": "2026-08-23T20:39:56.4916278+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_EDITOR_V3_FAILED.20260823-195014/src-tauri/Cargo.toml",
+      "type": "file",
+      "size": 400,
+      "lastModified": "2026-08-23T19:50:20.6562162+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_EDITOR_V3_FAILED.20260823-195014/src-tauri/tauri.conf.json",
+      "type": "file",
+      "size": 454,
+      "lastModified": "2026-08-23T19:50:20.6592184+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_EDITOR_V4_FAILED.20260823-200945/src-tauri/Cargo.toml",
+      "type": "file",
+      "size": 400,
+      "lastModified": "2026-08-23T20:09:48.9673282+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_EDITOR_V4_FAILED.20260823-200945/src-tauri/tauri.conf.json",
+      "type": "file",
+      "size": 454,
+      "lastModified": "2026-08-23T20:09:48.9683288+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_EDITOR_V5_FAILED.20260823-201330/src-tauri/Cargo.toml",
+      "type": "file",
+      "size": 400,
+      "lastModified": "2026-08-23T20:13:34.1977046+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_EDITOR_V5_FAILED.20260823-201330/src-tauri/tauri.conf.json",
+      "type": "file",
+      "size": 454,
+      "lastModified": "2026-08-23T20:13:34.1987046+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_FRONTEND_BASELINE_REPAIR_V2.20260823-195006/package.json",
+      "type": "file",
+      "size": 297,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/_vertex_reports/VSA_FRONTEND_BASELINE_REPAIR.20260823-194822/package.json",
+      "type": "file",
+      "size": 297,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/apps/vsa-cli/Cargo.toml",
+      "type": "file",
+      "size": 382,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-agent-contracts/Cargo.toml",
+      "type": "file",
+      "size": 203,
+      "lastModified": "2026-08-23T11:17:09.3042171+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-ai-contracts/Cargo.toml",
+      "type": "file",
+      "size": 201,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-ard/Cargo.toml",
+      "type": "file",
+      "size": 192,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-cartridge/Cargo.toml",
+      "type": "file",
+      "size": 198,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-continuity/Cargo.toml",
+      "type": "file",
+      "size": 199,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-convergence/Cargo.toml",
+      "type": "file",
+      "size": 200,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-drone/Cargo.toml",
+      "type": "file",
+      "size": 228,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-foundation/Cargo.toml",
+      "type": "file",
+      "size": 152,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mnl/Cargo.toml",
+      "type": "file",
+      "size": 226,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mothership/tests/fixtures/autonomous_real_voyage/Cargo.toml",
+      "type": "file",
+      "size": 142,
+      "lastModified": "2026-08-23T18:10:37.3227857+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mothership/tests/fixtures/real_hyper_agent_voyage/Cargo.toml",
+      "type": "file",
+      "size": 141,
+      "lastModified": "2026-08-23T18:38:24.3350738+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mothership/Cargo.toml",
+      "type": "file",
+      "size": 399,
+      "lastModified": "2026-08-23T18:08:52.9112340+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-observatory/Cargo.toml",
+      "type": "file",
+      "size": 200,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-portfolio/Cargo.toml",
+      "type": "file",
+      "size": 198,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-rcc/Cargo.toml",
+      "type": "file",
+      "size": 192,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-studio/Cargo.toml",
+      "type": "file",
+      "size": 195,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-vertex-bridge/Cargo.toml",
+      "type": "file",
+      "size": 409,
+      "lastModified": "2026-08-23T16:19:17.1135946+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-vertex-hub/Cargo.toml",
+      "type": "file",
+      "size": 188,
+      "lastModified": "2026-08-23T20:35:01.8489987+09:00"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-web/Cargo.toml",
+      "type": "file",
+      "size": 232,
+      "lastModified": "2026-08-19T20:18:04.0000000+09:00"
+    },
+    {
+      "path": "ProgramSource/Cargo.toml",
+      "type": "file",
+      "size": 618,
+      "lastModified": "2026-08-23T20:35:01.8619990+09:00"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "vertex.scheduler.plan-receipt.v1.1",
+  "completed_at": "2026-08-24T18:49:12.5591548+09:00",
+  "schedule_id": "VXN-SCHED-20260824-184912",
+  "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912",
+  "mission_class": "TRANSACTION_SAFETY",
+  "wave_count": 2,
+  "physical_width": 2,
+  "command_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+  "priority_ordering_green": true,
+  "highest_priority_role": "ScopeGuard",
+  "schedule_plan": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\scheduler\\plans\\VXN-SCHED-20260824-184912.PLAN.json",
+  "bus_handoff": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\scheduler\\bus_handoff\\VXN-SCHED-20260824-184912.BUS_HANDOFF.json",
+  "automatic_execution": false,
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE",
+  "model_invocation": "NONE",
+  "agent_execution": "NONE"
+}

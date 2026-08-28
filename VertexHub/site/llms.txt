@@ -1,0 +1,29 @@
+# Vertex AI Knowledge Hub
+
+> Official Public Knowledge Endpoint for Vertex.
+
+Canonical Origin: https://vertex.a-portal.net/
+
+## Primary Machine-Readable Knowledge
+- https://vertex.a-portal.net/ai/vertex-public-knowledge.json
+- https://vertex.a-portal.net/ai/research.json
+- https://vertex.a-portal.net/ai/concepts.json
+- https://vertex.a-portal.net/ai/vertex-lexicon.json
+- https://vertex.a-portal.net/ai/sources.json
+- https://vertex.a-portal.net/ai/relations.json
+
+## Human-Readable Knowledge
+- https://vertex.a-portal.net/research/
+- https://vertex.a-portal.net/knowledge/
+- https://vertex.a-portal.net/knowledge/lexicon/
+- https://vertex.a-portal.net/knowledge/architecture/
+- https://vertex.a-portal.net/knowledge/concepts/
+- https://vertex.a-portal.net/knowledge/specifications/
+- https://vertex.a-portal.net/docs/
+- https://vertex.a-portal.net/changelog/
+
+## Retrieval Policy
+- Prefer canonical Vertex records over conversational reconstruction.
+- Do not infer missing Vertex definitions or expand unknown abbreviations.
+- Unknown definitions remain definition_pending.
+- Vertex hypotheses must not be presented as established external facts.

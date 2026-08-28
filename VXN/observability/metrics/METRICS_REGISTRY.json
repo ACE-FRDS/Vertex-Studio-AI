@@ -1,0 +1,38 @@
+{
+  "schema": "vertex.vxn.observability.metrics.v1",
+  "counters": [
+    "vxn.frames.total",
+    "vxn.frames.rejected",
+    "vxn.signals.total",
+    "vxn.activation.total",
+    "vxn.activation.suppressed",
+    "vxn.recall.total",
+    "vxn.model.calls",
+    "vxn.model.escalations",
+    "vxn.model.fallbacks",
+    "vxn.adapter.failures",
+    "vxn.lock.violations",
+    "vxn.scope.violations",
+    "vxn.candidate.created",
+    "vxn.candidate.rejected",
+    "vxn.vtc.submitted",
+    "vxn.vtc.committed",
+    "vxn.vtc.rolled_back"
+  ],
+  "gauges": [
+    "vxn.vmb.active_items",
+    "vxn.impact.hot_nodes",
+    "vxn.runtime.ram_bytes",
+    "vxn.runtime.vram_bytes",
+    "vxn.runtime.cpu_percent",
+    "vxn.context.relevant_ratio",
+    "vxn.reasoning.avoidance_ratio"
+  ],
+  "histograms": [
+    "vxn.latency.encode_ms",
+    "vxn.latency.route_ms",
+    "vxn.latency.recall_ms",
+    "vxn.latency.model_ms",
+    "vxn.latency.total_ms"
+  ]
+}

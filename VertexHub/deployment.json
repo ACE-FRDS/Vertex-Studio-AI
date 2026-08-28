@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 5,
+  "service": "Vertex AI Knowledge Hub",
+  "architecture": "canonical-content-data-site",
+  "canonicalRoot": "G:\\Vertex_Project\\Development\\vertex_studio_ai\\VertexHub",
+  "contentRoot": "G:\\Vertex_Project\\Development\\vertex_studio_ai\\VertexHub\\content",
+  "dataRoot": "G:\\Vertex_Project\\Development\\vertex_studio_ai\\VertexHub\\data",
+  "siteRoot": "G:\\Vertex_Project\\Development\\vertex_studio_ai\\VertexHub\\site",
+  "database": false,
+  "deployedAt": "2026-08-27T21:19:59.8020626+09:00",
+  "backupPath": "G:\\Vertex_Project\\Development\\vertex_studio_ai\\VertexHub\\backup\\site_20260827_211959",
+  "validation": {
+    "generatedRoutes": 25,
+    "jsonFiles": 8,
+    "brokenLinks": 0,
+    "duplicateCanonicals": 0,
+    "googleVerificationPreserved": true,
+    "remote": []
+  }
+}

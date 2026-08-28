@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertex.vxn.model-profile.v1",
+  "title": "VXN Model Dialect Profile",
+  "type": "object",
+  "required": [
+    "model_id",
+    "dialect_scores",
+    "capabilities"
+  ],
+  "properties": {
+    "model_id": {
+      "type": "string"
+    },
+    "dialect_scores": {
+      "type": "object",
+      "properties": {
+        "natural_language": {
+          "minimum": 0,
+          "type": "number",
+          "maximum": 1
+        },
+        "structured_text": {
+          "minimum": 0,
+          "type": "number",
+          "maximum": 1
+        },
+        "json": {
+          "minimum": 0,
+          "type": "number",
+          "maximum": 1
+        },
+        "compact_vxn": {
+          "minimum": 0,
+          "type": "number",
+          "maximum": 1
+        },
+        "native_vxn": {
+          "minimum": 0,
+          "type": "number",
+          "maximum": 1
+        }
+      }
+    },
+    "capabilities": {
+      "type": "object"
+    },
+    "runtime": {
+      "type": "object"
+    }
+  }
+}

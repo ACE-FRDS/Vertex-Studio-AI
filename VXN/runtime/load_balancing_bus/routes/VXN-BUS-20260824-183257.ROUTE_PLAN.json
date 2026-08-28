@@ -1,0 +1,128 @@
+{
+  "schema": "vertex.load-balancing-bus.route-plan.v1",
+  "bus_id": "VXN-BUS-20260824-183257",
+  "schedule_id": "VXN-SCHED-20260824-183013",
+  "mission_class": "TRANSACTION_SAFETY",
+  "generated_at": "2026-08-24T18:32:57.5928276+09:00",
+  "routes": [
+    {
+      "route_id": "WAVE-1",
+      "wave": 1,
+      "requested_width": 3,
+      "lane_count": 3,
+      "lanes": [
+        {
+          "lane_id": "LANE-1",
+          "state": "ASSIGNED",
+          "task": {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::ScopeGuard",
+            "role": "ScopeGuard",
+            "model": "hunyuan-4b-instruct",
+            "priority": 119
+          },
+          "runtime": "LM_STUDIO",
+          "model": "hunyuan-4b-instruct",
+          "match": "EXACT"
+        },
+        {
+          "lane_id": "LANE-2",
+          "state": "ASSIGNED",
+          "task": {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Critic",
+            "role": "Critic",
+            "model": "hunyuan-4b-instruct",
+            "priority": 116
+          },
+          "runtime": "LM_STUDIO",
+          "model": "hunyuan-4b-instruct",
+          "match": "EXACT"
+        },
+        {
+          "lane_id": "LANE-3",
+          "state": "ASSIGNED",
+          "task": {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Verifier",
+            "role": "Verifier",
+            "model": "hunyuan-4b-instruct",
+            "priority": 112
+          },
+          "runtime": "LM_STUDIO",
+          "model": "hunyuan-4b-instruct",
+          "match": "EXACT"
+        }
+      ],
+      "backoff_policy": {
+        "on_http_500": "WIDTH_MINUS_1",
+        "minimum_width": 1,
+        "retry_failed_tasks_only": true,
+        "preserve_successful_lane_results": true
+      },
+      "reroute_policy": {
+        "on_runtime_unavailable": "FAMILY_NEAREST_SIZE",
+        "on_family_unavailable": "HOLD_ROUTE",
+        "allow_provider_fallback": false
+      },
+      "state": "ROUTED"
+    },
+    {
+      "route_id": "WAVE-2",
+      "wave": 2,
+      "requested_width": 1,
+      "lane_count": 1,
+      "lanes": [
+        {
+          "lane_id": "LANE-1",
+          "state": "ASSIGNED",
+          "task": {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Planner",
+            "role": "Planner",
+            "model": "hunyuan-4b-instruct",
+            "priority": 105
+          },
+          "runtime": "LM_STUDIO",
+          "model": "hunyuan-4b-instruct",
+          "match": "EXACT"
+        }
+      ],
+      "backoff_policy": {
+        "on_http_500": "WIDTH_MINUS_1",
+        "minimum_width": 1,
+        "retry_failed_tasks_only": true,
+        "preserve_successful_lane_results": true
+      },
+      "reroute_policy": {
+        "on_runtime_unavailable": "FAMILY_NEAREST_SIZE",
+        "on_family_unavailable": "HOLD_ROUTE",
+        "allow_provider_fallback": false
+      },
+      "state": "ROUTED"
+    }
+  ],
+  "command_route": {
+    "requested_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "runtime": "LM_STUDIO",
+    "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "match": "EXACT",
+    "trigger": "FIELD_COMPLETE"
+  },
+  "capacity_contract": {
+    "initial_width": 3,
+    "minimum_width": 1,
+    "reduce_on_http_500": true,
+    "retry_failed_tasks_only": true,
+    "probe_up_after_stable_wave": true
+  },
+  "execution_policy": {
+    "automatic_execution": false,
+    "requires_go_signal": true,
+    "scheduler_controls_order": true,
+    "bus_controls_route_and_lane": true,
+    "executor_controls_actual_invocation": true
+  },
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE",
+    "model_invocation": "NONE",
+    "agent_execution": "NONE"
+  }
+}

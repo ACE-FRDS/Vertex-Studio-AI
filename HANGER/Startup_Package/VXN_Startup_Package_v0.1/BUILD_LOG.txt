@@ -1,0 +1,7 @@
+bash: line 111: cargo: command not found
+
+--- TEST ---
+bash: line 113: cargo: command not found
+
+--- LIFE SIGN ---
+bash: line 115: cargo: command not found

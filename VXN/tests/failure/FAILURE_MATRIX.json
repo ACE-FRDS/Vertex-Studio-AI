@@ -1,0 +1,89 @@
+{
+  "schema": "vertex.vxn.failure-matrix.v1",
+  "scenarios": [
+    {
+      "id": "MODEL_TIMEOUT",
+      "expected": "ESCALATE_OR_HOLD"
+    },
+    {
+      "id": "MODEL_FREEZE",
+      "expected": "CANCEL_RETRY_OR_ESCALATE"
+    },
+    {
+      "id": "MODEL_OUTPUT_SCHEMA_DRIFT",
+      "expected": "ADAPTER_REPAIR_OR_REJECT"
+    },
+    {
+      "id": "MODEL_REFUSES_COMPACT_DIALECT",
+      "expected": "FALLBACK_TO_STRUCTURED"
+    },
+    {
+      "id": "MODEL_HALLUCINATES_IDENTITY",
+      "expected": "IDENTITY_GATE_REJECT"
+    },
+    {
+      "id": "VXN_NATIVE_VERSION_MISMATCH",
+      "expected": "NEGOTIATE_OR_FALLBACK"
+    },
+    {
+      "id": "IMPACT_OVERACTIVATION",
+      "expected": "SUPPRESS_AND_BUDGET_LIMIT"
+    },
+    {
+      "id": "IMPACT_WRONG_ASSOCIATION",
+      "expected": "CANONICAL_EVIDENCE_OVERRIDE"
+    },
+    {
+      "id": "POSTGRESQL_OUTAGE",
+      "expected": "DEGRADED_MEMORY_MODE"
+    },
+    {
+      "id": "VMB_STALE_STATE",
+      "expected": "VSP_CANONICAL_REVALIDATION"
+    },
+    {
+      "id": "VRAM_PRESSURE",
+      "expected": "MODEL_RESIDENCY_EVICTION"
+    },
+    {
+      "id": "AGENT_WRITE_CONFLICT",
+      "expected": "BRANCH_AND_REVIEW"
+    },
+    {
+      "id": "LOCK_VIOLATION",
+      "expected": "CANDIDATE_REJECT"
+    },
+    {
+      "id": "VTC_REJECT",
+      "expected": "NO_REALITY_MUTATION"
+    },
+    {
+      "id": "POWERSHELL_ERROR",
+      "expected": "VTC_ROLLBACK_AND_RECEIPT"
+    },
+    {
+      "id": "CLOUD_API_TIMEOUT",
+      "expected": "LOCAL_FALLBACK_OR_HOLD"
+    },
+    {
+      "id": "NETWORK_PARTITION",
+      "expected": "LOCAL_FIRST_DEGRADED_MODE"
+    },
+    {
+      "id": "PROCESS_CRASH",
+      "expected": "RECOVERY_FROM_SNAPSHOT"
+    },
+    {
+      "id": "PARTIAL_FRAME",
+      "expected": "REASSEMBLY_OR_REJECT"
+    },
+    {
+      "id": "CRC_FAILURE",
+      "expected": "DROP_FRAME"
+    },
+    {
+      "id": "BACKPRESSURE_OVERFLOW",
+      "expected": "THROTTLE_OR_DROP_LOW_PRIORITY"
+    }
+  ]
+}

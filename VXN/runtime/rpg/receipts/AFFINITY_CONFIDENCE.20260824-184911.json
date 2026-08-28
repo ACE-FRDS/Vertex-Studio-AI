@@ -1,0 +1,9 @@
+{
+  "schema": "vertex.world.rpg.affinity-confidence-receipt.v1",
+  "completed_at": "2026-08-24T18:49:11.8781969+09:00",
+  "source": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\synergy\\VERTEX_WORLD_SYNERGY_AFFINITY.json",
+  "output": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\confidence\\VERTEX_WORLD_AFFINITY_CONFIDENCE.json",
+  "summary": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\confidence\\CURRENT_CONFIDENCE_SUMMARY.json",
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE"
+}

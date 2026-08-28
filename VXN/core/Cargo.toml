@@ -1,0 +1,29 @@
+[package]
+name = "vxn-core"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+uuid.workspace = true
+bytes.workspace = true
+dashmap.workspace = true
+parking_lot.workspace = true
+smallvec.workspace = true
+bitflags.workspace = true
+crc32fast.workspace = true
+
+[features]
+default = ["native", "fabric", "memory", "cognitive", "runtime", "model-adapters"]
+native = []
+fabric = []
+memory = []
+cognitive = []
+runtime = []
+model-adapters = []
+direct-native-model = []
+experimental = []

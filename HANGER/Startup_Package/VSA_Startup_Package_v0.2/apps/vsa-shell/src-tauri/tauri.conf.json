@@ -1,0 +1,9 @@
+{
+ "$schema":"https://schema.tauri.app/config/2",
+ "productName":"Vertex Studio AI",
+ "version":"0.1.0",
+ "identifier":"net.vertex.studio.ai",
+ "build":{"beforeDevCommand":"pnpm dev","devUrl":"http://localhost:5173","beforeBuildCommand":"pnpm build","frontendDist":"../dist"},
+ "app":{"windows":[{"label":"main","title":"Vertex Studio AI","width":1700,"height":1050,"minWidth":1100,"minHeight":720}],"security":{"csp":null}},
+ "bundle":{"active":false}
+}

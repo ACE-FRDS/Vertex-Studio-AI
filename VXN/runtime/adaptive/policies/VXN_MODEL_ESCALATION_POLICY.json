@@ -1,0 +1,81 @@
+{
+  "schema": "vertex.vxn.model-escalation-policy.v1",
+  "version": "0.1.0",
+  "tiers": [
+    {
+      "examples": [
+        "Rust",
+        "KnownTransform",
+        "IndexFilter"
+      ],
+      "class": "DETERMINISTIC",
+      "tier": 0
+    },
+    {
+      "examples": [
+        "3B",
+        "4B"
+      ],
+      "class": "SMALL_3B_4B",
+      "tier": 1
+    },
+    {
+      "examples": [
+        "8B"
+      ],
+      "class": "MEDIUM_8B",
+      "tier": 2
+    },
+    {
+      "examples": [
+        "12B"
+      ],
+      "class": "MEDIUM_12B",
+      "tier": 3
+    },
+    {
+      "examples": [
+        "30B",
+        "32B"
+      ],
+      "class": "LARGE_30B",
+      "tier": 4
+    },
+    {
+      "examples": [
+        "ProviderLarge"
+      ],
+      "class": "CLOUD_LARGE",
+      "tier": 5
+    },
+    {
+      "examples": [
+        "HumanGate"
+      ],
+      "class": "HUMAN",
+      "tier": 6
+    }
+  ],
+  "escalation": {
+    "triggers": [
+      "REPEATED_SCHEMA_FAILURE",
+      "REPEATED_RUNTIME_BOUNDARY_EXPANSION",
+      "LOW_CONFIDENCE",
+      "HIGH_RISK",
+      "REVIEW_REJECTION",
+      "MISSION_TIMEOUT",
+      "CAPABILITY_GAP"
+    ],
+    "max_step": 1,
+    "skip_tier_only_when": "HARD_CAPABILITY_REQUIREMENT"
+  },
+  "deescalation": {
+    "enabled": true,
+    "triggers": [
+      "PROVEN_SMALLER_MODEL_CONFIGURATION",
+      "LOW_RISK_SUBTASK",
+      "DETERMINISTIC_SUBTASK",
+      "RESOURCE_PRESSURE"
+    ]
+  }
+}

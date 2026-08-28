@@ -1,0 +1,4 @@
+display_name=VSA Creator
+level=1
+exp=0
+skills=Design,Coding,Planning,Reliability

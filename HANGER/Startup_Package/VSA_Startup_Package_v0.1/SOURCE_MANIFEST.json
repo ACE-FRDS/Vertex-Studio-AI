@@ -1,0 +1,583 @@
+{
+  "package": "VSA Startup Package v0.1",
+  "generated_at": "2026-08-19T11:18:04.378301",
+  "source_complete": true,
+  "file_count_before_manifest": 115,
+  "files": [
+    {
+      "path": "BUILD_REPORT.json",
+      "bytes": 239,
+      "sha256": "80f59c85bac05ec470370444821709f1247819757b773a8a5e73521fb8769211"
+    },
+    {
+      "path": "Continuity/VCC_SEED.tsv",
+      "bytes": 144,
+      "sha256": "7311373a4f4e2e01a6e6c450066fe0ff1924a4ecb339670770be046e90f56f24"
+    },
+    {
+      "path": "Continuity/VSP_INITIAL.txt",
+      "bytes": 116,
+      "sha256": "ad979c3eb9dc1eaca2c94940576f8eee438869cf0acd6cb7df728ec888ba223c"
+    },
+    {
+      "path": "DNC/IDENTITY.md",
+      "bytes": 591,
+      "sha256": "707482a335d535e99908775a3bc7106d3e5b0dbee4a7c27069e6965eed6784d7"
+    },
+    {
+      "path": "DNC/INVARIANTS.md",
+      "bytes": 956,
+      "sha256": "956ecc421616b38a9df110ebe6ddf19c4da9d09a9c7d209b408961589ba9ebf0"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/BUILD_LOG.txt",
+      "bytes": 156,
+      "sha256": "ae8a89d7c6f95f5db95bf9879ca71e15dd8eb7c9359f9afef44da67a0a5f0528"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/BUILD_REPORT.json",
+      "bytes": 132,
+      "sha256": "b1ef9a5330a8e34e6e1118d4407d7eca95c45707766809ea2f3ec63973c47edb"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/Cargo.toml",
+      "bytes": 208,
+      "sha256": "a108e008a78cde5ed241073c78987dc0a74e5752cab4649b4bb3a0afa648c647"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/FEATURE_MATRIX.md",
+      "bytes": 945,
+      "sha256": "85732e731d69f0d134b1198c45a813ec780cf40087591584e00a566084ac7417"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/README.md",
+      "bytes": 1551,
+      "sha256": "518c6928ae9333caf0cd278022518c343dea7e8160dd35c48ad330014e2ac060"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/SOURCE_INDEX.md",
+      "bytes": 659,
+      "sha256": "c55550254077aa9cf62601a814a43e0cf712f45f7debcc7759ffdce0eeb7f9a2"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/SOURCE_MANIFEST.json",
+      "bytes": 6246,
+      "sha256": "a19db0a5ba69c2530da0845349420229854b5ba8808dceaaf4610f44c234ccd9"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/VXN_PACKAGE.manifest",
+      "bytes": 138,
+      "sha256": "ff6c94be02c420f6e2b24684c2f966e8d44561bcdf664c9de4987731a1901101"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-cli/Cargo.toml",
+      "bytes": 180,
+      "sha256": "af95c42a2bb6e1ba21ffd76e17d41df4b5327466c0abc8edd14e5796da451ed8"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-cli/src/main.rs",
+      "bytes": 683,
+      "sha256": "82e05f80ee212f8cb8f8d60e1b1f7be7baa40a19732dd6ee74ebf48a00c6b685"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/Cargo.toml",
+      "bytes": 145,
+      "sha256": "01b6723a1babc63ae5a4c8b669df03306f9776cd1cbcd40bf6fee03b8dddd9c0"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/backend.rs",
+      "bytes": 531,
+      "sha256": "239bf398ada1252fd33ab05ec7686fad24966a9c0ee5e61f147e18994abc32a4"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/capability.rs",
+      "bytes": 1091,
+      "sha256": "bb40a601b4f33c303e36cfcfd02e2d3848e97999440f0dda20211404e9129c56"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/error.rs",
+      "bytes": 1041,
+      "sha256": "cc2257815511159c8e2a54108c2b925131d7aa06759a2e0607a4374a41e647cf"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/ingress.rs",
+      "bytes": 413,
+      "sha256": "5034f3ddb500cbd3f571406917ba2c5340493b049847d5499ea03eac505e4ac5"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/ir.rs",
+      "bytes": 892,
+      "sha256": "53bb6d80223305d0ff9d97af01e991f6e5d4d97bfe9250ab1d7f0139f9466621"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/lib.rs",
+      "bytes": 415,
+      "sha256": "5f3a5728136299f214a5a6b3641b99525307b03b16bd130031e267a08a30b045"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/observability.rs",
+      "bytes": 826,
+      "sha256": "e24bb0b44a4d33ca28d3fb40e3389230bc53f34baab4236a3bf261436d2a7e43"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/optimizer.rs",
+      "bytes": 1344,
+      "sha256": "9cfb3e720473ff88af4af8090422f279e808dc08b0b19daae3c46d45e82ffc69"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/package.rs",
+      "bytes": 1033,
+      "sha256": "84ee38bd7b483116a447a1643f62fdfaeec0a7daed66e0d3392dcf69a4572192"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/parser.rs",
+      "bytes": 1910,
+      "sha256": "4e65602e495485158f3a237a3a7f1df3adfe8f637544d34f75aa7e4d31616e80"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/reinforcement.rs",
+      "bytes": 1132,
+      "sha256": "11da573659fdaa36591e924d791369584ccf04c51011fbf0dc727d4de365b591"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/runtime.rs",
+      "bytes": 5313,
+      "sha256": "4cbbfb9ca854343fa729adf3160bf1245d7e8ad8622d38b23bbcdd7652af2fbb"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/scheduler.rs",
+      "bytes": 402,
+      "sha256": "aa1e27f5ca02d08cbd57f58b249ff0990e1ffacd396a011c9c4ecba834fa11fe"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/security.rs",
+      "bytes": 771,
+      "sha256": "e5e5317cee429757da6a3fa809135e43c4d9fcce945d1d7b8e1df3168d35b1a2"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/storage.rs",
+      "bytes": 2468,
+      "sha256": "c3a7c3391243eb4ef1b823319335e61022c139c65ab930c0dad95fe454306e40"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/transport.rs",
+      "bytes": 844,
+      "sha256": "51e47af503f5f5164a495c3db89bae5558853beb75ae1314460ffadc87d3946d"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/crates/vxn-core/src/validator.rs",
+      "bytes": 1368,
+      "sha256": "dd8ddbd4b2498f327843687b16c3f8ab5167e9ef3f74b02db9c3bec19e6549bc"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/DNC/ARCHITECTURE.md",
+      "bytes": 596,
+      "sha256": "1b100106157a5b9a6a77cd92703d34b3ae5e77a9ee1a6ae09c46f36cb3cdbce1"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/DNC/IDENTITY.md",
+      "bytes": 243,
+      "sha256": "288d1f942c3146281760048f0c47f44213f1ed776bf8537b19946549ebaa9305"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/DNC/INVARIANTS.md",
+      "bytes": 626,
+      "sha256": "7cc5a98869fdf16e54463a659660a98d0570f4d0a9a25ef50d2905a3387da901"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/examples/add.vxn",
+      "bytes": 55,
+      "sha256": "525b39b6564937e95f49c2d1c20dd9302ce08d857a972ae1aefdd06c4fb05e60"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/examples/branch.vxn",
+      "bytes": 157,
+      "sha256": "74cc31b48c0cea4b8faa897d7fccf1efbd785c5f8b125e794ef2e2248a29d8ee"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/examples/storage.vxn",
+      "bytes": 71,
+      "sha256": "5ef16571d568d46f17e6d201ac9fb46e43d2cefc172d32431e5c94812f45366c"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/native/vxn-accel/include/vxn_accel.h",
+      "bytes": 176,
+      "sha256": "f9d2f1266a84506efe4289add6f85d81674579ade3a44f9cfe87d0398961da2e"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/native/vxn-accel/src/vxn_accel.cpp",
+      "bytes": 147,
+      "sha256": "6fc0a457f4b9036eb74a78ae15854f08e594ec464c0533e18f37593938a3100a"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/rcc/RCC_BASELINE.toml",
+      "bytes": 196,
+      "sha256": "08976accc752d92379d05aecfd3e0b1a5835d1cbf79fa4eba97c30e9349deac8"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/scripts/verify.ps1",
+      "bytes": 120,
+      "sha256": "fea30e40907f9151ac775ae6bc1a21592fb28ca315c43fba0eb82685af669f1f"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/scripts/verify.sh",
+      "bytes": 114,
+      "sha256": "0b2aabaeb15d0618a657e4260fa09bb9bceaebbdfa160b52189b120221a989f0"
+    },
+    {
+      "path": "EmbeddedRuntime/VXN_Startup_Package_v0.1/vcc-seed/VCC_SEED.md",
+      "bytes": 470,
+      "sha256": "b1336f216784b411860801c76b104182e44190326c26e03142c19d87996c6feb"
+    },
+    {
+      "path": "FEATURE_MATRIX.md",
+      "bytes": 2059,
+      "sha256": "fcc1e5fe00b3812ea2b5c0ac118619906ea3bfe35d61fbd2f6cb5e44b51a12f9"
+    },
+    {
+      "path": "Facilities/Arsenal/README.md",
+      "bytes": 45,
+      "sha256": "d99d75c8c5f9a484f7626879bd0b3a779cd5a7fb93e79add3f9a04b44a6f8638"
+    },
+    {
+      "path": "Facilities/Catapult/README.md",
+      "bytes": 42,
+      "sha256": "e97a357f631dfb6a6a6f52ec0ff0abb99bcd411909a759cc3a898bc6bf60074b"
+    },
+    {
+      "path": "Facilities/CommandBridge/README.md",
+      "bytes": 60,
+      "sha256": "e4623b7ffefa816291ec2ef83bd323e54f5afd8ccde0404259da8ac25ce701e4"
+    },
+    {
+      "path": "Facilities/ControlTower/README.md",
+      "bytes": 58,
+      "sha256": "a027c66a2c0e80e2ab0a7a2afc5a670142f7dbe4123eafa1488d549c2ab3b0ab"
+    },
+    {
+      "path": "Facilities/Dock/README.md",
+      "bytes": 56,
+      "sha256": "a8eaf3ba2d4bc1013e99c0197a69ba5be97e92e66cc1aff95531f563b84e4988"
+    },
+    {
+      "path": "Facilities/Hangar/README.md",
+      "bytes": 51,
+      "sha256": "1e60f1307f6166f5978eeb5b1117f3075e775c301eed8e816dc566b286329f4f"
+    },
+    {
+      "path": "Facilities/Library/README.md",
+      "bytes": 43,
+      "sha256": "a80322101da0960e574fa9444164e271313e330e87e9c5a7163df5d72d0fd4d0"
+    },
+    {
+      "path": "Facilities/Observatory/README.md",
+      "bytes": 57,
+      "sha256": "9c7f3ecf1e5b94ec2480be81fd79b52b058efb51708236c60f75a8008d5bf91c"
+    },
+    {
+      "path": "Facilities/ProvingGround/README.md",
+      "bytes": 56,
+      "sha256": "ecb30fb37d0fc5f1c275ee861422e1eac9f5f9000710ff9e8322373b623a4649"
+    },
+    {
+      "path": "Facilities/Quarantine/README.md",
+      "bytes": 56,
+      "sha256": "5e81398ff0e8ea7ccf06569fcc3ed8c84bac82d3343cfc16cf0dea5a603cb57a"
+    },
+    {
+      "path": "Facilities/SupplyDepot/README.md",
+      "bytes": 56,
+      "sha256": "426e94fd8cbcad272aa6546c8bed38f3ad56dd7467c14a74d28712d250ce802e"
+    },
+    {
+      "path": "Facilities/Warehouse/README.md",
+      "bytes": 54,
+      "sha256": "e35e1ced407fadc98c9f136de95d68b7ed35b80ba5e7e455496e79c8610e81d2"
+    },
+    {
+      "path": "Portfolio/sample-profile.txt",
+      "bytes": 81,
+      "sha256": "84b7e012ecb661426583d088d2bcc7797cc79b236e2aefa09463a28158b322e2"
+    },
+    {
+      "path": "ProgramSource/Cargo.toml",
+      "bytes": 527,
+      "sha256": "39b824f6d3a830e7ad0341f221156807523d1669ed71a2fc385bd748b0470df0"
+    },
+    {
+      "path": "ProgramSource/apps/vsa-cli/Cargo.toml",
+      "bytes": 382,
+      "sha256": "f3a5b2ebe4868cb6783257a7b51e434a080f1b1de9b2a24626c930e23a67abc8"
+    },
+    {
+      "path": "ProgramSource/apps/vsa-cli/src/main.rs",
+      "bytes": 1350,
+      "sha256": "c11e34a23535b602230ed790b7f2006c164760b8566e9aa52c39bc3a43b49027"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-ai-contracts/Cargo.toml",
+      "bytes": 201,
+      "sha256": "8935dff0e61d8365a74cc6fe5496b139607c838950f3ff48573512637d5545d3"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-ai-contracts/src/lib.rs",
+      "bytes": 843,
+      "sha256": "7d063d566942f29d35fea5dc50346dea4879357181d4ed17c343ec37957e213a"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-ard/Cargo.toml",
+      "bytes": 192,
+      "sha256": "52f37f33d70ad272979bbd1cac12d278b5afe34cef85ec974d4af220b2cd2f72"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-ard/src/lib.rs",
+      "bytes": 3167,
+      "sha256": "9594862004b4d3115d814f2df8deefe151bb5cfee613977212d5a978d7283036"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-cartridge/Cargo.toml",
+      "bytes": 198,
+      "sha256": "5f94d786b742813c02d037790442e7b1ce97b3faae0b31948693d3f722bdde06"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-cartridge/src/lib.rs",
+      "bytes": 839,
+      "sha256": "d2e52cdddbffb740735068d0405b76b565d1ad9be53aca220db94cb9d374f787"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-continuity/Cargo.toml",
+      "bytes": 199,
+      "sha256": "fc058e8950963f2457c55b523ec5f476eaa05f46bf9bf3d7489027cb70f362af"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-continuity/src/lib.rs",
+      "bytes": 1852,
+      "sha256": "9305a90165bef4745c2968af4a43f6049c4a6eebce1dc32589adf0ea7639710e"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-convergence/Cargo.toml",
+      "bytes": 200,
+      "sha256": "3e3fad4c45070c625d5d34d907536b1b6477ba713ab98ed99da3e84fb435b4d2"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-convergence/src/lib.rs",
+      "bytes": 625,
+      "sha256": "0c4f5af488235b689262b12177bd12c624f9f7c7923d4112a2d6b66092ab8bbd"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-drone/Cargo.toml",
+      "bytes": 228,
+      "sha256": "a36886de69ef4238b0143377e1f67b67c6432df395cd63604408839edc13c53a"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-drone/src/lib.rs",
+      "bytes": 427,
+      "sha256": "96a664d9a5c9625b128d1592a834cbb479241234b00928936f81c51605b41363"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-foundation/Cargo.toml",
+      "bytes": 152,
+      "sha256": "2380be5e3a7d22f11e322be8f6ef561293affbf25a6fe2038bb85dfd3b09f3ff"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-foundation/src/lib.rs",
+      "bytes": 3105,
+      "sha256": "e309aec8a6a65a953e3f3384e9c18ce7c78540dac2337ff9c5f50100256d5419"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mnl/Cargo.toml",
+      "bytes": 226,
+      "sha256": "e11058cd3d668d586d81578066510d13cc4e9a553336f2b20bc6167221d2a254"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mnl/src/lib.rs",
+      "bytes": 1728,
+      "sha256": "4bb7e6372d21974a80852a921c07eaab12a1e7204424f63028bad82fb3e66ede"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mothership/Cargo.toml",
+      "bytes": 199,
+      "sha256": "1a3f50f25301b5cfe72af42ea238cf9b81ccbcdcff74323caac54ead4a7396b2"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-mothership/src/lib.rs",
+      "bytes": 1489,
+      "sha256": "7ae7b6563f433e5010376cfc0af25de95a419048d5454ed925c2effa26ee8d1c"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-observatory/Cargo.toml",
+      "bytes": 200,
+      "sha256": "591d23666bb33ab95e4580aaa7b0bdbcd74ee4c6bb71d266aaf0135aa7342911"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-observatory/src/lib.rs",
+      "bytes": 859,
+      "sha256": "e37cf1db3a140cdb92d47ee298280651f1d6bcf10a12122e4cae478a30c514d8"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-portfolio/Cargo.toml",
+      "bytes": 198,
+      "sha256": "1eaea9be781ce6e813da6aa45128e2f8421e71365d69661866803b3ed8cc0d3d"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-portfolio/src/lib.rs",
+      "bytes": 1000,
+      "sha256": "025da0318e77756306b8e998878c9d4beb684f6c7a1485b2db1c1fa812ce88c4"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-rcc/Cargo.toml",
+      "bytes": 192,
+      "sha256": "400f0bc22ae94f8490c9ad27e4ab6a2e5e34325aeb72b26c84cedb08c31e3d4b"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-rcc/src/lib.rs",
+      "bytes": 1733,
+      "sha256": "c3465319072967094737f915f3b7d549af61e07f2ee3d37bc6db5169d499dcb0"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-studio/Cargo.toml",
+      "bytes": 195,
+      "sha256": "d1f3f9053f973bf21d794a490fe9a5928679fc90b2a3067e6dd25a24c9047e23"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-studio/src/lib.rs",
+      "bytes": 5558,
+      "sha256": "5224bf4426c1d34425160a7e52c9cfb75a944994f22f67dc7fc82426e8ce83e1"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-web/Cargo.toml",
+      "bytes": 232,
+      "sha256": "5eda37a559eab000b774208bb16a9638b057dd0375745c22a56ae45ea5ae5d3b"
+    },
+    {
+      "path": "ProgramSource/crates/vsa-web/src/lib.rs",
+      "bytes": 2539,
+      "sha256": "7ee7287aec370ae1feb7bf4a3582e1904ed8dfb11ad03d0c59aa402d77447f75"
+    },
+    {
+      "path": "ProjectTemplates/database-solution/README.md",
+      "bytes": 88,
+      "sha256": "dc3db2f192c8cbc0291c1389ebdd17cfd6b8c6c5af4a503129b1900482aa879a"
+    },
+    {
+      "path": "ProjectTemplates/dynamic-website/README.md",
+      "bytes": 102,
+      "sha256": "21210ca86471b37c0c3e49e5687202601adfe48ac90f6490adc58eee2c48bd73"
+    },
+    {
+      "path": "ProjectTemplates/static-website/README.md",
+      "bytes": 95,
+      "sha256": "83fb3d41efe70f20e69f2e5fc9c10c203c47cd0ccf08df30490b50bb14cbb00b"
+    },
+    {
+      "path": "ProjectTemplates/web-app/README.md",
+      "bytes": 74,
+      "sha256": "8dc660741e152520d4b5bc6ba03b6cd64a37e41985ef35796e31b18811fd4f80"
+    },
+    {
+      "path": "RCC/RCC-P1.toml",
+      "bytes": 210,
+      "sha256": "0a953456b86804a844c5cd289a5491b0c85006abf96caa577f65a1483fe2686a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2231,
+      "sha256": "ccb63d88f8e1e719e1e0ac118a5bf798690e0744db02492e6cd5d1c827b95ca5"
+    },
+    {
+      "path": "StartupSource/STARTUP_ORDER.md",
+      "bytes": 143,
+      "sha256": "ce04fe342c04f25b2401e253164d8f5194fe68bb5fe7602d73e46cfe72409b93"
+    },
+    {
+      "path": "apps/vsa-shell/index.html",
+      "bytes": 70,
+      "sha256": "ca017ccaaaf9f853b67f870979f057d9fe675d506f701cd2706d4d6e5f097a11"
+    },
+    {
+      "path": "apps/vsa-shell/package.json",
+      "bytes": 297,
+      "sha256": "cc6ec7e05d3884b45f01115325ac69d67d9088906bb44743e727d4ae4b7ebfa0"
+    },
+    {
+      "path": "apps/vsa-shell/src/App.vue",
+      "bytes": 1694,
+      "sha256": "f4f278d3166d5fc057eb27c75a11102a5ca6b9dbf6b99892c95a64be7fa2400b"
+    },
+    {
+      "path": "apps/vsa-shell/src/components/DesignerCanvas.vue",
+      "bytes": 921,
+      "sha256": "4d9199c49696ace41f9e6e3ad3a43ad4663b4dddba8e8b650b7c151cbb2286c7"
+    },
+    {
+      "path": "apps/vsa-shell/src/components/Mothership.vue",
+      "bytes": 670,
+      "sha256": "f2608f402ffdbe5110d251d8b445950b39b67cba5334aa44291bdb1db3c127c3"
+    },
+    {
+      "path": "apps/vsa-shell/src/components/WebWorkspace.vue",
+      "bytes": 767,
+      "sha256": "d792ae9849207184d3dfd84d82637c36794fde56d4f4e32c15c368af5237460c"
+    },
+    {
+      "path": "apps/vsa-shell/src/domain.ts",
+      "bytes": 804,
+      "sha256": "33ddac3d1e6317a2f0d47259412b3294d70b8c58f953d51efcb5b2a216c7aeb0"
+    },
+    {
+      "path": "apps/vsa-shell/src/main.ts",
+      "bytes": 111,
+      "sha256": "94c2e250a7199dcd26b0092bea3c2fd503c68e67e6afad48fc1f4199a37c9376"
+    },
+    {
+      "path": "apps/vsa-shell/src/style.css",
+      "bytes": 1862,
+      "sha256": "bf22ddc923bfbffec9d4737530d2262311923bf0e554e4a5b5f22bb67892388c"
+    },
+    {
+      "path": "apps/vsa-shell/tsconfig.json",
+      "bytes": 161,
+      "sha256": "2d30f727f510df79cefb743e22bce501890682d81f2e90e4c79cc5b90bea243b"
+    },
+    {
+      "path": "apps/vsa-shell/vite.config.ts",
+      "bytes": 120,
+      "sha256": "4f75b5b3340fb69ad69342a9aacc541789646209671098d5baa4eaf75dbbfbbf"
+    },
+    {
+      "path": "docs/CAPABILITY_PLACEMENT.md",
+      "bytes": 338,
+      "sha256": "e7434147613ca0b6b99110a8423f0cff1e9e3d32c803f7906631cb654412e711"
+    },
+    {
+      "path": "docs/HUMAN_FIRST_UI.md",
+      "bytes": 336,
+      "sha256": "b6d97b6e13a5e79f71fc1d1dafb886203c699e422f4c0bfb0e8b648d9616d888"
+    },
+    {
+      "path": "docs/RPG_LAYER.md",
+      "bytes": 426,
+      "sha256": "75ec5acbacadb1799be40fcbdf3f6a3d44d3706b5a3e069401b55ce5aaccbb1c"
+    },
+    {
+      "path": "docs/WEB_DESIGN_SCOPE.md",
+      "bytes": 375,
+      "sha256": "302a883e7b393f59551c64e0489d98af149e83904ad8b964ea759adaa9a9efc4"
+    },
+    {
+      "path": "scripts/verify-rust.ps1",
+      "bytes": 155,
+      "sha256": "56e040eb226ee36c6d365f65f14b84c6b307c4b4a90f45cd063c123473747f5a"
+    },
+    {
+      "path": "scripts/verify-rust.sh",
+      "bytes": 140,
+      "sha256": "6727e178af243a5980bd337600deb24f82a14ce012e48f9123ac6a46b57c2c50"
+    },
+    {
+      "path": "scripts/verify-ui.ps1",
+      "bytes": 107,
+      "sha256": "7937cd3a2e41370d01f1ff3674ee9fca71e7f8872be436e35398fce6a178a71f"
+    }
+  ]
+}

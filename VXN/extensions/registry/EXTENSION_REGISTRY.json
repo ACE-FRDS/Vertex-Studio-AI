@@ -1,0 +1,22 @@
+{
+  "schema": "vertex.vxn.extension-registry.v1",
+  "capability_ports": [
+    "NATIVE_CODEC",
+    "TRANSPORT",
+    "MODEL_ADAPTER",
+    "MEMORY_PROVIDER",
+    "IMPACT_ENGINE",
+    "ASSOCIATION_ENGINE",
+    "RUNTIME_SCHEDULER",
+    "RESOURCE_PROVIDER",
+    "VTC_PROVIDER",
+    "ARD_PROVIDER",
+    "OBSERVABILITY_SINK",
+    "LANGUAGE_ADAPTER",
+    "FORMAT_ADAPTER",
+    "VXN_NATIVE_MODEL",
+    "EXPERIMENTAL"
+  ],
+  "version_policy": "VERSIONED_CONTRACT_REQUIRED",
+  "unknown_future_organs": "ALLOWED_BY_DESIGN"
+}

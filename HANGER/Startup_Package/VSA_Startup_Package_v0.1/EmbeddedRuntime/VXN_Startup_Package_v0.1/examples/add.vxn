@@ -1,0 +1,6 @@
+# 1 + 2 = 3
+const a 1
+const b 2
+add c a b
+print c
+halt

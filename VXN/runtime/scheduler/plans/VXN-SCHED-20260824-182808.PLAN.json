@@ -1,0 +1,111 @@
+{
+  "schema": "vertex.scheduler.adaptive-mission-plan.v1",
+  "schedule_id": "VXN-SCHED-20260824-182808",
+  "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753",
+  "mission_class": "TRANSACTION_SAFETY",
+  "generated_at": "2026-08-24T18:28:08.1406277+09:00",
+  "scheduler": {
+    "logical_party_size": 4,
+    "physical_parallel_width": 3,
+    "prefer_model_residency": true,
+    "queue_policy": "PRIORITY_PLUS_MODEL_RESIDENCY",
+    "retry_policy": "FAILED_TASKS_ONLY",
+    "http_500_backoff": "DECREMENT_WIDTH_BY_1",
+    "minimum_width": 1,
+    "probe_up_after_success": true
+  },
+  "field_execution": {
+    "waves": [
+      {
+        "wave": 1,
+        "width": 3,
+        "tasks": [
+          {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Critic",
+            "role": "Critic",
+            "model": "hunyuan-4b-instruct",
+            "roster_state": "STARTER",
+            "assignment_status": "EXPERIENCED",
+            "formation_score": 0.5841,
+            "priority": 116,
+            "state": "QUEUED"
+          },
+          {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Planner",
+            "role": "Planner",
+            "model": "hunyuan-4b-instruct",
+            "roster_state": "STARTER",
+            "assignment_status": "EXPERIENCED",
+            "formation_score": 0.5494,
+            "priority": 105,
+            "state": "QUEUED"
+          },
+          {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Verifier",
+            "role": "Verifier",
+            "model": "hunyuan-4b-instruct",
+            "roster_state": "STARTER",
+            "assignment_status": "EXPERIENCED",
+            "formation_score": 0.5461,
+            "priority": 112,
+            "state": "QUEUED"
+          }
+        ],
+        "models": [
+          "hunyuan-4b-instruct"
+        ],
+        "residency_hint": "KEEP_MODEL_RESIDENT"
+      },
+      {
+        "wave": 2,
+        "width": 1,
+        "tasks": [
+          {
+            "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::ScopeGuard",
+            "role": "ScopeGuard",
+            "model": "hunyuan-4b-instruct",
+            "roster_state": "STARTER",
+            "assignment_status": "EXPERIENCED",
+            "formation_score": 0.4946,
+            "priority": 119,
+            "state": "QUEUED"
+          }
+        ],
+        "models": [
+          "hunyuan-4b-instruct"
+        ],
+        "residency_hint": "KEEP_MODEL_RESIDENT"
+      }
+    ]
+  },
+  "command_execution": {
+    "phase": "COMMAND_INTEGRATION",
+    "order": 3,
+    "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "specialty_score": 59.0,
+    "confidence": "PROVISIONAL",
+    "trigger": "AFTER_FIELD_WAVES_COMPLETE",
+    "execution_mode": "SERIAL"
+  },
+  "runtime_hints": {
+    "keep_same_model_loaded_when_possible": true,
+    "release_model_between_model_families": true,
+    "observe_http_500": true,
+    "observe_latency": true,
+    "observe_queue_depth": true,
+    "observe_runtime_capacity": true,
+    "allow_runtime_backoff": true
+  },
+  "execution_policy": {
+    "automatic_execution": false,
+    "requires_go_signal": true,
+    "scheduler_is_authoritative_for_order": true,
+    "executor_is_authoritative_for_actual_runtime_result": true
+  },
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE",
+    "model_invocation": "NONE",
+    "agent_execution": "NONE"
+  }
+}

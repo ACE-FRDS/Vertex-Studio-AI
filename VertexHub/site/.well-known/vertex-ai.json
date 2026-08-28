@@ -1,0 +1,19 @@
+{
+  "schema": "vertex-ai-bootstrap/2",
+  "service": "Vertex AI Knowledge Hub",
+  "purpose": "Discovery endpoint for Vertex canonical public knowledge",
+  "canonicalOrigin": "https://vertex.a-portal.net/",
+  "discovery": {
+    "llms": "https://vertex.a-portal.net/llms.txt",
+    "manifest": "https://vertex.a-portal.net/ai/vertex-public-knowledge.json",
+    "research": "https://vertex.a-portal.net/ai/research.json",
+    "concepts": "https://vertex.a-portal.net/ai/concepts.json",
+    "sources": "https://vertex.a-portal.net/ai/sources.json",
+    "relations": "https://vertex.a-portal.net/ai/relations.json"
+  },
+  "policy": {
+    "preferCanonical": true,
+    "fabrication": "forbidden",
+    "unknownHandling": "definition_pending"
+  }
+}

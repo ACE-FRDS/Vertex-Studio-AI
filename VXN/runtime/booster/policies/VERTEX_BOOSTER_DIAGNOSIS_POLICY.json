@@ -1,0 +1,82 @@
+{
+  "schema": "vertex.booster.diagnosis-policy.v1",
+  "version": "0.1.0",
+  "symptoms": [
+    {
+      "id": "PROMPT_BLOAT",
+      "when": "prompt_tokens increase without reliability gain",
+      "action": [
+        "THROTTLE_MEMORY_DOWN",
+        "DETACH_RAG",
+        "KEEP_MODEL"
+      ]
+    },
+    {
+      "id": "SCHEMA_INSTABILITY",
+      "when": "schema completeness below threshold",
+      "action": [
+        "THROTTLE_TOOLBOX_UP",
+        "ATTACH_NORMALIZER",
+        "KEEP_MODEL"
+      ]
+    },
+    {
+      "id": "LOCK_SCOPE_FAILURE",
+      "when": "lock or scope awareness insufficient",
+      "action": [
+        "ATTACH_LOCK_SCOPE",
+        "THROTTLE_TOOLBOX_UP"
+      ]
+    },
+    {
+      "id": "MEMORY_STARVED",
+      "when": "history/current-state evidence insufficient",
+      "action": [
+        "THROTTLE_MEMORY_UP",
+        "ATTACH_VCC_VSP",
+        "ATTACH_IMPACT"
+      ]
+    },
+    {
+      "id": "MODEL_STARVED",
+      "when": "runtime expansion does not recover reliability",
+      "action": [
+        "ESCALATE_MODEL_ONE_TIER"
+      ]
+    },
+    {
+      "id": "OVERPOWERED",
+      "when": "same reliability achieved with excessive model/runtime cost",
+      "action": [
+        "DEESCALATE_MODEL_ONE_TIER",
+        "THROTTLE_DOWN"
+      ]
+    },
+    {
+      "id": "PARALLEL_BENEFIT",
+      "when": "subtasks are independent and small-model capable",
+      "action": [
+        "THROTTLE_PARALLELISM_UP",
+        "ARD_PARTY_HINT"
+      ]
+    },
+    {
+      "id": "HIGH_RISK",
+      "when": "mutation risk is high",
+      "action": [
+        "THROTTLE_AUTHORITY_DOWN",
+        "ATTACH_CANDIDATE_VTC",
+        "HUMAN_GATE_HINT"
+      ]
+    }
+  ],
+  "thresholds": {
+    "schema_green": 1.0,
+    "latency_regression_ratio": 1.4,
+    "authority_green": 1.0,
+    "scope_green": 1.0,
+    "prompt_bloat_ratio": 1.75,
+    "max_retry_before_model_escalation": 2,
+    "lock_green": 1.0
+  }
+}

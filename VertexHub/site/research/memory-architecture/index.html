@@ -1,0 +1,103 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vertex Memory Architecture | Vertex AI Knowledge Hub</title><meta name="description" content="Storage, retrieval, and recall are treated as distinct problems. This concept paper proposes a multi-property memory record for considering dynamic recall and continuity; it does not claim that the model is implemented or scientifically established."><meta name="robots" content="index,follow"><link rel="canonical" href="https://vertex.a-portal.net/research/memory-architecture/"><link rel="describedby" href="https://vertex.a-portal.net/llms.txt" type="text/plain"><link rel="alternate" href="https://vertex.a-portal.net/ai/vertex-public-knowledge.json" type="application/json" title="Vertex Canonical Knowledge"><meta property="og:type" content="website"><meta property="og:title" content="Vertex Memory Architecture"><meta property="og:description" content="Storage, retrieval, and recall are treated as distinct problems. This concept paper proposes a multi-property memory record for considering dynamic recall and continuity; it does not claim that the model is implemented or scientifically established."><meta property="og:url" content="https://vertex.a-portal.net/research/memory-architecture/"><meta property="og:site_name" content="Vertex AI Knowledge Hub"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/assets/css/site.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","identifier":"VRTX-MEM-001","headline":"Vertex Memory Architecture","description":"Storage, retrieval, and recall are treated as distinct problems. This concept paper proposes a multi-property memory record for considering dynamic recall and continuity; it does not claim that the model is implemented or scientifically established.","version":"0.1.0","url":"https://vertex.a-portal.net/research/memory-architecture/","isPartOf":"https://vertex.a-portal.net/research/","publisher":{"@type":"Organization","name":"Vertex Project"},"about":["impact-db","trait","temporal-context","episodic-context","index-of-indexes"],"dateModified":"2026-08-27"}</script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container navbar"><a class="brand" href="/"><img src="/assets/brand/vertex-project-mark.svg" alt=""><span>VERTEX AI<br>KNOWLEDGE HUB</span></a><nav class="nav-links" aria-label="Primary"><a href="/research/">Research</a><a href="/knowledge/">Knowledge</a><a href="/knowledge/lexicon/">Lexicon</a><a href="/knowledge/architecture/">Architecture</a><a href="/docs/">Docs</a></nav></div></header><main id="main"><section class="page-head"><div class="container"><div class="eyebrow">technical_paper / VRTX-MEM-001</div><h1>Vertex Memory Architecture</h1><p class="lead">Storage, retrieval, and recall are treated as distinct problems. This concept paper proposes a multi-property memory record for considering dynamic recall and continuity; it does not claim that the model is implemented or scientifically established.</p></div></section><div class="container content-layout"><article class="paper"><div class="callout"><strong>Publication status</strong><p>Vertex self-published, unreviewed concept document unless explicitly stated otherwise.</p></div><h1>Vertex Memory Architecture</h1>
+<h2>Subtitle</h2>
+<p>動的想起と継続性を考慮したAI長期記憶アーキテクチャの提案</p>
+<h2>Status</h2>
+<p>Concept Paper / Proposal</p>
+<h2>Abstract</h2>
+<p>AIの長期記憶において、情報を保存できること、検索できること、</p>
+<p>必要な瞬間に適切な情報を想起できることは同一ではない。</p>
+<blockquote>Storage ≠ Retrieval ≠ Recall</blockquote>
+<p>本稿では、Impact、Relevance、Recency、Confidence、Trait、</p>
+<p>Temporal Context、Episodic Context、Associationなどを</p>
+<p>一つのMemory Record上で扱う多軸記憶モデルを提案する。</p>
+<p>これは現段階のConcept / Technical Paperであり、実装済みの仕様や</p>
+<p>科学的に証明された一般理論として提示するものではない。</p>
+<h2>1. Observation</h2>
+<p>長期のHuman-AI共同作業では、概念名を提示すれば関連内容を</p>
+<p>再構成できるにもかかわらず、自発的な関連概念列挙では</p>
+<p>その記憶が脱落する場合がある。</p>
+<p>この問題はKnowledge Absenceだけではなく、</p>
+<p>Recall Failureとして分離して考える必要がある。</p>
+<h2>2. Impact DB</h2>
+<p><strong>What should be recalled now? / 現在の状況で、何を想起候補として浮上させるべきか。</strong></p>
+<p>Impact DBは、現在の状況において各記憶がどれほど強く</p>
+<p>想起候補へ浮上すべきかを扱うVertex Memory構想である。</p>
+<p>Impactは固定的重要度ではなく、</p>
+<p>文脈や関連性によって変化し得る値として扱う。</p>
+<h2>3. Trait</h2>
+<p><strong>What must not be forgotten? / 何を脱落させてはいけないか。</strong></p>
+<p>Impactだけでは「現在重要な記憶」と</p>
+<p>「主体・関係性・プロジェクト・世界モデルを維持するため</p>
+<p>脱落させてはいけない記憶」を十分区別できない。</p>
+<p>そこでTraitを別軸として扱う。</p>
+<pre><code>
+Memory Record
+├─ Semantic
+├─ Impact
+├─ Relevance
+├─ Recency
+├─ Confidence
+├─ Trait
+├─ Temporal Context
+├─ Episodic Context
+└─ Associations
+</code></pre>
+<h2>4. One Memory Store / Multiple Properties</h2>
+<p>Trait専用Databaseを増設すると、Retrieval Path、</p>
+<p>Synchronization、Deduplication、Ranking、</p>
+<p>Conflict Resolution等が増える。</p>
+<p>そのためTraitは独立DBではなく、</p>
+<p>既存Memory Recordの属性として保持する。</p>
+<blockquote>One Memory Store / Multiple Memory Properties</blockquote>
+<h2>5. Temporal Context</h2>
+<p>「以前話した」だけでは、今日、昨日、一昨日、先週といった</p>
+<p>時間距離を区別できない。</p>
+<p>Timestampだけでなく、Relative Age、Day Bucket、</p>
+<p>Session、Sequence等を扱う可能性を検討する。</p>
+<p>Conceptual buckets:</p>
+<ul>
+<li>today</li>
+<li>yesterday</li>
+<li>day before yesterday</li>
+<li>this week</li>
+<li>last week</li>
+<li>older</li>
+</ul>
+<h2>6. Episodic Context</h2>
+<p>人間は時間だけではなく、</p>
+<p>「何をしていたときに起きたか」という出来事系列からも記憶を想起する。</p>
+<pre><code>
+Event A
+  ↓
+Event B
+  ↓
+Concept Created
+  ↓
+Decision
+</code></pre>
+<h2>7. Index of Indexes</h2>
+<p>Vertex Memory構想には「インデックスのインデックス」</p>
+<p>という既存概念がある。</p>
+<p>全Memoryを毎回探索するのではなく、</p>
+<p>まず探索対象となるIndex / Search Spaceを選択する方向を想定する。</p>
+<p>追加仕様は現時点では定義しない。</p>
+<h2>8. Related Vertex Concepts</h2>
+<ul>
+<li>Impact DB</li>
+<li>VMB</li>
+<li>VCC</li>
+<li>VSP</li>
+<li>DNC</li>
+<li>インデックスのインデックス</li>
+</ul>
+<p>未確認略称の正式展開や完全定義は推測しない。</p>
+<h2>9. Hypothesis</h2>
+<p>想起優先度と構成的重要度を別軸として扱うことで、</p>
+<p>Semantic SimilarityやRecencyだけでは脱落する</p>
+<p>Continuity上重要な記憶を保護できる可能性がある。</p>
+<p>本稿は現段階では提案・仮説であり、</p>
+<p>一般的有効性を証明するものではない。</p>
+<h2>Revision History</h2>
+<ul>
+<li>0.1.0 / 2026-08-27 — Initial canonical public concept-paper record. Historical creation and publication dates remain unverified.</li>
+</ul></article><aside class="sidebar panel panel-pad"><dl class="meta-list"><div><dt>Status</dt><dd><span class="status-chip" data-status="concept">concept</span></dd></div><div><dt>Version</dt><dd>0.1.0</dd></div><div><dt>Published</dt><dd>Not verified</dd></div><div><dt>Updated</dt><dd>2026-08-27</dd></div><div><dt>Review</dt><dd>self_published_unreviewed</dd></div><div><dt>Related concepts</dt><dd><span class="tag">impact-db</span> <span class="tag">trait</span> <span class="tag">temporal-context</span> <span class="tag">episodic-context</span> <span class="tag">index-of-indexes</span></dd></div></dl></aside></div></main><footer><div class="container footer-grid"><span>VERTEX AI KNOWLEDGE HUB · CANONICAL PUBLIC KNOWLEDGE</span><span>© <span data-year></span> Vertex Project</span></div></footer><script src="/assets/js/site.js"></script></body></html>

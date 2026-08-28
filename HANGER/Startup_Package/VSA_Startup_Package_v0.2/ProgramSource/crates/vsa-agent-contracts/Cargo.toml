@@ -1,0 +1,11 @@
+[package]
+name = "vsa-agent-contracts"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+vsa-foundation = { path = "../vsa-foundation" }
+
+[lints]
+workspace = true

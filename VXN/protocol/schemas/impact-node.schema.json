@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertex.vxn.impact-node.v1",
+  "title": "VXN Impact Node",
+  "type": "object",
+  "required": [
+    "id",
+    "impact",
+    "truth_authority"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "impact": {
+      "minimum": 0,
+      "type": "number",
+      "maximum": 1
+    },
+    "truth_authority": {
+      "enum": [
+        "NONE",
+        "EVIDENCE",
+        "CANONICAL",
+        "HUMAN",
+        "VTC"
+      ]
+    },
+    "protected": {
+      "type": "boolean"
+    },
+    "suppressed": {
+      "type": "boolean"
+    },
+    "last_activated_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relation_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

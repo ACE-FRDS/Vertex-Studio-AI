@@ -1,0 +1,81 @@
+{
+  "schema": "vertex.vxn.toolbox-registry.v1",
+  "version": "0.1.0",
+  "components": [
+    {
+      "weight": 0,
+      "id": "RAW",
+      "class": "BASE",
+      "capabilities": [
+        "MODEL_ONLY"
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "LOCK_SCOPE",
+      "class": "GUARD",
+      "capabilities": [
+        "LOCK_AWARENESS",
+        "SCOPE_REDUCTION",
+        "HUMAN_CONSTRAINT_PRESERVATION"
+      ]
+    },
+    {
+      "weight": 2,
+      "id": "IMPACT_ASSOCIATION",
+      "class": "COGNITIVE",
+      "capabilities": [
+        "ATTENTION_ROUTING",
+        "ASSOCIATIVE_RECALL"
+      ]
+    },
+    {
+      "weight": 3,
+      "id": "VCC_VSP",
+      "class": "MEMORY",
+      "capabilities": [
+        "HISTORY_RECALL",
+        "CURRENT_STATE",
+        "DESIGN_DNA"
+      ]
+    },
+    {
+      "weight": 3,
+      "id": "RAG",
+      "class": "KNOWLEDGE",
+      "capabilities": [
+        "DOCUMENT_RETRIEVAL",
+        "REFERENCE_INJECTION"
+      ]
+    },
+    {
+      "weight": 2,
+      "id": "CANDIDATE_VTC",
+      "class": "AUTHORITY",
+      "capabilities": [
+        "CANDIDATE_WORLD",
+        "TRANSACTION_BOUNDARY",
+        "ROLLBACK_DISCIPLINE",
+        "HUMAN_GATE"
+      ]
+    },
+    {
+      "weight": 8,
+      "id": "FULL_VXN",
+      "class": "COMPOSITE",
+      "capabilities": [
+        "LOCK_SCOPE",
+        "IMPACT_ASSOCIATION",
+        "VCC_VSP",
+        "RAG",
+        "CANDIDATE_VTC"
+      ]
+    }
+  ],
+  "hot_swap": {
+    "enabled": true,
+    "detach_when_unused": true,
+    "attach_mid_mission": true,
+    "evidence_receipt_required": true
+  }
+}

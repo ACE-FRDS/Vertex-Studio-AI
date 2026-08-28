@@ -1,0 +1,17 @@
+{
+  "schema": "vertex.load-balancing-bus.policy.v1",
+  "updated_at": "2026-08-24T18:53:10.5990643+09:00",
+  "principles": {
+    "logical_party_decoupled_from_physical_width": true,
+    "preserve_successful_results_on_backoff": true,
+    "prefer_exact_model_match": true,
+    "family_nearest_size_fallback": true,
+    "provider_fallback_disabled_by_default": true
+  },
+  "capacity": {
+    "initial_width": 2,
+    "minimum_width": 1,
+    "on_http_500": "DECREMENT_WIDTH_BY_1",
+    "probe_up_after_stable_wave": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "package": "VSA Startup Package v0.2 — Telemetry-first ARD",
+  "cargo_check": "NOT_RUN",
+  "cargo_test": "NOT_RUN",
+  "reason": "cargo executable is not installed in the package-generation environment",
+  "claim": "No build PASS is claimed. Run scripts/verify-rust.* on the target development machine."
+}

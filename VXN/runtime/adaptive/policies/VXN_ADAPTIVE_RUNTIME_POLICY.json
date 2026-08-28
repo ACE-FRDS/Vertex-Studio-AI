@@ -1,0 +1,55 @@
+{
+  "schema": "vertex.vxn.adaptive-runtime-policy.v1",
+  "version": "0.1.0",
+  "principle": {
+    "variable_means": [
+      "CAPACITY",
+      "TOOLBOX_COMPOSITION",
+      "MEMORY_DEPTH",
+      "MODEL",
+      "MODEL_TIER",
+      "GUARD_SET",
+      "TRANSPORT_ROUTE",
+      "MID_MISSION_HOT_SWAP"
+    ],
+    "full_vxn_is_not_default": true,
+    "minimum_effective_runtime": "PREFERRED",
+    "evidence_driven_composition": true
+  },
+  "runtime_boundary": {
+    "start": "LIGHTEST_PROVEN_CONFIGURATION",
+    "expand_on": [
+      "LOW_CONFIDENCE",
+      "SCHEMA_FAILURE",
+      "LOCK_SCOPE_FAILURE",
+      "MISSING_MEMORY_EVIDENCE",
+      "HIGH_RISK",
+      "RETRY_THRESHOLD",
+      "MODEL_CAPABILITY_GAP"
+    ],
+    "shrink_on": [
+      "REDUNDANT_COMPONENT",
+      "NO_ACCURACY_GAIN",
+      "PROMPT_BLOAT",
+      "LATENCY_REGRESSION",
+      "RESOURCE_PRESSURE"
+    ]
+  },
+  "authority": {
+    "adaptive_runtime": [
+      "OBSERVE",
+      "SELECT",
+      "ATTACH",
+      "DETACH",
+      "ROUTE",
+      "ESCALATE_MODEL",
+      "DEESCALATE_MODEL",
+      "PROPOSE_NEW_COMPONENT"
+    ],
+    "forbidden": [
+      "DIRECT_CANONICAL_MUTATION",
+      "DIRECT_VTC_EXECUTION",
+      "UNSCOPED_OS_MUTATION"
+    ]
+  }
+}

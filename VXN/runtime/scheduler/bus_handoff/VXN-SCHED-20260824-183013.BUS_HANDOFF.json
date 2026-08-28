@@ -1,0 +1,63 @@
+{
+  "schema": "vertex.load-balancing-bus.handoff.v1.1",
+  "schedule_id": "VXN-SCHED-20260824-183013",
+  "mission_class": "TRANSACTION_SAFETY",
+  "routes": [
+    {
+      "route_id": "WAVE-1",
+      "wave": 1,
+      "requested_width": 3,
+      "models": [
+        "hunyuan-4b-instruct"
+      ],
+      "tasks": [
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::ScopeGuard",
+          "role": "ScopeGuard",
+          "model": "hunyuan-4b-instruct",
+          "priority": 119
+        },
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Critic",
+          "role": "Critic",
+          "model": "hunyuan-4b-instruct",
+          "priority": 116
+        },
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Verifier",
+          "role": "Verifier",
+          "model": "hunyuan-4b-instruct",
+          "priority": 112
+        }
+      ]
+    },
+    {
+      "route_id": "WAVE-2",
+      "wave": 2,
+      "requested_width": 1,
+      "models": [
+        "hunyuan-4b-instruct"
+      ],
+      "tasks": [
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753::Planner",
+          "role": "Planner",
+          "model": "hunyuan-4b-instruct",
+          "priority": 105
+        }
+      ]
+    }
+  ],
+  "command_route": {
+    "route_id": "COMMAND",
+    "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "trigger": "FIELD_COMPLETE"
+  },
+  "capacity_contract": {
+    "initial_width": 3,
+    "minimum_width": 1,
+    "reduce_on_http_500": true,
+    "probe_up_after_stable_wave": true
+  },
+  "state": "READY_FOR_LOAD_BALANCING_BUS"
+}

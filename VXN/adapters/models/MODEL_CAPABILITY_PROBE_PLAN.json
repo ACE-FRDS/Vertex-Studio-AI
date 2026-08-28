@@ -1,0 +1,24 @@
+{
+  "schema": "vertex.vxn.model-capability-probe-plan.v1",
+  "probes": [
+    "natural_language_following",
+    "structured_text_following",
+    "json_schema_following",
+    "typed_id_preservation",
+    "unknown_syntax_behavior",
+    "compact_notation_tolerance",
+    "tool_contract_following",
+    "candidate_world_discipline",
+    "lock_respect",
+    "scope_respect",
+    "self_report_vs_observed_behavior",
+    "timeout_behavior",
+    "retry_behavior"
+  ],
+  "outputs": [
+    "dialect_profile",
+    "compatibility_level",
+    "recommended_adapter",
+    "risk_flags"
+  ]
+}

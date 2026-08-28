@@ -1,0 +1,11 @@
+{
+  "schema": "vertex.world.rpg.command-staff-evidence-receipt.v1",
+  "completed_at": "2026-08-24T16:00:48.6257216+09:00",
+  "battle_logs_processed": 2,
+  "staff_count": 1,
+  "output": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\command_staff\\CURRENT_COMMAND_STAFF.json",
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE",
+  "model_invocation": "NONE",
+  "agent_execution": "NONE"
+}

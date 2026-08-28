@@ -1,0 +1,72 @@
+{
+  "schema": "vertex.booster.runtime-maps.v1",
+  "version": "0.1.0",
+  "maps": [
+    {
+      "channels": {
+        "authority": 25,
+        "cognitive": 50,
+        "parallelism": 20,
+        "memory": 35,
+        "toolbox": 45,
+        "compute": 45
+      },
+      "mission_class": "GENERAL"
+    },
+    {
+      "channels": {
+        "authority": 30,
+        "cognitive": 60,
+        "parallelism": 45,
+        "memory": 30,
+        "toolbox": 75,
+        "compute": 70
+      },
+      "mission_class": "CODING"
+    },
+    {
+      "channels": {
+        "authority": 20,
+        "cognitive": 45,
+        "parallelism": 20,
+        "memory": 85,
+        "toolbox": 55,
+        "compute": 45
+      },
+      "mission_class": "MEMORY_RECALL"
+    },
+    {
+      "channels": {
+        "authority": 15,
+        "cognitive": 55,
+        "parallelism": 25,
+        "memory": 45,
+        "toolbox": 65,
+        "compute": 45
+      },
+      "mission_class": "TRANSACTION_SAFETY"
+    },
+    {
+      "channels": {
+        "authority": 20,
+        "cognitive": 40,
+        "parallelism": 10,
+        "memory": 25,
+        "toolbox": 70,
+        "compute": 35
+      },
+      "mission_class": "UI_LOCK_SCOPE"
+    },
+    {
+      "channels": {
+        "authority": 10,
+        "cognitive": 70,
+        "parallelism": 35,
+        "memory": 55,
+        "toolbox": 45,
+        "compute": 50
+      },
+      "mission_class": "REVIEW"
+    }
+  ]
+}

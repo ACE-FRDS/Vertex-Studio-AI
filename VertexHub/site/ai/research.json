@@ -1,0 +1,154 @@
+[
+  {
+    "paper_id": "VRTX-MEM-001",
+    "title": "Vertex Memory Architecture",
+    "subtitle": "動的想起と継続性を考慮したAI長期記憶アーキテクチャの提案",
+    "authors": [],
+    "organization": "Vertex Project",
+    "version": "0.1.0",
+    "status": "concept",
+    "paper_type": "technical_paper",
+    "review_status": "self_published_unreviewed",
+    "created_at": null,
+    "published_at": null,
+    "updated_at": "2026-08-27",
+    "canonical_url": "https://vertex.a-portal.net/research/memory-architecture/",
+    "abstract": "Storage, retrieval, and recall are treated as distinct problems. This concept paper proposes a multi-property memory record for considering dynamic recall and continuity; it does not claim that the model is implemented or scientifically established.",
+    "keywords": [
+      "memory",
+      "retrieval",
+      "recall",
+      "continuity",
+      "impact",
+      "trait"
+    ],
+    "related_concepts": [
+      "impact-db",
+      "trait",
+      "temporal-context",
+      "episodic-context",
+      "index-of-indexes"
+    ],
+    "related_products": [],
+    "supersedes": null,
+    "superseded_by": null,
+    "references": [],
+    "external_references": [],
+    "source_path": "content/research/memory-architecture.md",
+    "source_verified": true,
+    "claims": [
+      {
+        "claim": "Storage, retrieval, and recall should be treated as distinct problems in this proposal.",
+        "provenance": "VRTX-MEM-001",
+        "evidence": "Conceptual problem statement in the canonical paper.",
+        "confidence": "provisional",
+        "status": "hypothesis"
+      },
+      {
+        "claim": "Impact and Trait are proposed as separate memory properties within one memory store.",
+        "provenance": "VRTX-MEM-001",
+        "evidence": "Proposed conceptual model; implementation is not asserted.",
+        "confidence": "provisional",
+        "status": "experimental"
+      },
+      {
+        "claim": "Temporal and episodic context may be used by future retrieval systems.",
+        "provenance": "VRTX-MEM-001",
+        "evidence": "Future-facing architecture proposal.",
+        "confidence": "provisional",
+        "status": "hypothesis"
+      }
+    ],
+    "revision_history": [
+      {
+        "version": "0.1.0",
+        "date": "2026-08-27",
+        "note": "Initial canonical public concept-paper record. Historical creation and publication dates remain unverified."
+      }
+    ]
+  },
+  {
+    "paper_id": "VRTX-LLC-001",
+    "title": "LLC Bias",
+    "subtitle": null,
+    "authors": [],
+    "organization": "Vertex Project",
+    "version": "0.0.0-pending",
+    "status": "definition_pending",
+    "paper_type": "research_placeholder",
+    "review_status": "not_reviewed",
+    "created_at": null,
+    "published_at": null,
+    "updated_at": "2026-08-27",
+    "canonical_url": "https://vertex.a-portal.net/research/llc-bias/",
+    "abstract": "Pending source verification. No definition or abbreviation expansion is published.",
+    "keywords": [
+      "LLC Bias"
+    ],
+    "related_concepts": [],
+    "related_products": [],
+    "supersedes": null,
+    "superseded_by": null,
+    "references": [],
+    "external_references": [],
+    "source_path": "content/research/llc-bias.md",
+    "source_verified": false,
+    "claims": [],
+    "revision_history": [
+      {
+        "version": "0.0.0-pending",
+        "date": "2026-08-27",
+        "note": "Placeholder retained while primary-source verification is pending."
+      }
+    ]
+  },
+  {
+    "paper_id": "VRTX-PHI-001",
+    "title": "Vertex Design Philosophy",
+    "subtitle": "Human intent should remain human. Machine complexity should remain machine.",
+    "authors": [],
+    "organization": "Vertex Project",
+    "version": "0.1.0",
+    "status": "concept",
+    "paper_type": "philosophy_document",
+    "review_status": "self_published_unreviewed",
+    "created_at": null,
+    "published_at": null,
+    "updated_at": "2026-08-27",
+    "canonical_url": "https://vertex.a-portal.net/knowledge/concepts/",
+    "abstract": "A concept and philosophy document describing a human-first, machine-adaptive direction for Vertex software design.",
+    "keywords": [
+      "design philosophy",
+      "human intent",
+      "machine complexity",
+      "adaptation"
+    ],
+    "related_concepts": [
+      "blueprint",
+      "impact-db"
+    ],
+    "related_products": [],
+    "supersedes": null,
+    "superseded_by": null,
+    "references": [],
+    "external_references": [],
+    "source_path": "content/concepts/vertex-design-philosophy.md",
+    "source_verified": true,
+    "claims": [
+      {
+        "claim": "Human intent should remain human. Machine complexity should remain machine.",
+        "provenance": "VRTX-PHI-001",
+        "evidence": "Canonical design-philosophy statement.",
+        "confidence": "adopted",
+        "status": "established"
+      }
+    ],
+    "revision_history": [
+      {
+        "version": "0.1.0",
+        "date": "2026-08-27",
+        "note": "Initial canonical public philosophy record. Historical creation and publication dates remain unverified."
+      }
+    ]
+  }
+]

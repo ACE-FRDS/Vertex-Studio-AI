@@ -5,14 +5,18 @@ members = [
   "crates/vertex-audit",
   "crates/vertex-state",
   "crates/vertex-relations",
+  "crates/vertex-ard",
+  "crates/vertex-brain",
   "crates/vertex-memory",
   "crates/vertex-missions",
   "crates/vertex-git",
   "crates/vertex-runtime",
   "crates/vertex-vve",
+  "crates/vertex-observation-adapter",
   "crates/vertex-harness",
   "apps/vertex-harnessd",
   "apps/vertexctl",
+  "apps/vertex-ardctl",
 ]
 resolver = "2"
 

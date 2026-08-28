@@ -1,0 +1,8 @@
+name = "VXN Baseline"
+version = "0.1"
+work_unit = "small"
+verification = "immediate_for_core"
+parallelism = "adaptive"
+prefer_local = true
+allow_network = false
+human_gate_for_irreversible = true

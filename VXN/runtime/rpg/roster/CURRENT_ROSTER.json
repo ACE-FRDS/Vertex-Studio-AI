@@ -1,0 +1,457 @@
+{
+  "schema": "vertex.world.rpg.roster-lifecycle.v1.1",
+  "updated_at": "2026-08-24T18:49:12.1984782+09:00",
+  "generation": 1,
+  "counts": {
+    "total": 8,
+    "field_total": 5,
+    "command_staff": 3,
+    "starters": 4,
+    "bench": 1,
+    "reserve": 0,
+    "trial": 0,
+    "promotions": 0,
+    "demotions": 0
+  },
+  "field_roster": {
+    "starters": [
+      {
+        "character_id": "ARD-Planner",
+        "display_name": "Planner",
+        "class": "TACTICIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.266,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1465.0
+        },
+        "evidence": {
+          "missions": 4,
+          "success_rate": 0.0,
+          "affinity_conservative": 67.5,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 4,
+          "in_current_formation": true
+        }
+      },
+      {
+        "character_id": "ARD-ScopeGuard",
+        "display_name": "ScopeGuard",
+        "class": "GUARDIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.266,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1465.0
+        },
+        "evidence": {
+          "missions": 4,
+          "success_rate": 0.0,
+          "affinity_conservative": 67.5,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 4,
+          "in_current_formation": true
+        }
+      },
+      {
+        "character_id": "ARD-Critic",
+        "display_name": "Critic",
+        "class": "ANALYST",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.2658,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1457.5
+        },
+        "evidence": {
+          "missions": 4,
+          "success_rate": 0.0,
+          "affinity_conservative": 67.5,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 4,
+          "in_current_formation": true
+        }
+      },
+      {
+        "character_id": "ARD-Verifier",
+        "display_name": "Verifier",
+        "class": "VERIFIER",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.2485,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1080.0
+        },
+        "evidence": {
+          "missions": 3,
+          "success_rate": 0.0,
+          "affinity_conservative": 63.3,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 3,
+          "in_current_formation": true
+        }
+      }
+    ],
+    "bench": [
+      {
+        "character_id": "ARD-Explorer",
+        "display_name": "Explorer",
+        "class": "SCOUT",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "BENCH",
+        "transition": "RETAIN",
+        "previous_state": "BENCH",
+        "priority_score": 0.1557,
+        "progression": {
+          "level": 2,
+          "rank": "E",
+          "xp": 390.0
+        },
+        "evidence": {
+          "missions": 1,
+          "success_rate": 0.0,
+          "affinity_conservative": 59.6,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 1,
+          "in_current_formation": false
+        }
+      }
+    ],
+    "reserve": [],
+    "trial": [],
+    "promotions": [],
+    "demotions": [],
+    "members": [
+      {
+        "character_id": "ARD-Planner",
+        "display_name": "Planner",
+        "class": "TACTICIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.266,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1465.0
+        },
+        "evidence": {
+          "missions": 4,
+          "success_rate": 0.0,
+          "affinity_conservative": 67.5,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 4,
+          "in_current_formation": true
+        }
+      },
+      {
+        "character_id": "ARD-ScopeGuard",
+        "display_name": "ScopeGuard",
+        "class": "GUARDIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.266,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1465.0
+        },
+        "evidence": {
+          "missions": 4,
+          "success_rate": 0.0,
+          "affinity_conservative": 67.5,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 4,
+          "in_current_formation": true
+        }
+      },
+      {
+        "character_id": "ARD-Critic",
+        "display_name": "Critic",
+        "class": "ANALYST",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.2658,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1457.5
+        },
+        "evidence": {
+          "missions": 4,
+          "success_rate": 0.0,
+          "affinity_conservative": 67.5,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 4,
+          "in_current_formation": true
+        }
+      },
+      {
+        "character_id": "ARD-Verifier",
+        "display_name": "Verifier",
+        "class": "VERIFIER",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "STARTER",
+        "transition": "RETAIN",
+        "previous_state": "STARTER",
+        "priority_score": 0.2485,
+        "progression": {
+          "level": 4,
+          "rank": "D",
+          "xp": 1080.0
+        },
+        "evidence": {
+          "missions": 3,
+          "success_rate": 0.0,
+          "affinity_conservative": 63.3,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 3,
+          "in_current_formation": true
+        }
+      },
+      {
+        "character_id": "ARD-Explorer",
+        "display_name": "Explorer",
+        "class": "SCOUT",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "roster_state": "BENCH",
+        "transition": "RETAIN",
+        "previous_state": "BENCH",
+        "priority_score": 0.1557,
+        "progression": {
+          "level": 2,
+          "rank": "E",
+          "xp": 390.0
+        },
+        "evidence": {
+          "missions": 1,
+          "success_rate": 0.0,
+          "affinity_conservative": 59.6,
+          "confidence_tier": "PROVISIONAL",
+          "affinity_samples": 1,
+          "in_current_formation": false
+        }
+      }
+    ]
+  },
+  "command_staff": {
+    "members": [
+      {
+        "character_id": "INTEGRATOR::deepseek/deepseek-r1-0528-qwen3-8b",
+        "display_name": "Integrator",
+        "class": "COMMANDER",
+        "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+        "model_tier": "8B",
+        "staff_state": "PROBATIONARY_STAFF",
+        "priority_score": 0.114,
+        "progression": {
+          "level": 4,
+          "rank": "E",
+          "xp": 1100.0
+        },
+        "evidence": {
+          "missions": 4,
+          "success_rate": 0.0,
+          "role": "COMMAND_STAFF"
+        }
+      },
+      {
+        "character_id": "REVIEWER::google/gemma-4-12b-qat",
+        "display_name": "Senior Reviewer",
+        "class": "REVIEWER",
+        "model": "google/gemma-4-12b-qat",
+        "model_tier": "12B",
+        "staff_state": "PROBATIONARY_STAFF",
+        "priority_score": 0.0505,
+        "progression": {
+          "level": 3,
+          "rank": "D",
+          "xp": 450.0
+        },
+        "evidence": {
+          "missions": 1,
+          "success_rate": 0.0,
+          "role": "COMMAND_STAFF"
+        }
+      },
+      {
+        "character_id": "REVIEWER::qwen/qwq-32b",
+        "display_name": "Senior Reviewer",
+        "class": "REVIEWER",
+        "model": "qwen/qwq-32b",
+        "model_tier": "30B",
+        "staff_state": "PROBATIONARY_STAFF",
+        "priority_score": 0.032,
+        "progression": {
+          "level": 2,
+          "rank": "E",
+          "xp": 175.0
+        },
+        "evidence": {
+          "missions": 1,
+          "success_rate": 0.0,
+          "role": "COMMAND_STAFF"
+        }
+      }
+    ]
+  },
+  "members": [
+    {
+      "character_id": "ARD-Planner",
+      "display_name": "Planner",
+      "class": "TACTICIAN",
+      "model": "hunyuan-4b-instruct",
+      "model_tier": "3B4B",
+      "roster_state": "STARTER",
+      "transition": "RETAIN",
+      "previous_state": "STARTER",
+      "priority_score": 0.266,
+      "progression": {
+        "level": 4,
+        "rank": "D",
+        "xp": 1465.0
+      },
+      "evidence": {
+        "missions": 4,
+        "success_rate": 0.0,
+        "affinity_conservative": 67.5,
+        "confidence_tier": "PROVISIONAL",
+        "affinity_samples": 4,
+        "in_current_formation": true
+      }
+    },
+    {
+      "character_id": "ARD-ScopeGuard",
+      "display_name": "ScopeGuard",
+      "class": "GUARDIAN",
+      "model": "hunyuan-4b-instruct",
+      "model_tier": "3B4B",
+      "roster_state": "STARTER",
+      "transition": "RETAIN",
+      "previous_state": "STARTER",
+      "priority_score": 0.266,
+      "progression": {
+        "level": 4,
+        "rank": "D",
+        "xp": 1465.0
+      },
+      "evidence": {
+        "missions": 4,
+        "success_rate": 0.0,
+        "affinity_conservative": 67.5,
+        "confidence_tier": "PROVISIONAL",
+        "affinity_samples": 4,
+        "in_current_formation": true
+      }
+    },
+    {
+      "character_id": "ARD-Critic",
+      "display_name": "Critic",
+      "class": "ANALYST",
+      "model": "hunyuan-4b-instruct",
+      "model_tier": "3B4B",
+      "roster_state": "STARTER",
+      "transition": "RETAIN",
+      "previous_state": "STARTER",
+      "priority_score": 0.2658,
+      "progression": {
+        "level": 4,
+        "rank": "D",
+        "xp": 1457.5
+      },
+      "evidence": {
+        "missions": 4,
+        "success_rate": 0.0,
+        "affinity_conservative": 67.5,
+        "confidence_tier": "PROVISIONAL",
+        "affinity_samples": 4,
+        "in_current_formation": true
+      }
+    },
+    {
+      "character_id": "ARD-Verifier",
+      "display_name": "Verifier",
+      "class": "VERIFIER",
+      "model": "hunyuan-4b-instruct",
+      "model_tier": "3B4B",
+      "roster_state": "STARTER",
+      "transition": "RETAIN",
+      "previous_state": "STARTER",
+      "priority_score": 0.2485,
+      "progression": {
+        "level": 4,
+        "rank": "D",
+        "xp": 1080.0
+      },
+      "evidence": {
+        "missions": 3,
+        "success_rate": 0.0,
+        "affinity_conservative": 63.3,
+        "confidence_tier": "PROVISIONAL",
+        "affinity_samples": 3,
+        "in_current_formation": true
+      }
+    },
+    {
+      "character_id": "ARD-Explorer",
+      "display_name": "Explorer",
+      "class": "SCOUT",
+      "model": "hunyuan-4b-instruct",
+      "model_tier": "3B4B",
+      "roster_state": "BENCH",
+      "transition": "RETAIN",
+      "previous_state": "BENCH",
+      "priority_score": 0.1557,
+      "progression": {
+        "level": 2,
+        "rank": "E",
+        "xp": 390.0
+      },
+      "evidence": {
+        "missions": 1,
+        "success_rate": 0.0,
+        "affinity_conservative": 59.6,
+        "confidence_tier": "PROVISIONAL",
+        "affinity_samples": 1,
+        "in_current_formation": false
+      }
+    }
+  ],
+  "policy": {
+    "note": "Field roster and command staff are evaluated on different evidence axes.",
+    "automatic_model_execution": false,
+    "auto_party_formation_may_read_roster": true,
+    "human_override_allowed": true
+  }
+}

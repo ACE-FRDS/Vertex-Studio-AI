@@ -1,0 +1,79 @@
+{
+  "schema": "vertex.vxn.adapter-registry.v1",
+  "languages": [
+    {
+      "id": "javascript",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "typescript",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "rust",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "python",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "sql",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "powershell",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    }
+  ],
+  "formats": [
+    {
+      "id": "json",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "xml",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "yaml",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    },
+    {
+      "id": "toml",
+      "direction": "BIDIRECTIONAL",
+      "status": "PLANNED"
+    }
+  ],
+  "model_levels": [
+    {
+      "name": "NATURAL_LANGUAGE_ADAPTER",
+      "level": 0
+    },
+    {
+      "name": "STRUCTURED_ADAPTER",
+      "level": 1
+    },
+    {
+      "name": "COMPACT_VXN_ADAPTER",
+      "level": 2
+    },
+    {
+      "name": "VXN_NATIVE_COMPATIBLE",
+      "level": 3
+    },
+    {
+      "name": "VXN_NATIVE_MODEL",
+      "level": 4
+    }
+  ]
+}

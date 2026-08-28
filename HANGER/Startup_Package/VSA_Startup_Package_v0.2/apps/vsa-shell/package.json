@@ -1,0 +1,22 @@
+{
+  "name": "vsa-shell",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1",
+    "@vitejs/plugin-vue": "latest",
+    "monaco-editor": "0.55.1",
+    "vite": "latest",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "typescript": "6.0.2",
+    "vue-tsc": "3.3.11"
+  }
+}

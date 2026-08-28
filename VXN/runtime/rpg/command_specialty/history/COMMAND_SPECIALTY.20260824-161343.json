@@ -1,0 +1,106 @@
+{
+  "schema": "vertex.world.rpg.command-specialty.v1.1",
+  "updated_at": "2026-08-24T16:13:43.8529133+09:00",
+  "battle_logs_processed": 2,
+  "profiles": [
+    {
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "mission_class": "TRANSACTION_SAFETY",
+      "specialty": {
+        "raw_score": 95.0,
+        "conservative_score": 59.0
+      },
+      "evidence": {
+        "samples": 1,
+        "integration_success_rate": 1.0,
+        "mission_clear_rate": 1.0,
+        "escalation_avoidance_rate": 1.0,
+        "average_final_score": 1.0,
+        "compatibility_score": 66.7
+      },
+      "confidence": {
+        "tier": "PROVISIONAL"
+      }
+    },
+    {
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "mission_class": "GENERAL",
+      "specialty": {
+        "raw_score": 95.0,
+        "conservative_score": 59.0
+      },
+      "evidence": {
+        "samples": 1,
+        "integration_success_rate": 1.0,
+        "mission_clear_rate": 1.0,
+        "escalation_avoidance_rate": 1.0,
+        "average_final_score": 1.0,
+        "compatibility_score": 66.7
+      },
+      "confidence": {
+        "tier": "PROVISIONAL"
+      }
+    }
+  ],
+  "mission_index": [
+    {
+      "mission_class": "GENERAL",
+      "best_command_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "best_specialty_score": 59.0,
+      "confidence": "PROVISIONAL",
+      "candidates": [
+        {
+          "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+          "mission_class": "GENERAL",
+          "specialty": {
+            "raw_score": 95.0,
+            "conservative_score": 59.0
+          },
+          "evidence": {
+            "samples": 1,
+            "integration_success_rate": 1.0,
+            "mission_clear_rate": 1.0,
+            "escalation_avoidance_rate": 1.0,
+            "average_final_score": 1.0,
+            "compatibility_score": 66.7
+          },
+          "confidence": {
+            "tier": "PROVISIONAL"
+          }
+        }
+      ]
+    },
+    {
+      "mission_class": "TRANSACTION_SAFETY",
+      "best_command_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "best_specialty_score": 59.0,
+      "confidence": "PROVISIONAL",
+      "candidates": [
+        {
+          "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+          "mission_class": "TRANSACTION_SAFETY",
+          "specialty": {
+            "raw_score": 95.0,
+            "conservative_score": 59.0
+          },
+          "evidence": {
+            "samples": 1,
+            "integration_success_rate": 1.0,
+            "mission_clear_rate": 1.0,
+            "escalation_avoidance_rate": 1.0,
+            "average_final_score": 1.0,
+            "compatibility_score": 66.7
+          },
+          "confidence": {
+            "tier": "PROVISIONAL"
+          }
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "specialty_is_mission_class_specific": true,
+    "low_sample_results_are_shrunk_toward_neutral": true,
+    "command_staff_general_score_remains_separate": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+    "schema":  "vertex.hub.package.v1",
+    "package_id":  "vertex.live-flight-panel",
+    "display_name":  "Vertex Live Flight Panel",
+    "version":  "1.0.0",
+    "kind":  "ui.component",
+    "scope":  "vsa.editor",
+    "publisher":  "Vertex",
+    "runtime":  {
+                    "framework":  "vue3",
+                    "desktop":  "tauri2"
+                },
+    "entrypoints":  {
+                        "component":  "src/VertexLiveFlightPanel.vue",
+                        "transport":  "src/hub-transport.ts"
+                    },
+    "contracts":  [
+                      {
+                          "schema":  "vertex.mothership.live-session.v1",
+                          "file":  "contracts/live-session.v1.schema.json"
+                      }
+                  ],
+    "permissions":  [
+                        "vertex_live_session_latest",
+                        "vertex_live_session_tail"
+                    ],
+    "safety":  {
+                   "controller_state_mutation":  false,
+                   "arbitrary_shell":  false,
+                   "workspace_write":  false,
+                   "secret_access":  false,
+                   "telemetry_read_only":  true
+               },
+    "files":  [
+                  {
+                      "path":  "README.md",
+                      "role":  "documentation",
+                      "sha256":  "90b29b8e1fc4fe25e3ed8b536787e36bc95847483541cf32fab91697870854bf",
+                      "bytes":  734
+                  },
+                  {
+                      "path":  "src/VertexLiveFlightPanel.vue",
+                      "role":  "component",
+                      "sha256":  "40b577644079a60656b4cf3dba9ec35df8cccc1a55abb1dc1d45b34089caed43",
+                      "bytes":  7360
+                  },
+                  {
+                      "path":  "src/hub-transport.ts",
+                      "role":  "transport",
+                      "sha256":  "cd7f3282ccbc8e035a0499d73fc3e299183d430497d1d1ed9949076efe27ffe3",
+                      "bytes":  1525
+                  },
+                  {
+                      "path":  "contracts/live-session.v1.schema.json",
+                      "role":  "schema",
+                      "sha256":  "763d9bd90a56e29bb1bd2a38bbee797b6bb4f4a332c3fd6271f7bd79176d289a",
+                      "bytes":  2323
+                  }
+              ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "vertex.world.ard.auto-party-formation-receipt.v1.2",
+  "completed_at": "2026-08-24T18:49:12.4654331+09:00",
+  "mission_class": "TRANSACTION_SAFETY",
+  "party_size": 4,
+  "physical_parallel_width": 2,
+  "integrator_model": "google/gemma-4-12b-qat",
+  "command_staff_tier": "PROBATIONARY_STAFF",
+  "command_evidence_score": 72.5,
+  "command_assignment_score": 0.572,
+  "formation_plan": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\formations\\ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912.json",
+  "automatic_execution": false,
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE"
+}

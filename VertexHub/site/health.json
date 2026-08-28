@@ -1,0 +1,9 @@
+{
+  "probe": "VSA-GATEWAY",
+  "inspector": "Ready",
+  "version": "0.1.1",
+  "generatedAt": "2026-08-24T20:23:14.5730905+09:00",
+  "cloudflared": "Running",
+  "iisSite": "Started",
+  "activeWorkspace": true
+}

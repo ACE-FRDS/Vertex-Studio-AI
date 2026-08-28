@@ -1,0 +1,97 @@
+{
+  "schema": "vertex.world.ard.auto-party-formation.v1.1",
+  "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-154504",
+  "generated_at": "2026-08-24T15:45:04.7415500+09:00",
+  "mission": {
+    "class": "TRANSACTION_SAFETY",
+    "desired_party_size": 4
+  },
+  "party": {
+    "roles": [
+      {
+        "role": "Critic",
+        "model": "hunyuan-4b-instruct",
+        "level": 3,
+        "xp": 780.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 2,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "role_affinity": 66.0,
+        "model_role_affinity": 65.7,
+        "synergy_bonus": 0.667,
+        "formation_score": 0.5841
+      },
+      {
+        "role": "Planner",
+        "model": "hunyuan-4b-instruct",
+        "level": 3,
+        "xp": 785.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 2,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "role_affinity": 66.0,
+        "model_role_affinity": 65.7,
+        "synergy_bonus": 0.645,
+        "formation_score": 0.5494
+      },
+      {
+        "role": "Verifier",
+        "model": "hunyuan-4b-instruct",
+        "level": 2,
+        "xp": 390.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 1,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "role_affinity": 59.6,
+        "model_role_affinity": 59.4,
+        "synergy_bonus": 0.6,
+        "formation_score": 0.5461
+      },
+      {
+        "role": "ScopeGuard",
+        "model": "hunyuan-4b-instruct",
+        "level": 3,
+        "xp": 780.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 2,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "role_affinity": 66.0,
+        "model_role_affinity": 65.7,
+        "synergy_bonus": 0.0,
+        "formation_score": 0.4946
+      }
+    ],
+    "physical_parallel_width": 3,
+    "formation_evidence": {
+      "conservative_score": 60.0,
+      "confidence_tier": "PROVISIONAL"
+    }
+  },
+  "command": {
+    "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "compatibility_score": 66.7,
+    "confidence_tier": "PROVISIONAL"
+  },
+  "rookie_draft": {
+    "enabled": true,
+    "runtime_models_discovered": 18,
+    "trial_assignments": []
+  },
+  "execution_policy": {
+    "automatic_execution": false,
+    "requires_go_signal": true,
+    "allow_runtime_backoff": true,
+    "allow_model_escalation": true,
+    "allow_toolbox_hot_swap": true
+  },
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE",
+    "model_invocation": "NONE",
+    "agent_execution": "NONE"
+  }
+}

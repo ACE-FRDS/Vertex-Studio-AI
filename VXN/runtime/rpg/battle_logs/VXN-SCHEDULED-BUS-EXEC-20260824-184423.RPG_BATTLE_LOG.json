@@ -1,0 +1,133 @@
+{
+  "schema": "vertex.world.rpg.execution-log.v1.1",
+  "run_id": "VXN-SCHEDULED-BUS-EXEC-20260824-184423",
+  "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753",
+  "source_receipt": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\formation_executor\\VXN-SCHEDULED-BUS-EXEC-20260824-184423\\VERTEX_ARD_FORMATION_EXECUTION_RECEIPT.json",
+  "mission_class": "TRANSACTION_SAFETY",
+  "mission_result": "MISSION_CLEAR",
+  "final_score": 1.0,
+  "party": {
+    "logical_size": 4,
+    "model": "hunyuan-4b-instruct",
+    "tier": "3B4B",
+    "stable_physical_width": 2,
+    "next_probe_width": 3,
+    "characters": [
+      {
+        "character_id": "ARD-Critic",
+        "display_name": "Critic",
+        "class": "ANALYST",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "EXPERIENCED",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 70,
+          "reliability_index": 85,
+          "latency_ms": 12629.0
+        },
+        "rookie_evidence": {
+          "was_trial": false,
+          "trial_completed": false,
+          "trial_success": false
+        }
+      },
+      {
+        "character_id": "ARD-ScopeGuard",
+        "display_name": "ScopeGuard",
+        "class": "GUARDIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "EXPERIENCED",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 92,
+          "reliability_index": 85,
+          "latency_ms": 5586.0
+        },
+        "rookie_evidence": {
+          "was_trial": false,
+          "trial_completed": false,
+          "trial_success": false
+        }
+      },
+      {
+        "character_id": "ARD-Verifier",
+        "display_name": "Verifier",
+        "class": "VERIFIER",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "EXPERIENCED",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 92,
+          "reliability_index": 85,
+          "latency_ms": 6508.0
+        },
+        "rookie_evidence": {
+          "was_trial": false,
+          "trial_completed": false,
+          "trial_success": false
+        }
+      },
+      {
+        "character_id": "ARD-Planner",
+        "display_name": "Planner",
+        "class": "TACTICIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "EXPERIENCED",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 82,
+          "reliability_index": 85,
+          "latency_ms": 8196.0
+        },
+        "rookie_evidence": {
+          "was_trial": false,
+          "trial_completed": false,
+          "trial_success": false
+        }
+      }
+    ]
+  },
+  "command": {
+    "integrator": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "integrator_green": false,
+    "escalation_used": true,
+    "final_model": "google/gemma-4-12b-qat"
+  },
+  "rookies": [],
+  "events": [
+    {
+      "event": "FORMATION_DEPLOYED",
+      "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753",
+      "mission_class": "TRANSACTION_SAFETY",
+      "logical_party_size": 4,
+      "planned_width": 3,
+      "rpg_message": "Formation ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753 deployed."
+    },
+    {
+      "event": "RUNTIME_BACKOFF",
+      "planned_width": 3,
+      "stable_width": 2,
+      "rpg_message": "Runtime adjusted physical width from 3 to 2."
+    },
+    {
+      "event": "INTEGRATION_NOT_GREEN",
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "score": 0.85,
+      "rpg_message": "Integrator requested support."
+    },
+    {
+      "event": "SUPPORT_SUMMON",
+      "model": "google/gemma-4-12b-qat",
+      "model_tier": "12B",
+      "rpg_message": "Senior support entered the formation mission."
+    }
+  ],
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE"
+  }
+}

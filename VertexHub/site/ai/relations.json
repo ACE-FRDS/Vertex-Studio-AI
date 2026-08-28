@@ -1,0 +1,72 @@
+[
+  {
+    "from": "impact-db",
+    "to": "trait",
+    "relation": "related"
+  },
+  {
+    "from": "impact-db",
+    "to": "index-of-indexes",
+    "relation": "related"
+  },
+  {
+    "from": "impact-db",
+    "to": "vmb",
+    "relation": "related"
+  },
+  {
+    "from": "impact-db",
+    "to": "vcc",
+    "relation": "related"
+  },
+  {
+    "from": "impact-db",
+    "to": "vsp",
+    "relation": "related"
+  },
+  {
+    "from": "impact-db",
+    "to": "dnc",
+    "relation": "related"
+  },
+  {
+    "from": "blueprint",
+    "to": "component-card",
+    "relation": "supports"
+  },
+  {
+    "from": "hyper-agent",
+    "to": "ard",
+    "relation": "related"
+  },
+  {
+    "from": "impact-db",
+    "to": "VRTX-MEM-001",
+    "relation": "defined_in"
+  },
+  {
+    "from": "trait",
+    "to": "VRTX-MEM-001",
+    "relation": "defined_in"
+  },
+  {
+    "from": "temporal-context",
+    "to": "VRTX-MEM-001",
+    "relation": "proposed_in"
+  },
+  {
+    "from": "episodic-context",
+    "to": "VRTX-MEM-001",
+    "relation": "proposed_in"
+  },
+  {
+    "from": "index-of-indexes",
+    "to": "VRTX-MEM-001",
+    "relation": "described_in"
+  },
+  {
+    "from": "blueprint",
+    "to": "VRTX-PHI-001",
+    "relation": "related_to"
+  }
+]

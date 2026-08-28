@@ -1,0 +1,56 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vertex Design Philosophy | Vertex AI Knowledge Hub</title><meta name="description" content="A concept and philosophy document describing a human-first, machine-adaptive direction for Vertex software design."><meta name="robots" content="index,follow"><link rel="canonical" href="https://vertex.a-portal.net/knowledge/concepts/"><link rel="describedby" href="https://vertex.a-portal.net/llms.txt" type="text/plain"><link rel="alternate" href="https://vertex.a-portal.net/ai/vertex-public-knowledge.json" type="application/json" title="Vertex Canonical Knowledge"><meta property="og:type" content="website"><meta property="og:title" content="Vertex Design Philosophy"><meta property="og:description" content="A concept and philosophy document describing a human-first, machine-adaptive direction for Vertex software design."><meta property="og:url" content="https://vertex.a-portal.net/knowledge/concepts/"><meta property="og:site_name" content="Vertex AI Knowledge Hub"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/assets/css/site.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container navbar"><a class="brand" href="/"><img src="/assets/brand/vertex-project-mark.svg" alt=""><span>VERTEX AI<br>KNOWLEDGE HUB</span></a><nav class="nav-links" aria-label="Primary"><a href="/research/">Research</a><a href="/knowledge/">Knowledge</a><a href="/knowledge/lexicon/">Lexicon</a><a href="/knowledge/architecture/">Architecture</a><a href="/docs/">Docs</a></nav></div></header><main id="main"><section class="page-head"><div class="container"><div class="eyebrow">Concept / Philosophy Document</div><h1>Vertex Design Philosophy</h1><p class="lead">A concept and philosophy document describing a human-first, machine-adaptive direction for Vertex software design.</p></div></section><div class="container content-layout"><article class="paper"><div class="callout"><strong>Scope</strong><p>This document records design direction. It does not infer undocumented historical causality.</p></div><h1>Vertex Design Philosophy</h1>
+<blockquote>Human intent should remain human.  </blockquote>
+<blockquote>Machine complexity should remain machine.</blockquote>
+<blockquote>人間の意図は、人間のままでいい。  </blockquote>
+<blockquote>機械の複雑さは、機械側で引き受ける。</blockquote>
+<h2>Human-First / Machine-Adaptive</h2>
+<p>人間がComputer側の事情をすべて理解し、</p>
+<p>環境ごとの手順や制約へ適応するのではなく、</p>
+<p>可能な範囲でSoftware側が環境と意図を理解し、</p>
+<p>機械側の複雑性を引き受ける。</p>
+<h2>Environment Adaptation</h2>
+<p>OS、Architecture、Runtime、Dependencyなどを</p>
+<p>不必要にユーザーへ選択させず、</p>
+<p>環境検出と適応によって導入負担を減らす。</p>
+<h2>Blueprint</h2>
+<p>設定ファイルの深部だけでなく、</p>
+<p>関係性をNodeとLineとして可視化し、</p>
+<p>構造そのものを操作Interfaceへ発展させる。</p>
+<h2>AI as Translation Layer</h2>
+<p>AIを単なるChatbotではなく、</p>
+<p>Human IntentとMachine Operationの間をつなぐ</p>
+<p>Translation Layerとして扱う。</p>
+<h2>Failure as Design Input</h2>
+<pre><code>
+Failure
+  ↓
+Question
+  ↓
+Abstraction
+  ↓
+Architecture
+  ↓
+Improvement
+</code></pre>
+<p>失敗や不便を単なるErrorとして終わらせず、</p>
+<p>設計要件へ変換する。</p>
+<h2>Cross-Platform → Adaptive Platform</h2>
+<p>単に同一Softwareを複数OSで動かすだけでなく、</p>
+<p>Software自身がOS、CPU Architecture、</p>
+<p>Runtime、Capabilityを認識して適応する方向を目指す。</p>
+<h2>Related Design Directions</h2>
+<ul>
+<li>AI Translation Layer</li>
+<li>Blueprint</li>
+<li>Adaptive Installation</li>
+<li>Capability-oriented Node</li>
+<li>Memory Architecture</li>
+<li>Cross-Platform adaptation</li>
+<li>Heterogeneous OS concept</li>
+</ul>
+<p>これらは関連する設計方向として記録する。一次資料で確認されていない</p>
+<p>歴史的因果関係を、この文書から推定しない。</p>
+<h2>Revision History</h2>
+<ul>
+<li>0.1.0 / 2026-08-27 — Initial canonical public philosophy record. Historical creation and publication dates remain unverified.</li>
+</ul></article><aside class="sidebar panel panel-pad"><dl class="meta-list"><div><dt>Status</dt><dd>concept</dd></div><div><dt>Version</dt><dd>0.1.0</dd></div><div><dt>Type</dt><dd>philosophy_document</dd></div><div><dt>Review</dt><dd>self_published_unreviewed</dd></div></dl></aside></div></main><footer><div class="container footer-grid"><span>VERTEX AI KNOWLEDGE HUB · CANONICAL PUBLIC KNOWLEDGE</span><span>© <span data-year></span> Vertex Project</span></div></footer><script src="/assets/js/site.js"></script></body></html>

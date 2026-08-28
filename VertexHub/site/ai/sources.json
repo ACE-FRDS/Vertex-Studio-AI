@@ -1,0 +1,29 @@
+[
+  {
+    "id": "VRTX-MEM-001",
+    "type": "concept_paper",
+    "title": "Vertex Memory Architecture",
+    "path": "content/research/memory-architecture.md",
+    "canonical_url": "https://vertex.a-portal.net/research/memory-architecture/",
+    "status": "canonical_source",
+    "source_verified": true
+  },
+  {
+    "id": "VRTX-LLC-001",
+    "type": "research_placeholder",
+    "title": "LLC Bias",
+    "path": "content/research/llc-bias.md",
+    "canonical_url": "https://vertex.a-portal.net/research/llc-bias/",
+    "status": "definition_pending",
+    "source_verified": false
+  },
+  {
+    "id": "VRTX-PHI-001",
+    "type": "concept",
+    "title": "Vertex Design Philosophy",
+    "path": "content/concepts/vertex-design-philosophy.md",
+    "canonical_url": "https://vertex.a-portal.net/knowledge/concepts/",
+    "status": "canonical_source",
+    "source_verified": true
+  }
+]

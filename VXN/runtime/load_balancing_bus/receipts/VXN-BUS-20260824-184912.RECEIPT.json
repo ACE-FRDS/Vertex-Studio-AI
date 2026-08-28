@@ -1,0 +1,14 @@
+{
+  "schema": "vertex.load-balancing-bus.plan-receipt.v1",
+  "completed_at": "2026-08-24T18:49:12.6510355+09:00",
+  "bus_id": "VXN-BUS-20260824-184912",
+  "schedule_id": "VXN-SCHED-20260824-184912",
+  "route_count": 2,
+  "all_targets_resolved": true,
+  "state": "READY",
+  "route_plan": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\load_balancing_bus\\routes\\VXN-BUS-20260824-184912.ROUTE_PLAN.json",
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE",
+  "model_invocation": "NONE",
+  "agent_execution": "NONE"
+}

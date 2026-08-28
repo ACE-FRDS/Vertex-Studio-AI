@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertex://schemas/mothership/live-session/v1",
+  "title": "Vertex Mothership Live Session V1",
+  "type": "object",
+  "required": ["schema", "kind", "timestamp_ms"],
+  "properties": {
+    "schema": {
+      "const": "vertex.mothership.live-session.v1"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["wave_scheduled", "wave_completed"]
+    },
+    "timestamp_ms": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "session": {
+      "type": "object",
+      "properties": {
+        "session_id": { "type": "string" },
+        "status": { "type": "string" },
+        "completed_waves": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "wave": {
+      "type": "object",
+      "properties": {
+        "sequence": { "type": "integer", "minimum": 0 },
+        "wave_id": { "type": "string" },
+        "ready": { "type": "array", "items": { "type": "string" } },
+        "blocked": { "type": "array", "items": { "type": "string" } },
+        "waiting": { "type": "array", "items": { "type": "string" } },
+        "missions": { "type": "array", "items": { "type": "string" } },
+        "resulting_status": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "dispatch": {
+      "type": "object",
+      "properties": {
+        "dispatch_id": { "type": "string" },
+        "mission_set": { "type": "array", "items": { "type": "string" } },
+        "executions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "execution_id": { "type": "string" }
+            },
+            "additionalProperties": true
+          }
+        },
+        "confirmed_missions": { "type": "array", "items": { "type": "string" } },
+        "process_result_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "genesis": {
+      "type": "object",
+      "properties": {
+        "event_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "vsp": {
+      "type": ["object", "null"],
+      "properties": {
+        "checkpoint_debug": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

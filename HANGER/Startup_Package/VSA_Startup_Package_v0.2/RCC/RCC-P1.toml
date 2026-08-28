@@ -1,0 +1,7 @@
+name=Evidence-Grounded Worker Discipline
+work_unit=ultra-small
+max_parallel_workers=4
+verification=batched-low-risk
+prefer_local=true
+model_residency=prefer
+blocking_rule=current-reproducible-evidence-required

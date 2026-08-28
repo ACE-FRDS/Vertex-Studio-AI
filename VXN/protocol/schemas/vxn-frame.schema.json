@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertex.vxn.frame.v1",
+  "title": "VXN Frame",
+  "type": "object",
+  "required": [
+    "protocol_version",
+    "frame_type",
+    "sequence",
+    "payload"
+  ],
+  "properties": {
+    "protocol_version": {
+      "type": "string"
+    },
+    "frame_type": {
+      "type": "string"
+    },
+    "priority": {
+      "minimum": 0,
+      "type": "number",
+      "maximum": 1
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "identity_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relation_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "impact_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "state_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "payload": {},
+    "checksum": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

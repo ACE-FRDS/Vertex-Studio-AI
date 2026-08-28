@@ -1,0 +1,35 @@
+{
+  "character_id": "REVIEWER::qwen/qwq-32b",
+  "display_name": "Senior Reviewer",
+  "class": "REVIEWER",
+  "model": "qwen/qwq-32b",
+  "model_tier": "30B",
+  "evidence": {
+    "missions": 1,
+    "successes": 0,
+    "failures": 1,
+    "total_latency_ms": 0.0,
+    "measured_samples": 0
+  },
+  "progression": {
+    "xp": 175.0,
+    "level": 2,
+    "rank": "E"
+  },
+  "affinities": {
+    "explorer": 0,
+    "planner": 0,
+    "critic": 0,
+    "scope_guard": 0,
+    "verifier": 0,
+    "optimizer": 0,
+    "integration": 0,
+    "review": 3
+  },
+  "equipment_affinity": {
+    "lock_scope": 0,
+    "vcc_vsp": 0,
+    "candidate_vtc": 0,
+    "impact_association": 0
+  }
+}

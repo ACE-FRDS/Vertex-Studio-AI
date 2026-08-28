@@ -1,0 +1,23 @@
+{
+  "schema": "vertex.booster.install-receipt.v1",
+  "run_id": "VXN-BOOSTER-20260824-140127",
+  "completed_at": "2026-08-24T14:01:27.6261811+09:00",
+  "cargo_check": "GREEN",
+  "installed": [
+    "MasterThrottlePolicy",
+    "MissionRuntimeMaps",
+    "BoosterDiagnoser",
+    "BoosterController",
+    "ThrottleChannels",
+    "ObserverBoosterBridge",
+    "ToolboxHotSwapControl",
+    "ModelEscalationControl",
+    "ParallelismHint"
+  ],
+  "next": [
+    "Connect live Mission Harness observations",
+    "Run first dynamic throttle experiment",
+    "Measure mid-mission toolbox hot-swap",
+    "Then connect ARD 3B/4B parallel party"
+  ]
+}

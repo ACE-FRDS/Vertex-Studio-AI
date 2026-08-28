@@ -1,0 +1,110 @@
+{
+  "schema": "vertex.world.rpg.execution-log.v1",
+  "run_id": "VXN-ARD-WAVE-20260824-145635",
+  "source_receipt": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\ard_parallel_width\\VXN-ARD-WAVE-20260824-145635\\VERTEX_ARD_ADAPTIVE_PARALLEL_WIDTH_RECEIPT.json",
+  "mission_result": "MISSION_CLEAR",
+  "final_score": 1.0,
+  "party": {
+    "logical_size": 4,
+    "model": "hunyuan-4b-instruct",
+    "tier": "3B4B",
+    "stable_physical_width": 3,
+    "next_probe_width": 4,
+    "characters": [
+      {
+        "character_id": "ARD-Explorer",
+        "display_name": "Explorer",
+        "class": "SCOUT",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 75,
+          "reliability_index": 85,
+          "latency_ms": 11466.0
+        },
+        "note": "Stats are telemetry-derived presentation values, not model parameter rankings."
+      },
+      {
+        "character_id": "ARD-Planner",
+        "display_name": "Planner",
+        "class": "TACTICIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 75,
+          "reliability_index": 85,
+          "latency_ms": 7388.0
+        },
+        "note": "Stats are telemetry-derived presentation values, not model parameter rankings."
+      },
+      {
+        "character_id": "ARD-Critic",
+        "display_name": "Critic",
+        "class": "ANALYST",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 75,
+          "reliability_index": 85,
+          "latency_ms": 11485.0
+        },
+        "note": "Stats are telemetry-derived presentation values, not model parameter rankings."
+      },
+      {
+        "character_id": "ARD-ScopeGuard",
+        "display_name": "ScopeGuard",
+        "class": "GUARDIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 75,
+          "reliability_index": 85,
+          "latency_ms": 11474.0
+        },
+        "note": "Stats are telemetry-derived presentation values, not model parameter rankings."
+      }
+    ]
+  },
+  "command": {
+    "integrator": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "integrator_green": true,
+    "escalation_used": false,
+    "final_model": "deepseek/deepseek-r1-0528-qwen3-8b"
+  },
+  "events": [
+    {
+      "event": "PARTY_WAVE",
+      "wave": 1,
+      "attempt": 1,
+      "physical_width": 4,
+      "success_count": 1,
+      "failure_count": 3,
+      "http_500_count": 3,
+      "rpg_message": "Runtime overload detected at width 4."
+    },
+    {
+      "event": "PARTY_WAVE",
+      "wave": 1,
+      "attempt": 2,
+      "physical_width": 3,
+      "success_count": 3,
+      "failure_count": 0,
+      "http_500_count": 0,
+      "rpg_message": "Formation stable at width 3."
+    },
+    {
+      "event": "INTEGRATION_GREEN",
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "score": 1.0,
+      "rpg_message": "Party knowledge integrated successfully."
+    }
+  ],
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE"
+  }
+}

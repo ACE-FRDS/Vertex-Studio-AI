@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://vertex.a-portal.net/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/research/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/research/memory-architecture/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/research/llc-bias/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/knowledge/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/knowledge/lexicon/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/knowledge/architecture/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/knowledge/concepts/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/knowledge/specifications/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/docs/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/changelog/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/bootstrap/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/vertex-public-knowledge.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/research.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/concepts.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/vertex-lexicon.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/sources.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/relations.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/schemas/research-entry.schema.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai/schemas/lexicon-entry.schema.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/.well-known/vertex-ai.json</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/llms.txt</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://vertex.a-portal.net/ai.txt</loc><lastmod>2026-08-27</lastmod></url>
+</urlset>

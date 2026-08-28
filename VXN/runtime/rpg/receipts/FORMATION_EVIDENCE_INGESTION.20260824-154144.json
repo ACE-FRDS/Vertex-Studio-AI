@@ -1,0 +1,38 @@
+{
+  "schema": "vertex.world.rpg.formation-evidence-ingestion-receipt.v1",
+  "completed_at": "2026-08-24T15:41:44.0333202+09:00",
+  "receipts_found": 1,
+  "newly_ingested": 1,
+  "already_ingested": 0,
+  "downstream_refresh": true,
+  "downstream_results": [
+    {
+      "label": "RPG Progression",
+      "status": "ERROR",
+      "path": "G:\\Vertex_Project\\Vertex_Studio_AI\\HANGER\\Startup_Package\\VERTEX_WORLD_RPG_PROGRESSION_ENGINE_V0_1_0.ps1",
+      "error": "The variable '$LASTEXITCODE' cannot be retrieved because it has not been set."
+    },
+    {
+      "label": "Synergy / Affinity",
+      "status": "ERROR",
+      "path": "G:\\Vertex_Project\\Vertex_Studio_AI\\HANGER\\Startup_Package\\VERTEX_WORLD_RPG_SYNERGY_AFFINITY_ENGINE_V0_1_1.ps1",
+      "error": "The variable '$LASTEXITCODE' cannot be retrieved because it has not been set."
+    },
+    {
+      "label": "Affinity Confidence",
+      "status": "ERROR",
+      "path": "G:\\Vertex_Project\\Vertex_Studio_AI\\HANGER\\Startup_Package\\VERTEX_WORLD_AFFINITY_CONFIDENCE_LAYER_V0_1_0.ps1",
+      "error": "The variable '$LASTEXITCODE' cannot be retrieved because it has not been set."
+    },
+    {
+      "label": "Auto Party Formation",
+      "status": "ERROR",
+      "path": "G:\\Vertex_Project\\Vertex_Studio_AI\\HANGER\\Startup_Package\\VERTEX_WORLD_AUTO_PARTY_FORMATION_ENGINE_V0_1_1.ps1",
+      "error": "The variable '$LASTEXITCODE' cannot be retrieved because it has not been set."
+    }
+  ],
+  "ingestion_index": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\ingestion\\FORMATION_EVIDENCE_INGESTION_INDEX.json",
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE",
+  "agent_execution": "NONE"
+}

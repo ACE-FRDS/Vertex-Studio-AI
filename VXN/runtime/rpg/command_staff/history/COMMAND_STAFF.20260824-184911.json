@@ -1,0 +1,96 @@
+{
+  "schema": "vertex.world.rpg.command-staff-evidence.v1",
+  "updated_at": "2026-08-24T18:49:11.9643155+09:00",
+  "counts": {
+    "total": 3,
+    "commander_class": 0,
+    "senior_staff": 0,
+    "active_staff": 0,
+    "probationary_staff": 3
+  },
+  "staff": [
+    {
+      "staff_id": "INTEGRATOR::deepseek/deepseek-r1-0528-qwen3-8b",
+      "role": "Integrator",
+      "staff_class": "INTEGRATOR",
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "staff_tier": "PROBATIONARY_STAFF",
+      "evidence": {
+        "samples": 4,
+        "integration_success_rate": 0.5,
+        "mission_clear_contribution": 0.75,
+        "escalation_avoidance_rate": 0.5,
+        "average_final_score": 0.75,
+        "compatibility_score": 56.0,
+        "evidence_score": 59.6
+      },
+      "confidence": {
+        "tier": "PROVISIONAL",
+        "index": 28
+      },
+      "party_models": [
+        {
+          "model": "hunyuan-4b-instruct",
+          "samples": 4
+        }
+      ]
+    },
+    {
+      "staff_id": "REVIEWER::google/gemma-4-12b-qat",
+      "role": "Senior Reviewer",
+      "staff_class": "REVIEWER",
+      "model": "google/gemma-4-12b-qat",
+      "staff_tier": "PROBATIONARY_STAFF",
+      "evidence": {
+        "samples": 1,
+        "integration_success_rate": 1.0,
+        "mission_clear_contribution": 1.0,
+        "escalation_avoidance_rate": 0.0,
+        "average_final_score": 1.0,
+        "compatibility_score": 50.0,
+        "evidence_score": 72.5
+      },
+      "confidence": {
+        "tier": "PROVISIONAL",
+        "index": 8
+      },
+      "party_models": [
+        {
+          "model": "hunyuan-4b-instruct",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "staff_id": "REVIEWER::qwen/qwq-32b",
+      "role": "Senior Reviewer",
+      "staff_class": "REVIEWER",
+      "model": "qwen/qwq-32b",
+      "staff_tier": "PROBATIONARY_STAFF",
+      "evidence": {
+        "samples": 1,
+        "integration_success_rate": 0.0,
+        "mission_clear_contribution": 0.0,
+        "escalation_avoidance_rate": 0.0,
+        "average_final_score": 0.0,
+        "compatibility_score": 50.0,
+        "evidence_score": 7.5
+      },
+      "confidence": {
+        "tier": "PROVISIONAL",
+        "index": 8
+      },
+      "party_models": [
+        {
+          "model": "hunyuan-4b-instruct",
+          "samples": 1
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "field_role_affinity_not_used_for_command_staff": true,
+    "integration_evidence_primary": true,
+    "low_sample_results_are_provisional": true
+  }
+}

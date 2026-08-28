@@ -1,0 +1,35 @@
+{
+  "character_id": "ARD-Verifier",
+  "display_name": "Verifier",
+  "class": "VERIFIER",
+  "model": "hunyuan-4b-instruct",
+  "model_tier": "3B4B",
+  "evidence": {
+    "missions": 3,
+    "successes": 3,
+    "failures": 0,
+    "total_latency_ms": 22982.0,
+    "measured_samples": 3
+  },
+  "progression": {
+    "xp": 1080.0,
+    "level": 4,
+    "rank": "D"
+  },
+  "affinities": {
+    "explorer": 0,
+    "planner": 0,
+    "critic": 0,
+    "scope_guard": 0,
+    "verifier": 6,
+    "optimizer": 0,
+    "integration": 0,
+    "review": 0
+  },
+  "equipment_affinity": {
+    "lock_scope": 0,
+    "vcc_vsp": 0,
+    "candidate_vtc": 0,
+    "impact_association": 0
+  }
+}

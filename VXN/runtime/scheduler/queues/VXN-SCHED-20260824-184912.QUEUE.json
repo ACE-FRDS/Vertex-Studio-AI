@@ -1,0 +1,49 @@
+{
+  "schema": "vertex.scheduler.mission-queue.v1.1",
+  "schedule_id": "VXN-SCHED-20260824-184912",
+  "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912",
+  "mission_class": "TRANSACTION_SAFETY",
+  "created_at": "2026-08-24T18:49:12.5402642+09:00",
+  "queue": [
+    {
+      "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::ScopeGuard",
+      "role": "ScopeGuard",
+      "model": "hunyuan-4b-instruct",
+      "roster_state": "STARTER",
+      "assignment_status": "EXPERIENCED",
+      "formation_score": 0.5043,
+      "priority": 120,
+      "state": "QUEUED"
+    },
+    {
+      "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::Critic",
+      "role": "Critic",
+      "model": "hunyuan-4b-instruct",
+      "roster_state": "STARTER",
+      "assignment_status": "EXPERIENCED",
+      "formation_score": 0.5838,
+      "priority": 116,
+      "state": "QUEUED"
+    },
+    {
+      "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::Verifier",
+      "role": "Verifier",
+      "model": "hunyuan-4b-instruct",
+      "roster_state": "STARTER",
+      "assignment_status": "EXPERIENCED",
+      "formation_score": 0.5628,
+      "priority": 112,
+      "state": "QUEUED"
+    },
+    {
+      "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::Planner",
+      "role": "Planner",
+      "model": "hunyuan-4b-instruct",
+      "roster_state": "STARTER",
+      "assignment_status": "EXPERIENCED",
+      "formation_score": 0.5494,
+      "priority": 105,
+      "state": "QUEUED"
+    }
+  ]
+}

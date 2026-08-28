@@ -1,0 +1,237 @@
+{
+  "schema": "vertex.world.rpg.synergy-affinity-index.v1.1",
+  "updated_at": "2026-08-24T18:49:11.7715989+09:00",
+  "battle_logs_processed": 4,
+  "role_affinity": [
+    {
+      "role": "Planner",
+      "class": "TACTICIAN",
+      "samples": 4,
+      "success_rate": 1.0,
+      "clear_rate": 0.75,
+      "average_score": 0.75,
+      "average_latency_ms": 8879.0,
+      "affinity_index": 85
+    },
+    {
+      "role": "Explorer",
+      "class": "SCOUT",
+      "samples": 1,
+      "success_rate": 1.0,
+      "clear_rate": 1.0,
+      "average_score": 1.0,
+      "average_latency_ms": 11466.0,
+      "affinity_index": 98
+    },
+    {
+      "role": "Critic",
+      "class": "ANALYST",
+      "samples": 4,
+      "success_rate": 1.0,
+      "clear_rate": 0.75,
+      "average_score": 0.75,
+      "average_latency_ms": 10321.8,
+      "affinity_index": 85
+    },
+    {
+      "role": "ScopeGuard",
+      "class": "GUARDIAN",
+      "samples": 4,
+      "success_rate": 1.0,
+      "clear_rate": 0.75,
+      "average_score": 0.75,
+      "average_latency_ms": 8689.5,
+      "affinity_index": 85
+    },
+    {
+      "role": "Verifier",
+      "class": "VERIFIER",
+      "samples": 3,
+      "success_rate": 1.0,
+      "clear_rate": 0.667,
+      "average_score": 0.667,
+      "average_latency_ms": 7660.7,
+      "affinity_index": 81
+    }
+  ],
+  "model_role_affinity": [
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Critic",
+      "samples": 4,
+      "success_rate": 1.0,
+      "clear_rate": 0.75,
+      "average_latency_ms": 10321.8,
+      "affinity_index": 88
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "ScopeGuard",
+      "samples": 4,
+      "success_rate": 1.0,
+      "clear_rate": 0.75,
+      "average_latency_ms": 8689.5,
+      "affinity_index": 88
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Planner",
+      "samples": 4,
+      "success_rate": 1.0,
+      "clear_rate": 0.75,
+      "average_latency_ms": 8879.0,
+      "affinity_index": 88
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Explorer",
+      "samples": 1,
+      "success_rate": 1.0,
+      "clear_rate": 1.0,
+      "average_latency_ms": 11466.0,
+      "affinity_index": 97
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Verifier",
+      "samples": 3,
+      "success_rate": 1.0,
+      "clear_rate": 0.667,
+      "average_latency_ms": 7660.7,
+      "affinity_index": 85
+    }
+  ],
+  "pair_synergy": [
+    {
+      "role_a": "ScopeGuard",
+      "role_b": "Verifier",
+      "samples": 3,
+      "clear_rate": 0.667,
+      "average_score": 0.667,
+      "escalation_rate": 0.667,
+      "synergy_index": 60
+    },
+    {
+      "role_a": "Explorer",
+      "role_b": "ScopeGuard",
+      "samples": 1,
+      "clear_rate": 1.0,
+      "average_score": 1.0,
+      "escalation_rate": 0.0,
+      "synergy_index": 100
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "Planner",
+      "samples": 4,
+      "clear_rate": 0.75,
+      "average_score": 0.75,
+      "escalation_rate": 0.5,
+      "synergy_index": 70
+    },
+    {
+      "role_a": "Planner",
+      "role_b": "ScopeGuard",
+      "samples": 4,
+      "clear_rate": 0.75,
+      "average_score": 0.75,
+      "escalation_rate": 0.5,
+      "synergy_index": 70
+    },
+    {
+      "role_a": "Planner",
+      "role_b": "Verifier",
+      "samples": 3,
+      "clear_rate": 0.667,
+      "average_score": 0.667,
+      "escalation_rate": 0.667,
+      "synergy_index": 60
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "ScopeGuard",
+      "samples": 4,
+      "clear_rate": 0.75,
+      "average_score": 0.75,
+      "escalation_rate": 0.5,
+      "synergy_index": 70
+    },
+    {
+      "role_a": "Explorer",
+      "role_b": "Planner",
+      "samples": 1,
+      "clear_rate": 1.0,
+      "average_score": 1.0,
+      "escalation_rate": 0.0,
+      "synergy_index": 100
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "Explorer",
+      "samples": 1,
+      "clear_rate": 1.0,
+      "average_score": 1.0,
+      "escalation_rate": 0.0,
+      "synergy_index": 100
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "Verifier",
+      "samples": 3,
+      "clear_rate": 0.667,
+      "average_score": 0.667,
+      "escalation_rate": 0.667,
+      "synergy_index": 60
+    }
+  ],
+  "equipment_affinity": [],
+  "formation_affinity": [
+    {
+      "model": "hunyuan-4b-instruct",
+      "logical_party_size": 4,
+      "stable_width": 3,
+      "samples": 1,
+      "clear_rate": 1.0,
+      "average_score": 1.0,
+      "escalation_rate": 0.0,
+      "affinity_index": 100
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "logical_party_size": 4,
+      "stable_width": 1,
+      "samples": 1,
+      "clear_rate": 0.0,
+      "average_score": 0.0,
+      "escalation_rate": 1.0,
+      "affinity_index": 0
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "logical_party_size": 4,
+      "stable_width": 2,
+      "samples": 2,
+      "clear_rate": 1.0,
+      "average_score": 1.0,
+      "escalation_rate": 0.5,
+      "affinity_index": 90
+    }
+  ],
+  "integrator_compatibility": [
+    {
+      "party_model": "hunyuan-4b-instruct",
+      "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "samples": 4,
+      "integration_green_rate": 0.5,
+      "mission_clear_rate": 0.75,
+      "escalation_rate": 0.5,
+      "average_score": 0.75,
+      "compatibility_index": 62
+    }
+  ],
+  "interpretation": {
+    "note": "Indices are normalized presentation values derived from real execution evidence.",
+    "parameter_count_is_not_strength": true,
+    "low_sample_warning": "Treat low-sample affinities as provisional."
+  }
+}

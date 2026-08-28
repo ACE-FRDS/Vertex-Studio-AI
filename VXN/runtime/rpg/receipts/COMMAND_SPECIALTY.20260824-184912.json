@@ -1,0 +1,11 @@
+{
+  "schema": "vertex.world.rpg.command-specialty-receipt.v1.1",
+  "completed_at": "2026-08-24T18:49:12.0723577+09:00",
+  "battle_logs_processed": 4,
+  "profiles": 2,
+  "output": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\command_specialty\\CURRENT_COMMAND_SPECIALTY.json",
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE",
+  "model_invocation": "NONE",
+  "agent_execution": "NONE"
+}

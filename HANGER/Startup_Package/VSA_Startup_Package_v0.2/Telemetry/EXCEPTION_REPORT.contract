@@ -1,0 +1,7 @@
+mission=<id>
+result=<FAIL|BLOCKED|UNKNOWN>
+blocker=<current reproducible blocker>
+evidence=<refs>
+changed=<files>
+scope_violation=<0|1>
+next=<retry|replan|human_gate>

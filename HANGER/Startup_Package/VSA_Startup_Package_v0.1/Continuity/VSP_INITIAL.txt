@@ -1,0 +1,7 @@
+repository=
+workspace=
+branch=
+mission=BOOTSTRAP
+build_status=UNKNOWN
+test_status=UNKNOWN
+next_action=Reality Check

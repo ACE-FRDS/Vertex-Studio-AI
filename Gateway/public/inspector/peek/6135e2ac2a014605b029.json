@@ -1,0 +1,18 @@
+{
+  "schema": "vsa.inspector.peek.v0.2",
+  "generatedAt": "2026-08-24T20:43:13.0424211+09:00",
+  "workspace": "VSA_Startup_Package_v0.2",
+  "source": {
+    "path": "ProgramSource/crates/vsa-vertex-hub/Cargo.toml",
+    "size": 188,
+    "sha256": "6bd84dc4bbe427e13997153735169495c7e0c21b989e0c89dcd2cfd0834b09a6"
+  },
+  "security": {
+    "mode": "EXPLICIT_SINGLE_FILE",
+    "arbitraryRead": false,
+    "pathTraversal": false,
+    "extensionAllowlist": true,
+    "maxBytes": 262144
+  },
+  "content": "[package]\nname = \"vsa-vertex-hub\"\nversion = \"0.1.0\"\nedition = \"2024\"\nrust-version = \"1.97.1\"\n\n[dependencies]\nserde = { version = \"1\", features = [\"derive\"] }\nserde_json = \"1\"\nsha2 = \"0.10\""
+}

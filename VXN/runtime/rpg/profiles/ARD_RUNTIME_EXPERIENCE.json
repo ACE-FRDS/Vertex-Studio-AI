@@ -1,0 +1,28 @@
+{
+  "schema": "vertex.world.rpg.runtime-experience.v1",
+  "updated_at": "2026-08-24T15:01:05.5030167+09:00",
+  "runtime_identity": {
+    "party_model": "hunyuan-4b-instruct",
+    "logical_party_size": 4
+  },
+  "progression": {
+    "missions_recorded": 1,
+    "successful_missions": 1,
+    "recommended_parallel_width": 3,
+    "current_probe_width": 4
+  },
+  "history": [
+    {
+      "run_id": "VXN-ARD-WAVE-20260824-145635",
+      "timestamp": "2026-08-24T15:01:05.4779695+09:00",
+      "party_model": "hunyuan-4b-instruct",
+      "party_size": 4,
+      "stable_width": 3,
+      "probe_width": 4,
+      "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "escalation_used": false,
+      "final_green": true,
+      "final_score": 1.0
+    }
+  ]
+}

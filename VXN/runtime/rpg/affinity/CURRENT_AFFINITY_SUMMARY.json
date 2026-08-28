@@ -1,0 +1,43 @@
+{
+  "schema": "vertex.world.rpg.synergy-summary.v1.1",
+  "updated_at": "2026-08-24T18:49:11.7767182+09:00",
+  "best_role": {
+    "role": "Planner",
+    "class": "TACTICIAN",
+    "samples": 4,
+    "success_rate": 1.0,
+    "clear_rate": 0.75,
+    "average_score": 0.75,
+    "average_latency_ms": 8879.0,
+    "affinity_index": 85
+  },
+  "best_pair": {
+    "role_a": "ScopeGuard",
+    "role_b": "Verifier",
+    "samples": 3,
+    "clear_rate": 0.667,
+    "average_score": 0.667,
+    "escalation_rate": 0.667,
+    "synergy_index": 60
+  },
+  "best_formation": {
+    "model": "hunyuan-4b-instruct",
+    "logical_party_size": 4,
+    "stable_width": 3,
+    "samples": 1,
+    "clear_rate": 1.0,
+    "average_score": 1.0,
+    "escalation_rate": 0.0,
+    "affinity_index": 100
+  },
+  "best_integrator": {
+    "party_model": "hunyuan-4b-instruct",
+    "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "samples": 4,
+    "integration_green_rate": 0.5,
+    "mission_clear_rate": 0.75,
+    "escalation_rate": 0.5,
+    "average_score": 0.75,
+    "compatibility_index": 62
+  }
+}

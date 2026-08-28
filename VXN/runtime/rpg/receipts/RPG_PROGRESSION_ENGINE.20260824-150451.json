@@ -1,0 +1,18 @@
+{
+  "schema": "vertex.world.rpg.progression-engine-receipt.v1",
+  "completed_at": "2026-08-24T15:04:51.6980502+09:00",
+  "battle_logs_processed": 1,
+  "characters": 5,
+  "missions": 1,
+  "clears": 1,
+  "party_level": 4,
+  "party_rank": "D",
+  "recommended_parallel_width": 3,
+  "outputs": [
+    "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\progression\\VERTEX_WORLD_PROGRESSION.json",
+    "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\parties\\ARD_CORE_PARTY.json",
+    "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\characters"
+  ],
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE"
+}

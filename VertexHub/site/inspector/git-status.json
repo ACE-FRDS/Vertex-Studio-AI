@@ -1,0 +1,69 @@
+{
+  "schema": "vsa.inspector.git.v0.1.1",
+  "generatedAt": "2026-08-24T20:23:14.5730905+09:00",
+  "branch": "main",
+  "commit": "9c09a39c",
+  "dirtyCount": 15,
+  "changes": [
+    {
+      "status": " M",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Cargo.lock"
+    },
+    {
+      "status": " M",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Cargo.toml"
+    },
+    {
+      "status": " M",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/crates/vertex-runtime/src/lib.rs"
+    },
+    {
+      "status": "??",
+      "path": "Gateway/"
+    },
+    {
+      "status": "??",
+      "path": "HANGER/"
+    },
+    {
+      "status": "??",
+      "path": "VXN/"
+    },
+    {
+      "status": "??",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Cargo.toml.lmstudio.20260822-212636.bak"
+    },
+    {
+      "status": "??",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Cargo.toml.observation-adapter.20260823-122338.bak"
+    },
+    {
+      "status": "??",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/apps/vertex-ardctl/"
+    },
+    {
+      "status": "??",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/crates/vertex-ard/"
+    },
+    {
+      "status": "??",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/crates/vertex-brain/"
+    },
+    {
+      "status": "??",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/crates/vertex-observation-adapter/"
+    },
+    {
+      "status": "??",
+      "path": "_incoming/Vertex_Chappy_Mothership_Rust_Genesis_Pack/Vertex_Chappy_Mothership_Rust_Genesis_Pack/crates/vertex-runtime/src/lib.rs.20260823-160934.command-provenance.bak"
+    },
+    {
+      "status": "??",
+      "path": "_vsa_probe_3c7db5d319b54288/"
+    },
+    {
+      "status": "??",
+      "path": "vertex-env.ps1"
+    }
+  ]
+}

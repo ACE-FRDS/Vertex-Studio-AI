@@ -1,0 +1,134 @@
+{
+  "schema": "vertex.vxn.foundation.manifest.v1",
+  "version": "0.0.1-foundation",
+  "run_id": "VXN-FOUNDATION-20260824-121651",
+  "generated_at": "2026-08-24T12:16:51.6174292+09:00",
+  "root": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN",
+  "identity": {
+    "name": "Vertex Native",
+    "acronym": "VXN",
+    "architecture": "Hybrid Machine Cognitive Fabric",
+    "strategy": "Maximum Viable Architecture",
+    "origin": "AI/Machine-native high-density representation independent of human readability"
+  },
+  "invariants": [
+    "VXN SHALL NOT DESTROY EXISTING TECHNOLOGY",
+    "VXN SHALL ABSORB CONNECT AND ACCELERATE EXISTING TECHNOLOGY",
+    "IMPACT IS ATTENTION NOT TRUTH",
+    "COGNITION AUTHORITY IS SEPARATE FROM EXECUTION AUTHORITY",
+    "VXN SHALL NOT REQUIRE AN LLM TO ABANDON ITS NATIVE BEHAVIOR",
+    "MODEL ADAPTERS SHALL TRANSLATE BETWEEN VXN AND MODEL-NATIVE DIALECTS",
+    "CANONICAL TRUTH SHALL BE EVIDENCE DRIVEN",
+    "HUMAN LOCKED STATE SHALL NOT BE REINTERPRETED BY DEFAULT",
+    "VTC SHALL GOVERN REALITY MUTATION",
+    "AUDIT AND EXECUTION SHALL SHARE IDENTITY AND LINEAGE"
+  ],
+  "layers": {
+    "native": [
+      "IR",
+      "Typed Identity",
+      "Frames",
+      "Codec",
+      "Dictionary",
+      "Schema",
+      "Binary Representation"
+    ],
+    "transport": [
+      "SharedMemory",
+      "MMAP",
+      "Pipe",
+      "Socket",
+      "QUIC",
+      "Remote"
+    ],
+    "cognitive": [
+      "Identity",
+      "Impact",
+      "Association",
+      "IndexOutIndex",
+      "Scope",
+      "Lock",
+      "Uncertainty",
+      "Routing"
+    ],
+    "memory": [
+      "VMB",
+      "VSP",
+      "VCC",
+      "Tiering",
+      "Candidate",
+      "Canonical"
+    ],
+    "plasticity": [
+      "Strengthen",
+      "Decay",
+      "Suppress",
+      "Protect",
+      "Rehabilitate",
+      "Forget"
+    ],
+    "runtime": [
+      "Scheduler",
+      "ResourceGovernor",
+      "BudgetController",
+      "RecoverySupervisor",
+      "StateCoordinator",
+      "ModelResidency",
+      "Observability"
+    ],
+    "model": [
+      "CapabilityProbe",
+      "ModelProfile",
+      "DialectAdapter",
+      "Escalation",
+      "DirectNative"
+    ],
+    "action": [
+      "ARD Interface",
+      "VTC Interface",
+      "Tool Interfaces",
+      "Lineage",
+      "Authority"
+    ],
+    "extension": [
+      "CapabilityRegistry",
+      "ProviderRegistry",
+      "VersionedContracts",
+      "ExperimentalPorts"
+    ]
+  },
+  "existing_technology_policy": {
+    "preserve": [
+      "Rust",
+      "Tauri",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "SQLite",
+      "PowerShell",
+      "Git",
+      "JSON",
+      "XML",
+      "YAML",
+      "TOML",
+      "Ollama",
+      "LM Studio",
+      "Cloud LLM APIs",
+      "ARD",
+      "VTC",
+      "VCC",
+      "VSP",
+      "VMB"
+    ],
+    "approach": "ENCODE_ADAPT_CONNECT_NOT_REPLACE"
+  },
+  "safety": {
+    "phase": "FOUNDATION",
+    "execution_authority": "NONE",
+    "vtc_required_for_reality_mutation": true,
+    "project_scope_only": true
+  }
+}

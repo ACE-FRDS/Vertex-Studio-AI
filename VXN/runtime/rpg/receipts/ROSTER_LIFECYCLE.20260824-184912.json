@@ -1,0 +1,18 @@
+{
+  "schema": "vertex.world.rpg.roster-lifecycle-receipt.v1.1",
+  "completed_at": "2026-08-24T18:49:12.2206321+09:00",
+  "generation": 1,
+  "total": 8,
+  "field_total": 5,
+  "command_staff": 3,
+  "starters": 4,
+  "bench": 1,
+  "reserve": 0,
+  "trial": 0,
+  "promotions": 0,
+  "demotions": 0,
+  "roster": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\roster\\CURRENT_ROSTER.json",
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE",
+  "agent_execution": "NONE"
+}

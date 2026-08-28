@@ -1,0 +1,16 @@
+[package]
+name="vsa-cli"
+version.workspace=true
+edition.workspace=true
+license.workspace=true
+
+[dependencies]
+vsa-studio={path="../../crates/vsa-studio"}
+vsa-web={path="../../crates/vsa-web"}
+vsa-ard={path="../../crates/vsa-ard"}
+vsa-mnl={path="../../crates/vsa-mnl"}
+vsa-rcc={path="../../crates/vsa-rcc"}
+vsa-mothership={path="../../crates/vsa-mothership"}
+
+[lints]
+workspace=true

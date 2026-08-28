@@ -1,0 +1,64 @@
+{
+  "schema": "vertex.load-balancing-bus.handoff.v1.2",
+  "schedule_id": "VXN-SCHED-20260824-185138",
+  "mission_class": "TRANSACTION_SAFETY",
+  "routes": [
+    {
+      "route_id": "WAVE-1",
+      "wave": 1,
+      "requested_width": 2,
+      "models": [
+        "hunyuan-4b-instruct"
+      ],
+      "tasks": [
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::ScopeGuard",
+          "role": "ScopeGuard",
+          "model": "hunyuan-4b-instruct",
+          "priority": 120
+        },
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::Critic",
+          "role": "Critic",
+          "model": "hunyuan-4b-instruct",
+          "priority": 116
+        }
+      ]
+    },
+    {
+      "route_id": "WAVE-2",
+      "wave": 2,
+      "requested_width": 2,
+      "models": [
+        "hunyuan-4b-instruct"
+      ],
+      "tasks": [
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::Verifier",
+          "role": "Verifier",
+          "model": "hunyuan-4b-instruct",
+          "priority": 112
+        },
+        {
+          "task_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912::Planner",
+          "role": "Planner",
+          "model": "hunyuan-4b-instruct",
+          "priority": 105
+        }
+      ]
+    }
+  ],
+  "command_route": {
+    "route_id": "COMMAND",
+    "model": "google/gemma-4-12b-qat",
+    "source": "FORMATION_ASSIGNMENT",
+    "trigger": "FIELD_COMPLETE"
+  },
+  "capacity_contract": {
+    "initial_width": 2,
+    "minimum_width": 1,
+    "reduce_on_http_500": true,
+    "probe_up_after_stable_wave": true
+  },
+  "state": "READY_FOR_LOAD_BALANCING_BUS"
+}

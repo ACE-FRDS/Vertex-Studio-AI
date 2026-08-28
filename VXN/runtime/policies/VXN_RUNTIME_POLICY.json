@@ -1,0 +1,99 @@
+{
+  "schema": "vertex.vxn.runtime-policy.v1",
+  "version": "0.0.1",
+  "mode": "EXPERIMENTAL_SIDECAR",
+  "execution_authority": "NONE",
+  "cognition": {
+    "deterministic_first": true,
+    "allow_model_escalation": true,
+    "tiers": [
+      "DETERMINISTIC",
+      "3.8B",
+      "8B",
+      "20B",
+      "CLOUD_LARGE",
+      "HUMAN"
+    ],
+    "avoid_llm_when_known_transform": true
+  },
+  "association": {
+    "activation_threshold": 0.35,
+    "hop_limit": 5,
+    "branch_limit": 16,
+    "time_budget_ms": 250,
+    "recall_budget": 64,
+    "suppress_overactivation": true
+  },
+  "memory": {
+    "hot": [
+      "ACTIVE_VMB",
+      "ACTIVE_VSP",
+      "HOT_IMPACT_INDEX"
+    ],
+    "warm": [
+      "VCC_CACHE",
+      "RECENT_CANONICAL"
+    ],
+    "persistent": [
+      "POSTGRESQL",
+      "SQLITE"
+    ],
+    "archive": [
+      "COLD_HISTORY"
+    ]
+  },
+  "model_residency": {
+    "strategy": "RESOURCE_AWARE",
+    "preferred": [
+      {
+        "residency": "HOT_OPTIONAL",
+        "tier": "3.8B"
+      },
+      {
+        "residency": "WARM",
+        "tier": "8B"
+      },
+      {
+        "residency": "COLD_ON_DEMAND",
+        "tier": "20B"
+      },
+      {
+        "residency": "REMOTE",
+        "tier": "CLOUD_LARGE"
+      }
+    ]
+  },
+  "authority": {
+    "vxn": [
+      "OBSERVE",
+      "RECALL",
+      "ROUTE",
+      "PROPOSE",
+      "CANDIDATE"
+    ],
+    "vtc": [
+      "SNAPSHOT",
+      "EXECUTE",
+      "VERIFY",
+      "COMMIT",
+      "ROLLBACK"
+    ],
+    "human": [
+      "LOCK",
+      "APPROVE",
+      "REJECT",
+      "OVERRIDE"
+    ]
+  },
+  "failure": {
+    "model_timeout": "ESCALATE_OR_HOLD",
+    "model_freeze": "CANCEL_AND_RETRY",
+    "adapter_failure": "FALLBACK_DIALECT",
+    "db_unavailable": "DEGRADED_MEMORY_MODE",
+    "vram_pressure": "RESIDENCY_EVICTION",
+    "cloud_unavailable": "LOCAL_FALLBACK",
+    "conflicting_candidate": "BRANCH_AND_REVIEW",
+    "lock_violation": "REJECT_CANDIDATE",
+    "uncertain_high_risk": "HUMAN_GATE"
+  }
+}

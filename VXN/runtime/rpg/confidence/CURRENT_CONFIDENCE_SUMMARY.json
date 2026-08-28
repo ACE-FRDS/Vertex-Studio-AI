@@ -1,0 +1,61 @@
+{
+  "schema": "vertex.world.rpg.affinity-confidence-summary.v1",
+  "updated_at": "2026-08-24T18:49:11.8702897+09:00",
+  "role_top": {
+    "role": "Planner",
+    "class": "TACTICIAN",
+    "affinity_index": 85,
+    "samples": 4,
+    "confidence": {
+      "raw_score": 85.0,
+      "samples": 4,
+      "confidence_tier": "PROVISIONAL",
+      "confidence_index": 28,
+      "conservative_score": 67.5,
+      "evidence_note": "Low-sample result. Treat as provisional."
+    }
+  },
+  "pair_top": {
+    "role_a": "Explorer",
+    "role_b": "ScopeGuard",
+    "synergy_index": 100,
+    "samples": 1,
+    "confidence": {
+      "raw_score": 100.0,
+      "samples": 1,
+      "confidence_tier": "PROVISIONAL",
+      "confidence_index": 8,
+      "conservative_score": 60.0,
+      "evidence_note": "Low-sample result. Treat as provisional."
+    }
+  },
+  "formation_top": {
+    "model": "hunyuan-4b-instruct",
+    "logical_party_size": 4,
+    "stable_width": 2,
+    "affinity_index": 90,
+    "samples": 2,
+    "confidence": {
+      "raw_score": 90.0,
+      "samples": 2,
+      "confidence_tier": "PROVISIONAL",
+      "confidence_index": 15,
+      "conservative_score": 63.3,
+      "evidence_note": "Low-sample result. Treat as provisional."
+    }
+  },
+  "integrator_top": {
+    "party_model": "hunyuan-4b-instruct",
+    "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "compatibility_index": 62,
+    "samples": 4,
+    "confidence": {
+      "raw_score": 62.0,
+      "samples": 4,
+      "confidence_tier": "PROVISIONAL",
+      "confidence_index": 28,
+      "conservative_score": 56.0,
+      "evidence_note": "Low-sample result. Treat as provisional."
+    }
+  }
+}

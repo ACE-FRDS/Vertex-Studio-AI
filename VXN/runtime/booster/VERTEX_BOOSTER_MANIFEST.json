@@ -1,0 +1,36 @@
+{
+  "schema": "vertex.booster.manifest.v1",
+  "version": "0.1.0",
+  "run_id": "VXN-BOOSTER-20260824-140127",
+  "generated_at": "2026-08-24T14:01:27.1413335+09:00",
+  "depends_on": [
+    "VXN_ADAPTIVE_RUNTIME_CORE"
+  ],
+  "capabilities": [
+    "MASTER_THROTTLE",
+    "CHANNEL_THROTTLES",
+    "MISSION_RUNTIME_MAPS",
+    "TOOLBOX_HOT_SWAP_CONTROL",
+    "MODEL_ESCALATION_CONTROL",
+    "MODEL_DEESCALATION_CONTROL",
+    "PARALLELISM_HINT",
+    "OBSERVER_CLOSED_LOOP"
+  ],
+  "closed_loop": {
+    "path": [
+      "OBSERVE",
+      "DIAGNOSE",
+      "THROTTLE",
+      "COMPOSE",
+      "RE_EVALUATE"
+    ],
+    "enabled": true
+  },
+  "authority": {
+    "model_tier_hint": "ALLOWED",
+    "direct_vtc_execution": "DENIED",
+    "ard_parallelism_hint": "ALLOWED",
+    "runtime_composition": "ALLOWED",
+    "canonical_mutation": "DENIED"
+  }
+}

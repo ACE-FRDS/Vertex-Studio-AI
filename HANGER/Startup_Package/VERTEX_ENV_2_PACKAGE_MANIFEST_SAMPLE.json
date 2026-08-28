@@ -1,0 +1,12 @@
+{
+  "schema": "vertex.environment.package-manifest.v1",
+  "package_id": "vertex.env2.sample-package.v1",
+  "target_role": "VSA_DEVELOPMENT",
+  "description": "ENV-2 V1 sample. DryRun-safe filesystem-only package lifecycle manifest.",
+  "operations": [
+    {
+      "type": "ensure_directory",
+      "destination": "D:\\Vertex_Deployment_Sandbox"
+    }
+  ]
+}

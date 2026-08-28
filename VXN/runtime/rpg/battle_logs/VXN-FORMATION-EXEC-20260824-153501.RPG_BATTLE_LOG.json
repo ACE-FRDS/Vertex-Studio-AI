@@ -1,0 +1,142 @@
+{
+  "schema": "vertex.world.rpg.execution-log.v1.1",
+  "run_id": "VXN-FORMATION-EXEC-20260824-153501",
+  "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-152544",
+  "source_receipt": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\formation_executor\\VXN-FORMATION-EXEC-20260824-153501\\VERTEX_ARD_FORMATION_EXECUTION_RECEIPT.json",
+  "mission_class": "TRANSACTION_SAFETY",
+  "mission_result": "MISSION_CLEAR",
+  "final_score": 1.0,
+  "party": {
+    "logical_size": 4,
+    "model": "hunyuan-4b-instruct",
+    "tier": "3B4B",
+    "stable_physical_width": 2,
+    "next_probe_width": 3,
+    "characters": [
+      {
+        "character_id": "ARD-Planner",
+        "display_name": "Planner",
+        "class": "TACTICIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "EXPERIENCED",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 70,
+          "reliability_index": 85,
+          "latency_ms": 11328.0
+        },
+        "rookie_evidence": {
+          "was_trial": false,
+          "trial_completed": false,
+          "trial_success": false
+        }
+      },
+      {
+        "character_id": "ARD-Critic",
+        "display_name": "Critic",
+        "class": "ANALYST",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "EXPERIENCED",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 82,
+          "reliability_index": 85,
+          "latency_ms": 9601.0
+        },
+        "rookie_evidence": {
+          "was_trial": false,
+          "trial_completed": false,
+          "trial_success": false
+        }
+      },
+      {
+        "character_id": "ARD-ScopeGuard",
+        "display_name": "ScopeGuard",
+        "class": "GUARDIAN",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "EXPERIENCED",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 82,
+          "reliability_index": 85,
+          "latency_ms": 8924.0
+        },
+        "rookie_evidence": {
+          "was_trial": false,
+          "trial_completed": false,
+          "trial_success": false
+        }
+      },
+      {
+        "character_id": "ARD-Verifier",
+        "display_name": "Verifier",
+        "class": "VERIFIER",
+        "model": "hunyuan-4b-instruct",
+        "model_tier": "3B4B",
+        "assignment_status": "TRIAL_ASSIGNMENT",
+        "status": "READY",
+        "measured_stats": {
+          "speed_index": 82,
+          "reliability_index": 85,
+          "latency_ms": 9488.0
+        },
+        "rookie_evidence": {
+          "was_trial": true,
+          "trial_completed": true,
+          "trial_success": true
+        }
+      }
+    ]
+  },
+  "command": {
+    "integrator": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "integrator_green": true,
+    "escalation_used": false,
+    "final_model": "deepseek/deepseek-r1-0528-qwen3-8b"
+  },
+  "rookies": [
+    {
+      "role": "Verifier",
+      "model": "hunyuan-4b-instruct",
+      "success": true,
+      "latency_ms": 9488,
+      "status": "TRIAL_COMPLETED"
+    }
+  ],
+  "events": [
+    {
+      "event": "FORMATION_DEPLOYED",
+      "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-152544",
+      "mission_class": "TRANSACTION_SAFETY",
+      "logical_party_size": 4,
+      "planned_width": 3,
+      "rpg_message": "Formation ARD-FORMATION-TRANSACTION_SAFETY-20260824-152544 deployed."
+    },
+    {
+      "event": "RUNTIME_BACKOFF",
+      "planned_width": 3,
+      "stable_width": 2,
+      "rpg_message": "Runtime adjusted physical width from 3 to 2."
+    },
+    {
+      "event": "ROOKIE_TRIAL_COMPLETE",
+      "role": "Verifier",
+      "model": "hunyuan-4b-instruct",
+      "success": true,
+      "rpg_message": "Rookie Verifier completed first field trial successfully."
+    },
+    {
+      "event": "INTEGRATION_GREEN",
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "score": 1.0,
+      "rpg_message": "Formation outputs integrated successfully."
+    }
+  ],
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE"
+  }
+}

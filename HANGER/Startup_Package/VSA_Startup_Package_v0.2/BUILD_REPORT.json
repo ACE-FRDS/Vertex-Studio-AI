@@ -1,0 +1,11 @@
+{
+  "cargo_check": {
+    "error": "PermissionError(13, 'Permission denied')"
+  },
+  "cargo_test": {
+    "error": "PermissionError(13, 'Permission denied')"
+  },
+  "life_sign": {
+    "error": "PermissionError(13, 'Permission denied')"
+  }
+}

@@ -1,0 +1,12 @@
+const x 5
+const y 5
+eq same x y
+jump_if_false same not_equal
+const answer 1
+print answer
+jump end
+label not_equal
+const answer 0
+print answer
+label end
+halt

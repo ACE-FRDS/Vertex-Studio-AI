@@ -1,0 +1,212 @@
+[
+  {
+    "id": "vsa",
+    "name": "Vertex Studio AI",
+    "abbreviation": "VSA",
+    "status": "official",
+    "definition": "Vertex統合開発環境。",
+    "sources": []
+  },
+  {
+    "id": "vertex-frontier",
+    "name": "Vertex Frontier",
+    "abbreviation": "VF",
+    "status": "official",
+    "definition": "組織・環境・サーバー領域を扱うVertex上位環境。",
+    "sources": []
+  },
+  {
+    "id": "vertex-core",
+    "name": "Vertex Core",
+    "status": "official",
+    "definition": "Vertex群の中央管制概念。",
+    "sources": []
+  },
+  {
+    "id": "vertex-hub",
+    "name": "Vertex AI Knowledge Hub",
+    "status": "adopted",
+    "definition": "Vertexプロジェクトの公式公開Canonical Knowledge Endpoint。Research、Lexicon、Architecture、Source Registry、およびAI-readable endpointsを提供する。",
+    "sources": []
+  },
+  {
+    "id": "vxn",
+    "name": "Vertex Native",
+    "abbreviation": "VXN",
+    "status": "official",
+    "definition": "Vertex独自の実行・中間表現系構想。",
+    "sources": []
+  },
+  {
+    "id": "impact-db",
+    "name": "Impact DB",
+    "status": "research",
+    "definition": "動的な記憶想起を扱うVertex Memory構想。",
+    "sources": [
+      "VRTX-MEM-001"
+    ]
+  },
+  {
+    "id": "trait",
+    "name": "Trait",
+    "status": "provisional",
+    "definition": "記憶が主体・プロジェクト等の継続性を構成する度合いを扱う提案軸。",
+    "sources": [
+      "VRTX-MEM-001"
+    ]
+  },
+  {
+    "id": "temporal-context",
+    "name": "Temporal Context",
+    "status": "provisional",
+    "category": "Memory / Continuity",
+    "definition": "記憶の時間距離を扱うための提案属性。today、yesterday、this week等は概念例であり、実装済み仕様ではない。",
+    "source_verified": true,
+    "sources": [
+      "VRTX-MEM-001"
+    ]
+  },
+  {
+    "id": "episodic-context",
+    "name": "Episodic Context",
+    "status": "provisional",
+    "category": "Memory / Continuity",
+    "definition": "出来事系列を将来のMemory Retrievalに利用するための提案属性。実装済み仕様ではない。",
+    "source_verified": true,
+    "sources": [
+      "VRTX-MEM-001"
+    ]
+  },
+  {
+    "id": "vmb",
+    "name": "VMB",
+    "expandedName": null,
+    "status": "definition_pending",
+    "definition": null,
+    "sources": []
+  },
+  {
+    "id": "vcc",
+    "name": "VCC",
+    "expandedName": null,
+    "status": "definition_pending",
+    "definition": null,
+    "sources": []
+  },
+  {
+    "id": "vsp",
+    "name": "VSP",
+    "expandedName": null,
+    "status": "definition_pending",
+    "definition": null,
+    "sources": []
+  },
+  {
+    "id": "dnc",
+    "name": "DNC",
+    "expandedName": null,
+    "status": "definition_pending",
+    "definition": null,
+    "notes": "Do not auto-correct to DNA.",
+    "sources": []
+  },
+  {
+    "id": "back-in-back",
+    "name": "Back in Back",
+    "status": "definition_pending",
+    "definition": null,
+    "notes": "Do not infer meaning from the name.",
+    "sources": []
+  },
+  {
+    "id": "llc-bias",
+    "name": "LLC Bias",
+    "status": "definition_pending",
+    "definition": null,
+    "sources": [
+      "VRTX-LLC-001"
+    ]
+  },
+  {
+    "id": "vla",
+    "name": "VLA",
+    "expandedName": null,
+    "status": "definition_pending",
+    "definition": null,
+    "sources": []
+  },
+  {
+    "id": "hyper-agent",
+    "name": "Hyper Agent",
+    "status": "adopted",
+    "definition": "Vertex高機能Agent概念。",
+    "sources": []
+  },
+  {
+    "id": "ard",
+    "name": "ARD",
+    "status": "adopted",
+    "definition": "Architect → Developer → Reviewer。",
+    "sources": []
+  },
+  {
+    "id": "blueprint",
+    "name": "Blueprint",
+    "status": "official",
+    "definition": "NodeとLineによって関係性を可視化・操作するVertex UI思想。",
+    "sources": []
+  },
+  {
+    "id": "component-card",
+    "name": "Component Card",
+    "status": "adopted",
+    "definition": "設計・依存・実装情報をカード単位で扱う概念。",
+    "sources": []
+  },
+  {
+    "id": "fme",
+    "name": "Vertex FM ENGINE",
+    "abbreviation": "FME",
+    "status": "official",
+    "definition": "FileMaker開発支援エンジン。",
+    "sources": []
+  },
+  {
+    "id": "via",
+    "name": "VIA",
+    "expandedName": "Voice Input Application",
+    "status": "adopted",
+    "definition": "Vertex音声入力系名称。",
+    "sources": []
+  },
+  {
+    "id": "vertex-installer",
+    "name": "Vertex Installer",
+    "status": "provisional",
+    "definition": "環境検出と適応型導入を目指すInstaller構想。",
+    "sources": []
+  },
+  {
+    "id": "index-of-indexes",
+    "name": "インデックスのインデックス",
+    "status": "research",
+    "definition": "探索すべきIndex / Search Space自体を先に選択する記憶探索構想。",
+    "sources": [
+      "VRTX-MEM-001"
+    ]
+  },
+  {
+    "id": "vera",
+    "name": "Vera",
+    "displayName": "Vera（ヴェラ）",
+    "type": "ai-callsign",
+    "status": "adopted",
+    "definition": "Vertex環境における対話AIのコールサイン。",
+    "modelBinding": "not-fixed",
+    "aliases": [
+      "ヴェラ"
+    ],
+    "supersedesCallsign": "チャッピー",
+    "sources": []
+  }
+]

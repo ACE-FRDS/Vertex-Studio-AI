@@ -1,0 +1,28 @@
+{
+  "schema": "vertex.booster.observer-bridge.v1",
+  "version": "0.1.0",
+  "loop": [
+    "OBSERVE",
+    "DIAGNOSE",
+    "THROTTLE",
+    "COMPOSE",
+    "RE_EVALUATE"
+  ],
+  "inputs": [
+    "RuntimeObservation",
+    "BoosterState",
+    "RuntimeToolbox",
+    "MissionClass",
+    "ExperimentEvidence"
+  ],
+  "outputs": [
+    "ThrottleDecision",
+    "ToolboxHotSwap",
+    "ModelTierDelta",
+    "ARDParallelismHint",
+    "ReEvaluationRequest"
+  ],
+  "automatic": true,
+  "human_override": true,
+  "mutation_authority": "NONE"
+}

@@ -1,0 +1,7 @@
+{
+  "Core / Platform": ["vsa", "vertex-frontier", "vertex-core", "vertex-hub", "vxn", "vertex-installer", "vera"],
+  "Memory / Continuity": ["impact-db", "trait", "temporal-context", "episodic-context", "index-of-indexes", "vmb", "vcc", "vsp", "dnc", "back-in-back", "llc-bias"],
+  "Agent": ["hyper-agent", "ard"],
+  "UI / Blueprint": ["blueprint", "component-card"],
+  "Products": ["fme", "via", "vla"]
+}

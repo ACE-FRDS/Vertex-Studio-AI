@@ -1,0 +1,70 @@
+{
+  "schema": "vertex.world.rpg.party-progression.v1",
+  "updated_at": "2026-08-24T18:49:11.6393152+09:00",
+  "party_id": "ARD_CORE_PARTY",
+  "progression": {
+    "xp": 2025.0,
+    "level": 5,
+    "rank": "D"
+  },
+  "evidence": {
+    "missions": 4,
+    "clears": 3,
+    "clear_rate": 0.75,
+    "recommended_parallel_width": 2
+  },
+  "history": [
+    {
+      "run_id": "VXN-ARD-WAVE-20260824-145635",
+      "result": "MISSION_CLEAR",
+      "score": 1.0,
+      "model": "hunyuan-4b-instruct",
+      "logical_size": 4,
+      "stable_width": 3,
+      "probe_width": 4,
+      "integrator": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "integrator_green": true,
+      "escalation_used": false,
+      "final_model": "deepseek/deepseek-r1-0528-qwen3-8b"
+    },
+    {
+      "run_id": "VXN-FORMATION-EXEC-20260824-153501",
+      "result": "MISSION_CLEAR",
+      "score": 1.0,
+      "model": "hunyuan-4b-instruct",
+      "logical_size": 4,
+      "stable_width": 2,
+      "probe_width": 3,
+      "integrator": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "integrator_green": true,
+      "escalation_used": false,
+      "final_model": "deepseek/deepseek-r1-0528-qwen3-8b"
+    },
+    {
+      "run_id": "VXN-SCHEDULED-BUS-EXEC-20260824-183809",
+      "result": "MISSION_HOLD",
+      "score": 0.0,
+      "model": "hunyuan-4b-instruct",
+      "logical_size": 4,
+      "stable_width": 1,
+      "probe_width": 2,
+      "integrator": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "integrator_green": false,
+      "escalation_used": true,
+      "final_model": "qwen/qwq-32b"
+    },
+    {
+      "run_id": "VXN-SCHEDULED-BUS-EXEC-20260824-184423",
+      "result": "MISSION_CLEAR",
+      "score": 1.0,
+      "model": "hunyuan-4b-instruct",
+      "logical_size": 4,
+      "stable_width": 2,
+      "probe_width": 3,
+      "integrator": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "integrator_green": false,
+      "escalation_used": true,
+      "final_model": "google/gemma-4-12b-qat"
+    }
+  ]
+}

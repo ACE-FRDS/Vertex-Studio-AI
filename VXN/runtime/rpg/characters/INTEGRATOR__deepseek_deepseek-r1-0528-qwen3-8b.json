@@ -1,0 +1,35 @@
+{
+  "character_id": "INTEGRATOR::deepseek/deepseek-r1-0528-qwen3-8b",
+  "display_name": "Integrator",
+  "class": "COMMANDER",
+  "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+  "model_tier": "8B",
+  "evidence": {
+    "missions": 4,
+    "successes": 2,
+    "failures": 2,
+    "total_latency_ms": 0.0,
+    "measured_samples": 4
+  },
+  "progression": {
+    "xp": 1100.0,
+    "level": 4,
+    "rank": "E"
+  },
+  "affinities": {
+    "explorer": 0,
+    "planner": 0,
+    "critic": 0,
+    "scope_guard": 0,
+    "verifier": 0,
+    "optimizer": 0,
+    "integration": 8,
+    "review": 0
+  },
+  "equipment_affinity": {
+    "lock_scope": 0,
+    "vcc_vsp": 0,
+    "candidate_vtc": 0,
+    "impact_association": 0
+  }
+}

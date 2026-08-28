@@ -1,0 +1,6 @@
+{
+  "cargo_check": 127,
+  "cargo_test": 127,
+  "life_sign": 127,
+  "life_sign_output": "bash: line 115: cargo: command not found"
+}

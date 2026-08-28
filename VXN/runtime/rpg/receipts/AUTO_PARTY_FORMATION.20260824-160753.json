@@ -1,0 +1,15 @@
+{
+  "schema": "vertex.world.ard.auto-party-formation-receipt.v1.2",
+  "completed_at": "2026-08-24T16:07:53.9046639+09:00",
+  "mission_class": "TRANSACTION_SAFETY",
+  "party_size": 4,
+  "physical_parallel_width": 3,
+  "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+  "command_staff_tier": "ACTIVE_STAFF",
+  "command_evidence_score": 95.0,
+  "command_assignment_score": 0.7408,
+  "formation_plan": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\formations\\ARD-FORMATION-TRANSACTION_SAFETY-20260824-160753.json",
+  "automatic_execution": false,
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE"
+}

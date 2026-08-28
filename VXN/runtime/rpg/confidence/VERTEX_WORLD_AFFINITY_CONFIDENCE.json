@@ -1,0 +1,351 @@
+{
+  "schema": "vertex.world.rpg.affinity-confidence.v1",
+  "updated_at": "2026-08-24T18:49:11.8665869+09:00",
+  "confidence_rules": {
+    "PROVISIONAL": "1-4 samples",
+    "EMERGING": "5-19 samples",
+    "TRUSTED": "20-49 samples",
+    "ESTABLISHED": "50+ samples"
+  },
+  "shrinkage": {
+    "prior_score": 50,
+    "prior_weight": 4,
+    "note": "Conservative score pulls low-sample metrics toward neutral 50."
+  },
+  "role_affinity": [
+    {
+      "role": "Planner",
+      "class": "TACTICIAN",
+      "affinity_index": 85,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 85.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 67.5,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role": "Explorer",
+      "class": "SCOUT",
+      "affinity_index": 98,
+      "samples": 1,
+      "confidence": {
+        "raw_score": 98.0,
+        "samples": 1,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 8,
+        "conservative_score": 59.6,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role": "Critic",
+      "class": "ANALYST",
+      "affinity_index": 85,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 85.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 67.5,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role": "ScopeGuard",
+      "class": "GUARDIAN",
+      "affinity_index": 85,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 85.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 67.5,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role": "Verifier",
+      "class": "VERIFIER",
+      "affinity_index": 81,
+      "samples": 3,
+      "confidence": {
+        "raw_score": 81.0,
+        "samples": 3,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 22,
+        "conservative_score": 63.3,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    }
+  ],
+  "model_role_affinity": [
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Critic",
+      "affinity_index": 88,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 88.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 69.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "ScopeGuard",
+      "affinity_index": 88,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 88.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 69.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Planner",
+      "affinity_index": 88,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 88.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 69.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Explorer",
+      "affinity_index": 97,
+      "samples": 1,
+      "confidence": {
+        "raw_score": 97.0,
+        "samples": 1,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 8,
+        "conservative_score": 59.4,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "role": "Verifier",
+      "affinity_index": 85,
+      "samples": 3,
+      "confidence": {
+        "raw_score": 85.0,
+        "samples": 3,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 22,
+        "conservative_score": 65.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    }
+  ],
+  "pair_synergy": [
+    {
+      "role_a": "ScopeGuard",
+      "role_b": "Verifier",
+      "synergy_index": 60,
+      "samples": 3,
+      "confidence": {
+        "raw_score": 60.0,
+        "samples": 3,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 22,
+        "conservative_score": 54.3,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Explorer",
+      "role_b": "ScopeGuard",
+      "synergy_index": 100,
+      "samples": 1,
+      "confidence": {
+        "raw_score": 100.0,
+        "samples": 1,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 8,
+        "conservative_score": 60.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "Planner",
+      "synergy_index": 70,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 70.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 60.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Planner",
+      "role_b": "ScopeGuard",
+      "synergy_index": 70,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 70.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 60.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Planner",
+      "role_b": "Verifier",
+      "synergy_index": 60,
+      "samples": 3,
+      "confidence": {
+        "raw_score": 60.0,
+        "samples": 3,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 22,
+        "conservative_score": 54.3,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "ScopeGuard",
+      "synergy_index": 70,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 70.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 60.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Explorer",
+      "role_b": "Planner",
+      "synergy_index": 100,
+      "samples": 1,
+      "confidence": {
+        "raw_score": 100.0,
+        "samples": 1,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 8,
+        "conservative_score": 60.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "Explorer",
+      "synergy_index": 100,
+      "samples": 1,
+      "confidence": {
+        "raw_score": 100.0,
+        "samples": 1,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 8,
+        "conservative_score": 60.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "role_a": "Critic",
+      "role_b": "Verifier",
+      "synergy_index": 60,
+      "samples": 3,
+      "confidence": {
+        "raw_score": 60.0,
+        "samples": 3,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 22,
+        "conservative_score": 54.3,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    }
+  ],
+  "equipment_affinity": [],
+  "formation_affinity": [
+    {
+      "model": "hunyuan-4b-instruct",
+      "logical_party_size": 4,
+      "stable_width": 3,
+      "affinity_index": 100,
+      "samples": 1,
+      "confidence": {
+        "raw_score": 100.0,
+        "samples": 1,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 8,
+        "conservative_score": 60.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "logical_party_size": 4,
+      "stable_width": 1,
+      "affinity_index": 0,
+      "samples": 1,
+      "confidence": {
+        "raw_score": 0.0,
+        "samples": 1,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 8,
+        "conservative_score": 40.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    },
+    {
+      "model": "hunyuan-4b-instruct",
+      "logical_party_size": 4,
+      "stable_width": 2,
+      "affinity_index": 90,
+      "samples": 2,
+      "confidence": {
+        "raw_score": 90.0,
+        "samples": 2,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 15,
+        "conservative_score": 63.3,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    }
+  ],
+  "integrator_compatibility": [
+    {
+      "party_model": "hunyuan-4b-instruct",
+      "integrator_model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "compatibility_index": 62,
+      "samples": 4,
+      "confidence": {
+        "raw_score": 62.0,
+        "samples": 4,
+        "confidence_tier": "PROVISIONAL",
+        "confidence_index": 28,
+        "conservative_score": 56.0,
+        "evidence_note": "Low-sample result. Treat as provisional."
+      }
+    }
+  ]
+}

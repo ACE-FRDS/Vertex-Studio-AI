@@ -1,0 +1,110 @@
+{
+  "schema": "vertex.world.ard.auto-party-formation.v1.2",
+  "formation_id": "ARD-FORMATION-TRANSACTION_SAFETY-20260824-184912",
+  "generated_at": "2026-08-24T18:49:12.4551159+09:00",
+  "mission": {
+    "class": "TRANSACTION_SAFETY",
+    "desired_party_size": 4
+  },
+  "party": {
+    "roles": [
+      {
+        "role": "Critic",
+        "model": "hunyuan-4b-instruct",
+        "level": 4,
+        "xp": 1457.5,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 4,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "roster_state": "STARTER",
+        "roster_multiplier": 1.0,
+        "role_affinity": 67.5,
+        "model_role_affinity": 69.0,
+        "synergy_bonus": 0.6,
+        "formation_score": 0.5838
+      },
+      {
+        "role": "Verifier",
+        "model": "hunyuan-4b-instruct",
+        "level": 4,
+        "xp": 1080.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 3,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "roster_state": "STARTER",
+        "roster_multiplier": 1.0,
+        "role_affinity": 63.3,
+        "model_role_affinity": 65.0,
+        "synergy_bonus": 0.543,
+        "formation_score": 0.5628
+      },
+      {
+        "role": "Planner",
+        "model": "hunyuan-4b-instruct",
+        "level": 4,
+        "xp": 1465.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 4,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "roster_state": "STARTER",
+        "roster_multiplier": 1.0,
+        "role_affinity": 67.5,
+        "model_role_affinity": 69.0,
+        "synergy_bonus": 0.581,
+        "formation_score": 0.5494
+      },
+      {
+        "role": "ScopeGuard",
+        "model": "hunyuan-4b-instruct",
+        "level": 4,
+        "xp": 1465.0,
+        "confidence": "PROVISIONAL",
+        "evidence_samples": 4,
+        "assignment_type": "PROVEN",
+        "assignment_status": "EXPERIENCED",
+        "roster_state": "STARTER",
+        "roster_multiplier": 1.0,
+        "role_affinity": 67.5,
+        "model_role_affinity": 69.0,
+        "synergy_bonus": 0.0,
+        "formation_score": 0.5043
+      }
+    ],
+    "physical_parallel_width": 2,
+    "formation_evidence": {
+      "conservative_score": 63.3,
+      "confidence_tier": "PROVISIONAL"
+    }
+  },
+  "command": {
+    "integrator_model": "google/gemma-4-12b-qat",
+    "compatibility_score": 50.0,
+    "compatibility_confidence": "PROVISIONAL",
+    "staff_tier": "PROBATIONARY_STAFF",
+    "command_evidence_score": 72.5,
+    "command_samples": 1,
+    "command_assignment_score": 0.572,
+    "assignment_basis": "COMMAND_STAFF_EVIDENCE_PLUS_COMPATIBILITY"
+  },
+  "rookie_draft": {
+    "enabled": true,
+    "runtime_models_discovered": 18,
+    "trial_assignments": []
+  },
+  "execution_policy": {
+    "automatic_execution": false,
+    "requires_go_signal": true,
+    "allow_runtime_backoff": true,
+    "allow_model_escalation": true,
+    "allow_toolbox_hot_swap": true
+  },
+  "safety": {
+    "canonical_mutation": "NONE",
+    "vtc_execution": "NONE",
+    "model_invocation": "NONE",
+    "agent_execution": "NONE"
+  }
+}

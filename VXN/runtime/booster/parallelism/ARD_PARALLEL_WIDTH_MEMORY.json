@@ -1,0 +1,10 @@
+{
+  "schema": "vertex.ard.parallel-width-memory.v1",
+  "updated_at": "2026-08-24T14:57:18.4552529+09:00",
+  "model": "hunyuan-4b-instruct",
+  "logical_party_size": 4,
+  "requested_initial_width": 4,
+  "last_proven_stable_width": 3,
+  "current_probe_width": 4,
+  "source_run": "VXN-ARD-WAVE-20260824-145635"
+}

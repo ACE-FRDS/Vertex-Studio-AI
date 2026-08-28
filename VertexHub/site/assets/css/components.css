@@ -1,0 +1,177 @@
+.topbar{
+  position:sticky;top:0;z-index:20;
+  backdrop-filter:blur(16px);
+  background:rgba(5,7,11,.72);
+  border-bottom:1px solid var(--line);
+}
+.topbar-inner{height:66px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.08em}
+.core-dot{width:10px;height:10px;border-radius:50%;background:var(--ok);box-shadow:0 0 16px var(--ok)}
+nav{display:flex;gap:20px;font-size:.84rem;color:var(--muted)}
+nav a:hover{color:var(--cyan)}
+.hero{padding:92px 0 56px;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:26px;align-items:stretch}
+h1{font-size:clamp(3rem,7vw,6.7rem);line-height:.88;margin:14px 0 24px;letter-spacing:-.065em}
+.gradient{background:linear-gradient(90deg,#fff,var(--cyan),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:1.08rem;line-height:1.8;max-width:700px;color:#a9c0cd}
+.panel{
+  border:1px solid var(--line);background:linear-gradient(145deg,var(--panel),var(--panel2));
+  box-shadow:var(--shadow);position:relative;overflow:hidden;
+}
+.panel:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(115,229,255,.035),transparent)}
+.panel-pad{padding:24px}
+.status-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:15px;margin-bottom:18px}
+.status-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:9px 0;color:var(--muted);font-size:.85rem}
+.status-row b{color:var(--ok);font-weight:600}
+.section{padding:28px 0 60px}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:20px}
+.section h2{font-size:1.6rem;margin:5px 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{padding:22px;min-height:190px;transition:.2s transform,.2s border-color}
+.card:hover{transform:translateY(-3px);border-color:var(--line2)}
+.card .num{font-size:.7rem;color:var(--cyan);letter-spacing:.18em}
+.card h3{margin:34px 0 8px;font-size:1.15rem}
+.card p{color:var(--muted);line-height:1.65;font-size:.9rem}
+.graph{min-height:320px;padding:30px;display:flex;align-items:center;justify-content:center}
+.graph-stage{width:min(760px,100%);height:240px;position:relative}
+.node{
+  position:absolute;min-width:118px;padding:13px 16px;text-align:center;
+  border:1px solid var(--line2);background:#09131d;box-shadow:0 0 22px rgba(85,218,255,.08);
+  font-size:.78rem;letter-spacing:.08em;
+}
+.n1{left:4%;top:42%}.n2{left:28%;top:8%}.n3{left:28%;bottom:8%}.n4{right:28%;top:42%}.n5{right:4%;top:42%}
+.wire{position:absolute;height:1px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);transform-origin:left center;opacity:.55}
+.w1{width:29%;left:15%;top:48%;transform:rotate(-22deg)}
+.w2{width:29%;left:15%;top:53%;transform:rotate(22deg)}
+.w3{width:29%;left:39%;top:27%;transform:rotate(22deg)}
+.w4{width:29%;left:39%;top:73%;transform:rotate(-22deg)}
+.w5{width:25%;left:63%;top:50%}
+.endpoint{display:grid;grid-template-columns:1fr auto;gap:14px;padding:13px 0;border-bottom:1px solid var(--line);font-size:.82rem}
+.endpoint:last-child{border:0}.endpoint span:last-child{color:var(--ok)}
+.vera{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center}
+.vera-mark{width:64px;height:64px;border:1px solid var(--line2);display:grid;place-items:center;font-size:1.45rem;color:var(--cyan);box-shadow:0 0 25px rgba(114,230,255,.12)}
+footer{border-top:1px solid var(--line);padding:28px 0 46px;color:var(--muted);font-size:.78rem}
+@media(max-width:850px){
+  .hero-grid,.cards{grid-template-columns:1fr}
+  nav{display:none}.hero{padding-top:62px}
+  .graph-stage{transform:scale(.82)}
+}
+
+
+/* Vertex Project Mark — preserve original SVG aspect ratio */
+.vertex-mark{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+}
+
+.brand-mark{
+  width:auto;
+  height:28px;
+  max-width:42px;
+  flex:0 0 auto;
+}
+
+.vera-mark{
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  overflow:visible;
+}
+
+.vera-logo{
+  width:auto;
+  height:42px;
+  max-width:48px;
+  object-fit:contain;
+}
+
+/* === Vertex Project Mark containment v2 === */
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:0;
+}
+.brand-mark-viewport{
+  width:34px;
+  height:38px;
+  flex:0 0 34px;
+  display:grid;
+  place-items:center;
+  overflow:hidden;
+}
+.brand-mark-viewport .brand-mark{
+  display:block !important;
+  width:100% !important;
+  height:100% !important;
+  max-width:100% !important;
+  max-height:100% !important;
+  object-fit:contain !important;
+}
+.brand-title{
+  display:block;
+  font-size:.88rem;
+  line-height:1.05;
+  letter-spacing:.09em;
+  white-space:nowrap;
+}
+.vera-mark{
+  width:64px !important;
+  height:64px !important;
+  display:grid !important;
+  place-items:center !important;
+  overflow:hidden !important;
+}
+.vera-mark .vera-logo{
+  display:block !important;
+  width:46px !important;
+  height:46px !important;
+  max-width:46px !important;
+  max-height:46px !important;
+  object-fit:contain !important;
+}
+
+/* === Vertex Project Mark measured fix v3 ===
+   Native SVG viewBox: 205 x 210 (nearly square).
+   Use a square box; never stretch width/height independently.
+*/
+.brand-mark-viewport{
+  width:36px !important;
+  height:36px !important;
+  flex:0 0 36px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  overflow:visible !important;
+}
+.brand-mark-viewport > .brand-mark{
+  display:block !important;
+  width:32px !important;
+  height:32px !important;
+  max-width:none !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center !important;
+}
+.vera-mark{
+  width:64px !important;
+  height:64px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  overflow:visible !important;
+}
+.vera-mark > .vera-logo{
+  display:block !important;
+  width:48px !important;
+  height:48px !important;
+  max-width:none !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center !important;
+}

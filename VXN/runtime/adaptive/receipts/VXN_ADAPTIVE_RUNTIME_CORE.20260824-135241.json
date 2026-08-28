@@ -1,0 +1,24 @@
+{
+  "schema": "vertex.vxn.adaptive-runtime-core.receipt.v1",
+  "run_id": "VXN-ADAPTIVE-20260824-135241",
+  "completed_at": "2026-08-24T13:52:41.8631556+09:00",
+  "mode": "Build",
+  "cargo_check": "GREEN",
+  "evidence": "INGESTED",
+  "installed": [
+    "RuntimeObserver",
+    "RuntimeComposer",
+    "ModelEscalation",
+    "ToolboxRegistry",
+    "HotSwapContract",
+    "AdaptiveRuntimePolicy",
+    "ExperimentEvidenceIngestion"
+  ],
+  "next": [
+    "Implement live Runtime Observer feed",
+    "Connect Runtime Composer to Mission Harness",
+    "Add 3B/4B/8B/12B/30B model registry",
+    "Add live hot-swap decisions",
+    "Then enable ARD parallel party experiments"
+  ]
+}

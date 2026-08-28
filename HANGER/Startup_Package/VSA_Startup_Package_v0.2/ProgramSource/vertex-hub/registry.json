@@ -1,0 +1,14 @@
+{
+    "schema":  "vertex.hub.registry.v1",
+    "generated_at":  "2026-08-23T20:35:01.8449944+09:00",
+    "packages":  [
+                     {
+                         "package_id":  "vertex.live-flight-panel",
+                         "version":  "1.0.0",
+                         "kind":  "ui.component",
+                         "status":  "registered",
+                         "manifest":  "packages/vertex.live-flight-panel/1.0.0/manifest.json",
+                         "manifest_sha256":  "813bf218cc8e3d0c7a8f247650ee79dac60354be4bea4ca0860ca5f0c1e7cad1"
+                     }
+                 ]
+}

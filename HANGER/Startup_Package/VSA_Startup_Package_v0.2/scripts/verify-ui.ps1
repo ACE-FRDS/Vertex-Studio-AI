@@ -1,0 +1,1 @@
+$ErrorActionPreference="Stop"; Set-Location "$PSScriptRoot\..\apps\vsa-shell"; pnpm install; pnpm run build

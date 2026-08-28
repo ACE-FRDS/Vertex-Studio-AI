@@ -1,0 +1,1 @@
+$ErrorActionPreference="Stop"; Set-Location "$PSScriptRoot\..\ProgramSource"; cargo check --workspace; cargo test --workspace; cargo run -p vsa-cli -- demo

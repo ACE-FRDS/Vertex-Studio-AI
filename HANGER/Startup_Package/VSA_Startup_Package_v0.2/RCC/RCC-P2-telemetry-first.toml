@@ -1,0 +1,12 @@
+name=Telemetry-First ARD
+work_unit=ultra-small
+max_parallel_workers=4
+verification=adaptive
+prefer_local=true
+model_residency=prefer
+reporting=telemetry-first
+pass_report=fast-ack
+exception_report=detailed
+human_gate_report=detailed
+narrative_on_pass=false
+system_observation=true

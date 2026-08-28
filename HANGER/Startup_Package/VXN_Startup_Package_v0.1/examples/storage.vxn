@@ -1,0 +1,5 @@
+const value 42
+store answer value
+load loaded answer
+print loaded
+halt

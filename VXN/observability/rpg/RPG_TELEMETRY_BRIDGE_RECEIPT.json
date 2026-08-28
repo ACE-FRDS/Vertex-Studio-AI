@@ -1,0 +1,12 @@
+{
+  "schema": "vertex.world.rpg.telemetry-bridge-receipt.v1",
+  "completed_at": "2026-08-24T15:01:05.5066369+09:00",
+  "source": "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\experiments\\ard_parallel_width\\VXN-ARD-WAVE-20260824-145635\\VERTEX_ARD_ADAPTIVE_PARALLEL_WIDTH_RECEIPT.json",
+  "outputs": [
+    "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\battle_logs\\VXN-ARD-WAVE-20260824-145635.RPG_BATTLE_LOG.json",
+    "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\profiles\\ARD_RUNTIME_EXPERIENCE.json",
+    "G:\\Vertex_Project\\Vertex_Studio_AI\\VXN\\runtime\\rpg\\state\\CURRENT_RPG_STATE.json"
+  ],
+  "canonical_mutation": "NONE",
+  "vtc_execution": "NONE"
+}
