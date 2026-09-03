@@ -2,6 +2,13 @@
   const translations = {
     ja: {
       brand_subtitle: 'NEURAL OBSERVATORY / 32C PERSISTENT RESIDENT',
+      nav_system_ui: 'システムUI',
+      ui_kicker: 'SYSTEM VISUALIZATION / OBSERVATION SURFACE',
+      ui_title: '観測系そのものを、研究対象として可視化する。',
+      ui_caption: 'このUIは装飾ではなく、Resident / Region / Brain Membrane / vSCOPE / Evidence を同一観測面へ射影するための視覚的境界層である。したがって表示座標 y_t は状態 x_t の単純な複製ではなく、観測写像 O_v とEvidence射影 Π_E を経た制約付き表現として扱われる。',
+      price_kicker: 'REFERENCE COMMERCIAL VALUATION',
+      price_title: '販売価格 2億円',
+      price_body: '一般消費財としての価格形成ではなく、研究設備・専用観測系・継続的実験基盤としての参照評価額。VERTEX BRAIN SYSTEM は通常販売を前提としない。',
       nav_abstract: '概要',
       nav_hypotheses: '仮説',
       nav_topology: '位相',
@@ -56,6 +63,13 @@
     },
     en: {
       brand_subtitle: 'NEURAL OBSERVATORY / 32C PERSISTENT RESIDENT',
+      nav_system_ui: 'SYSTEM UI',
+      ui_kicker: 'SYSTEM VISUALIZATION / OBSERVATION SURFACE',
+      ui_title: 'The observation system itself becomes an object of study.',
+      ui_caption: 'This interface is not decorative. It is a visual boundary layer that projects Resident, Region, Brain Membrane, vSCOPE, and Evidence onto one observational surface. Therefore the display coordinate y_t is not a direct duplicate of the underlying state x_t, but a constrained representation produced through the observation map O_v and the Evidence projection Π_E.',
+      price_kicker: 'REFERENCE COMMERCIAL VALUATION',
+      price_title: 'Reference Price JPY 200,000,000',
+      price_body: 'This is not conventional consumer-product pricing. It is a reference valuation for a research instrument, dedicated observatory, and persistent experimental infrastructure. VERTEX BRAIN SYSTEM is not intended for ordinary retail distribution.',
       nav_abstract: 'ABSTRACT',
       nav_hypotheses: 'HYPOTHESES',
       nav_topology: 'TOPOLOGY',
