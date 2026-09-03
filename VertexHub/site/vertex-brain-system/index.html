@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#06111a">
+  <title>VERTEX BRAIN SYSTEM — Neural Observatory</title>
+  <meta name="description" content="VERTEX BRAIN SYSTEM public site / bilingual / academic observatory presentation.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-lang="ja">
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="VERTEX BRAIN SYSTEM home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <strong>VERTEX BRAIN SYSTEM</strong>
+        <small data-i18n="brand_subtitle">NEURAL OBSERVATORY / 32C PERSISTENT RESIDENT</small>
+      </span>
+    </a>
+
+    <nav>
+      <a href="#abstract" data-i18n="nav_abstract">ABSTRACT</a>
+      <a href="#hypotheses" data-i18n="nav_hypotheses">HYPOTHESES</a>
+      <a href="#topology" data-i18n="nav_topology">TOPOLOGY</a>
+      <a href="#observation" data-i18n="nav_observation">OBSERVATION</a>
+    </nav>
+
+    <div class="toolbar">
+      <div class="lang-switch" aria-label="language switch">
+        <button type="button" data-set-lang="ja" class="active">日本語</button>
+        <button type="button" data-set-lang="en">English</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="network" aria-hidden="true">
+        <svg class="network-svg" viewBox="0 0 1200 760" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0" stop-color="#d9fbff"/>
+              <stop offset="0.18" stop-color="#79eeff"/>
+              <stop offset="0.5" stop-color="#1aa9ff"/>
+              <stop offset="1" stop-color="#1aa9ff" stop-opacity="0"/>
+            </radialGradient>
+            <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+          </defs>
+
+          <g class="grid-lines">
+            <path d="M0 150 H1200"/><path d="M0 250 H1200"/><path d="M0 350 H1200"/><path d="M0 450 H1200"/><path d="M0 550 H1200"/>
+            <path d="M200 0 V760"/><path d="M350 0 V760"/><path d="M500 0 V760"/><path d="M650 0 V760"/><path d="M800 0 V760"/><path d="M950 0 V760"/>
+          </g>
+
+          <g class="links">
+            <path d="M600 380 L410 180"/>
+            <path d="M600 380 L795 190"/>
+            <path d="M600 380 L315 315"/>
+            <path d="M600 380 L888 334"/>
+            <path d="M600 380 L360 565"/>
+            <path d="M600 380 L835 575"/>
+            <path d="M600 380 L565 160"/>
+            <path d="M600 380 L645 612"/>
+            <path d="M410 180 L565 160"/>
+            <path d="M795 190 L565 160"/>
+            <path d="M315 315 L360 565"/>
+            <path d="M888 334 L835 575"/>
+          </g>
+
+          <g class="nodes big">
+            <circle cx="410" cy="180" r="7"/>
+            <circle cx="795" cy="190" r="7"/>
+            <circle cx="315" cy="315" r="7"/>
+            <circle cx="888" cy="334" r="7"/>
+            <circle cx="360" cy="565" r="7"/>
+            <circle cx="835" cy="575" r="7"/>
+            <circle cx="565" cy="160" r="7"/>
+            <circle cx="645" cy="612" r="7"/>
+          </g>
+
+          <g class="nodes small">
+            <circle cx="470" cy="247" r="5"/>
+            <circle cx="528" cy="305" r="5"/>
+            <circle cx="698" cy="274" r="5"/>
+            <circle cx="742" cy="421" r="5"/>
+            <circle cx="512" cy="474" r="5"/>
+            <circle cx="673" cy="520" r="5"/>
+            <circle cx="440" cy="408" r="5"/>
+            <circle cx="777" cy="500" r="5"/>
+          </g>
+
+          <circle class="core-halo" cx="600" cy="380" r="140" fill="url(#coreGlow)" filter="url(#blur)"/>
+          <circle class="core-ring ring-1" cx="600" cy="380" r="118"/>
+          <circle class="core-ring ring-2" cx="600" cy="380" r="92"/>
+          <circle class="core-ring ring-3" cx="600" cy="380" r="62"/>
+          <circle class="core-shell" cx="600" cy="380" r="40"/>
+          <circle class="core" cx="600" cy="380" r="23"/>
+        </svg>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero_eyebrow">THEORY OF CONSTRAINED OBSERVABILITY</p>
+        <h1 data-i18n-html="hero_title">Observe the Resident<br><span>as a Mathematical Object.</span></h1>
+        <p class="lead" data-i18n="hero_lead">
+          VERTEX BRAIN SYSTEM は、Residentを単なる実行中プロセスではなく、境界条件・位相構造・証拠保存性を備えた時変対象として定式化し、その観測可能性を工学的に検証するためのNeural Observatoryである。
+        </p>
+        <div class="hero-tags">
+          <span>32C RESIDENT</span>
+          <span>vSCOPE</span>
+          <span>BRAIN MEMBRANE</span>
+          <span>EVIDENCE CONSISTENCY</span>
+        </div>
+      </div>
+
+      <aside class="status-card">
+        <div class="status-head">
+          <span class="status-dot"></span>
+          <strong data-i18n="status_operational">OPERATIONAL</strong>
+        </div>
+        <div class="status-grid">
+          <div><small data-i18n="status_core">RESIDENT CORE</small><b>32C ENTHRONED</b></div>
+          <div><small data-i18n="status_cells">ACTIVE CELLS</small><b>0 / 32</b></div>
+          <div><small data-i18n="status_membrane">BRAIN MEMBRANE</small><b>100%</b></div>
+          <div><small data-i18n="status_evidence">EVIDENCE SESSION</small><b>1</b></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section abstract" id="abstract">
+      <div class="section-heading">
+        <p data-i18n="abstract_kicker">01 / ABSTRACT</p>
+        <h2 data-i18n="abstract_title">Formal Abstract</h2>
+      </div>
+      <div class="paper-block">
+        <p data-i18n="abstract_p1">
+          本系では Resident を状態ベクトル <span class="formula">x_t ∈ Ω_R</span> をもつ動的対象とみなし、Brain Membrane を境界作用素 <span class="formula">∂M</span>、vSCOPE を局所観測写像 <span class="formula">O_v : Ω_R → E</span> と定義する。これにより、UI表示・内部状態・Evidence記録を同一観測体系で扱えるようになる。
+        </p>
+        <p data-i18n="abstract_p2">
+          目的は、<span class="formula">(i)</span> 可観測性、<span class="formula">(ii)</span> 証拠保存性、<span class="formula">(iii)</span> 連続運転下での状態整合性、の3条件を同時に満たすことにある。特に fail-closed な外膜境界を仮定することで、不正経路の外部化を抑制しつつ、正規観測経路のみをEvidence層へ投影する。
+        </p>
+        <p data-i18n="abstract_p3">
+          ここでの重要点は、「見えているUI」が真実なのではなく、<span class="formula">Source → Runtime → Evidence</span> の閉路が成立して初めて観測結果が信頼境界内で意味を持つ、という点である。これは学術的には、実装系に対する工学的観測論の一形態として理解できる。
+        </p>
+      </div>
+    </section>
+
+    <section class="section hypotheses" id="hypotheses">
+      <div class="section-heading full">
+        <p data-i18n="hyp_kicker">02 / HYPOTHESES</p>
+        <h2 data-i18n="hyp_title">Working Hypotheses</h2>
+      </div>
+      <div class="card-grid">
+        <article>
+          <span>H1</span>
+          <h3 data-i18n="hyp1_title">Membrane-Bounded Observability</h3>
+          <p data-i18n="hyp1_body">境界作用素 ∂M が fail-closed であるなら、許可されない状態遷移は外部可視層へ安定的に投影されない。</p>
+        </article>
+        <article>
+          <span>H2</span>
+          <h3 data-i18n="hyp2_title">Rotational Contact Reconfiguration</h3>
+          <p data-i18n="hyp2_body">vCELLの回転作用 R(θ) は接触隣接行列 A(θ) を変形し、同一アイデンティティを保持したまま出力多様体を切り替えうる。</p>
+        </article>
+        <article>
+          <span>H3</span>
+          <h3 data-i18n="hyp3_title">Persistent Differential Continuity</h3>
+          <p data-i18n="hyp3_body">観測保存的摂動に対して state fingerprint σ_t の変動は局所的に有界であり、連続性の痕跡として扱える。</p>
+        </article>
+        <article>
+          <span>H4</span>
+          <h3 data-i18n="hyp4_title">Evidence-Preserving Runtime Continuity</h3>
+          <p data-i18n="hyp4_body">受理される遷移はすべて、少なくとも1本の evidence trace τ = {(s_i, e_i)} を伴って追跡可能である。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section topology" id="topology">
+      <div class="section-heading full">
+        <p data-i18n="topology_kicker">03 / TOPOLOGY</p>
+        <h2 data-i18n="topology_title">Topological Observation Surface</h2>
+      </div>
+      <div class="topology-grid">
+        <article>
+          <small>THRONE</small>
+          <strong data-i18n="topology_1_title">Genesis-Centered Core</strong>
+          <p data-i18n="topology_1_body">CELL 000001 / GENESIS を中心核とし、Region 000032 を観測面の主座標系として扱う。</p>
+        </article>
+        <article>
+          <small>LAYER</small>
+          <strong data-i18n="topology_2_title">Inner / Outer Shell Partition</strong>
+          <p data-i18n="topology_2_body">Inner 14 core / Outer 17 core の二層分割は、単なる可視表現ではなく接点分布仮説の工学的断面である。</p>
+        </article>
+        <article>
+          <small>FLOW</small>
+          <strong data-i18n="topology_3_title">Runtime Trace Lines</strong>
+          <p data-i18n="topology_3_body">接続線はデザイン装飾ではなく、将来的な signal-energy / arrival / egress の位相的写像先を示す。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section observation" id="observation">
+      <div class="section-heading">
+        <p data-i18n="obs_kicker">04 / OBSERVATION NOTES</p>
+        <h2 data-i18n="obs_title">Selected Observation Statements</h2>
+      </div>
+      <div class="statement-grid">
+        <div class="statement large">
+          <small data-i18n="obs_state_fp">STATE FINGERPRINT</small>
+          <strong>V32S0-05F80792F6309FB2</strong>
+          <p data-i18n="obs_state_fp_body">Resident state の局所射影を表す識別子。可観測性の基底座標ではあるが、単独では真理条件を満たさない。</p>
+        </div>
+        <div class="statement">
+          <small data-i18n="obs_scope">vSCOPE FOCUS</small>
+          <strong>CELL 000001 / GENESIS</strong>
+          <p data-i18n="obs_scope_body">Root / Throne を起点として、到達観測よりも先に観測境界の妥当性を評価する。</p>
+        </div>
+        <div class="statement">
+          <small data-i18n="obs_regression">4C REGRESSION</small>
+          <strong data-i18n="obs_regression_value">READY</strong>
+          <p data-i18n="obs_regression_body">Error 1.95e-2, Egress 1.0000, Evaluations 1。これは完全性の証明ではなく、継続観測の前提条件である。</p>
+        </div>
+        <div class="statement wide theorem">
+          <small data-i18n="obs_theorem">FORMAL NOTE</small>
+          <strong data-i18n="obs_theorem_title">If observation is reproducible, evidence must be portable.</strong>
+          <p data-i18n="obs_theorem_body">ゆえに、観測系の価値は視覚的派手さではなく、同一条件下での再投影可能性に帰着する。これは VRA / VXN / runtime trace による移送可能性の設計原理でもある。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section closing">
+      <div class="closing-box">
+        <p data-i18n="closing_kicker">CONCLUSION</p>
+        <h2 data-i18n="closing_title">Observe the Invisible. Preserve the Trace.</h2>
+        <p data-i18n="closing_body">VERTEX BRAIN SYSTEM は、視覚UI・Runtime実体・Evidence証跡を分断せず、境界づけられた観測論として再結合するための実験系である。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>VERTEX BRAIN SYSTEM</span>
+    <div class="visitor-counter" title="VERTEX BRAIN SYSTEM page views">
+      <span class="counter-label" data-i18n="counter_label">ACCESS</span>
+      <strong id="visitorCount">-------</strong>
+    </div>
+    <span>© VERTEX</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
